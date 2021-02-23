@@ -34,12 +34,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
-  header_pages:
-    - pages/about.md
-    - pages/story.md
-    - pags/manifesto.md
-    - pages/resources.md
-    - pages/feedback.md
+header_pages:
+  - pages/about.md
+  - pages/story.md
+  - pags/manifesto.md
+  - pages/resources.md
+  - pages/feedback.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
