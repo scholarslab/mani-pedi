@@ -37,8 +37,14 @@ plugins:
 header_pages:
   - pages/about.md
   - pages/story.md
-  - pags/manifesto.md
+  - pages/manifesto.md
   - pages/resources.md
+      Subnav: 
+      - title: Data 
+        url: data.md
+      Subnav: 
+      - title: Projects We Admire
+        url: projects.md
   - pages/feedback.md
 
 # Exclude from processing.
