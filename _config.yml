@@ -39,12 +39,6 @@ header_pages:
   - pages/story.md
   - pages/manifesto.md
   - pages/resources.md
-      Subnav: 
-      - title: Data 
-        url: data.md
-      Subnav: 
-      - title: Projects We Admire
-        url: projects.md
   - pages/feedback.md
 
 # Exclude from processing.
