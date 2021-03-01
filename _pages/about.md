@@ -3,15 +3,17 @@ layout: page
 title: About
 permalink: /about
 ---
+# About [Project Title]
+
 What does equitable, empathy-driven digital education look like? 
 
 This is the question at the center of [Project Title]. 
 
 [Project Title] examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital story, it asks users to make choices that engage issues of equity, accessibility, and mental health. In an accompanying manifesto, It urges a whole-person approach to teaching, learning, and labor. And it holds space for reflection and feedback [in a way I would love to expound upon but don’t know how to yet].
 
-Project History
+## Project History
 
-[Project Title] was created by the tenth cohort of Praxis Fellows during the 2020-2021 academic year. 
+[Project Title] was created by the tenth cohort of [Praxis Fellows] (http://praxis.scholarslab.org/) during the 2020-2021 academic year. 
 
 This year’s Praxis team members know one another as faces on computer screens, kind WhatsApp messages, and pings on Slack. We know one another’s pets and we’ve seen inside one another’s homes, but we haven’t met one another in person. This is because, like many UVA students and faculty, we have met remotely on Zoom during the 2020-2021 academic year. For this reason, we’ve been intentional about building community among ourselves and outlining how we want to work together. Our charter is a reflection of our commitments to integrity, community, equity, and play. [Project Title], similarly, grew out of these commitments, [as well as…]
 
@@ -28,14 +30,15 @@ And this is Aaron’s handwriting.
 
 We wanted the project to feel handcrafted, because it is – [Project Title] is shaped by the hands, intentions, experiences, and biases of its makers. 
 
-Project Goals
+## Project Goals
 
 The goals of [Project Title] are to:
-Create empathy-driven community
-Compel action and decision-making 
-Remind each visitor to this site of our interconnectedness
 
-Contributors
+* Create empathy-driven community
+* Compel action and decision-making 
+* Remind each visitor to this site of our interconnectedness
+
+## Contributors
 
 The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal Luo, Savanna Morrison, and Aaron Thompson. 
 
@@ -87,12 +90,12 @@ Brandon Butler, for teaching us about intellectual property (in an actually fun 
 
 Lauren Work for teaching us about project sustainability (and how to enable closed captioning while presenting using Google Slides)!
 
-The Scholars’ Lab 
+## The Scholars’ Lab 
 [I stole this description from Unclosure – I’m sure we can add and change words, but I also want to credit those authors]
 
 The Scholars’ Lab was established in 2006 by the University of Virginia Library as a site for innovation in the humanities and social sciences. The Scholars' Lab is a place where faculty and students can explore digital resources, find expert help, and collaborate on innovative research projects. The SLab also hosts events such as workshops, talks, and roundtables, and sponsors the Praxis Program and the Digital Humanities Fellows Program.
 
-The Praxis Program 
+## The Praxis Program 
 [I stole this description from Unclosure – I’m sure we can add and change words, but I also want to credit those authors]
 
 Each year, the Scholars’ Lab funds a cohort of doctoral students from across the Graduate School of Arts & Sciences to serve as Praxis Fellows for the academic year. During the fall semester, fellows receive training in digital methods and tools as well as in collaborative project management. During the spring semester, fellows conceive, design, build, and publish a digital project. This year, the Scholars’ Lab charged the Praxis Fellows with creating a project focused on digital pedagogy.
