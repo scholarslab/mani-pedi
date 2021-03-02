@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-
-
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ "assets/story.css" | relative_url }}">
   <body>
-
-    {%- include header.html -%}
-
-{%- raw_include_relative undergraduate_harlowe.html -%}
-    {%- include footer.html -%}
-
+    {% include header.html %}
+    {% include_relative {{ page.game }} %}
   </body>
-  {%- include head.html -%}
 </html>
