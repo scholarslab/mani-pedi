@@ -2,8 +2,7 @@ header {
     background-color:#576dc7
     }
 
-body {
-    /*index.html*/
+.home {
     background-image: url(home_temporary.jpeg);
     background-color: #cccccc;
     background-repeat: no-repeat;
@@ -12,4 +11,8 @@ body {
 
 footer {
     background-color:#ffa800
+}
+
+.site-footer { 
+    padding: 0px 0; 
 }
