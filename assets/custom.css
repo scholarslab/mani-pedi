@@ -1,7 +1,7 @@
 .site-header {
     background-color:#576dc7;
     }
-.about .site-header {
+body.about .site-header {
     background-color:#ffa800;
 }
 .manifesto .site-header {
