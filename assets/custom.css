@@ -4,17 +4,17 @@
 body.about .site-header {
     background-color:#ffa800;
 }
-.manifesto .site-header {
+body.manifesto .site-header {
     background-color:#ffa800;
 }
-body {
-    /*index.html*/
+body.home {
     background-image: url(home_temporary.jpeg);
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
    }
 
-footer {
+.site-footer { 
     background-color:#ffa800;
+    padding: 0px 0; 
 }
