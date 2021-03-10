@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link rel="stylesheet" href="{{ "assets/story.css" | relative_url }}">
   {% include head.html %}
-  <link rel="stylesheet" href="{{ "assets/story.css" | relative_url }}">
   <body>
     {% include header.html %}
     {% include_relative {{ page.game }} %}
