@@ -5,7 +5,7 @@ body.about .site-header {
     background-color:#d4d4d2;
 }
 body.manifesto .site-header {
-    background-color:#d4d4d2;
+    background-color:#ffae89;
 }
 body.home {
     background-image: url(home_temporary.jpeg);
@@ -13,17 +13,20 @@ body.home {
     background-repeat: no-repeat;
     background-size: cover;
    }
+body.manifesto {
+    background-color: #d4d4d2;
+}
 
 .site-footer { 
-    background-color:#d4d4d2;
-    padding: 0px 0; 
+    background-color:#ffae89;
+    padding: 10px 0; 
 }
 .site-title, .site-title:visited {
-    color: #546300;
+    color: #000;
 }
 
 .site-nav .page-link {
-    color: #546300;
+    color: #000;
     line-height: 1.5;
 }
 
