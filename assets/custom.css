@@ -21,7 +21,15 @@ body.home {
 .site-title, .site-title:visited {
     color: #546300;
 }
+
 .site-nav .page-link {
     color: #546300;
     line-height: 1.5;
+}
+
+tw-story {
+    background-color:#f6f2e0;
+    color:#546300;
+    /* font: Emma; (we don't actually want this to be the default font it looks v bad) */
+    min-height: 
 }
