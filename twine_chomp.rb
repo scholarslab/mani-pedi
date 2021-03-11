@@ -2,8 +2,10 @@ module TwineChomp
   class Generator < Jekyll::Generator
     def generate(site)
     # undergraduate.html should be changed to whatever the regular filename will be for the story.
-      file_in = File.open("pages/undergraduate.html", "r")
+      file_in = File.open("pages/mani-pedi-story.html", "r")
       story_in = file_in.readlines
+      # find the index in the array (in the first ten lines) that contains the css
+      # write it to assets/story.css
       file_in.close
       story_in.shift(10)
       story_in.pop(2)
