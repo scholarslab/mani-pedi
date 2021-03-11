@@ -40,6 +40,5 @@ body.manifesto {
 tw-story {
     background-color:#f6f2e0;
     color:#546300;
-    /* font: Emma; (we don't actually want this to be the default font it looks v bad) */
-    min-height: 
+    min-height: 10px;   
 }
