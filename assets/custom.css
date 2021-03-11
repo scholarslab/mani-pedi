@@ -21,8 +21,15 @@ body.manifesto {
     background-color:#ffae89;
     padding: 10px 0; 
 }
+
+@font-face {
+    font-family: 'Emma'; /*a name to be used later*/
+    src: url('../assets/emma-font.ttf'); /*URL to font*/
+}
+
 .site-title, .site-title:visited {
     color: #000;
+    font-family: "Emma";
 }
 
 .site-nav .page-link {
@@ -33,6 +40,5 @@ body.manifesto {
 tw-story {
     background-color:#f6f2e0;
     color:#546300;
-    font: Emma;
     min-height: 10px;   
 }
