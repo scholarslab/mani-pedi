@@ -10,7 +10,7 @@ module TwineChomp
       story_in.shift(10)
       story_in.pop(2)
       # need to update the template to use this auto-generated file instead.
-      File.open("pages/story_out.html", 'w'){ |f|
+      File.open("pages/story-out.html", 'w'){ |f|
       f.puts(story_in)
       }
     end

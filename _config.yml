@@ -39,7 +39,7 @@ header_pages:
   - pages/resources.md
 
 exclude: 
-  - pages/story_out.html
+  - pages/story-out.html
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
