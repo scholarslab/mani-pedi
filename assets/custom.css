@@ -17,11 +17,6 @@ body.manifesto {
     background-color: #d4d4d2;
 }
 
-.site-footer { 
-    background-color:#ffae89;
-    padding: 10px 0; 
-}
-
 @font-face {
     font-family: 'Emma'; /*a name to be used later*/
     src: url('../assets/emma-font.ttf'); /*URL to font*/
