@@ -36,6 +36,7 @@ header_pages:
   - pages/about.md
   - pages/story.md
   - pages/manifesto.md
+  - pages/data.md
   - pages/resources.md
 
 exclude: 
