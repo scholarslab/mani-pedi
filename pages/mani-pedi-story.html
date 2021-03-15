@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play mani-pedi-story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.12" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.narration  {
+<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.12" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.narrative  {
   text-decoration: underline red;
 }
 
@@ -20,7 +20,19 @@ span.thought {
 span.dialogue {
   text-decoration: dashed underline overline blue;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="faculty" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Start" tags="faculty" position="718,263.6666666666667" size="100,100">&lt;!-- 
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">// CavDaily JSON File
+var jqxhr = $.getJSON( "CavDaily.json", function() {
+	console.log( "success" ); 
+}) 
+.done(function() {
+			console.log( "second success" ); 
+}) 
+.fail(function() {
+	console.log( "error" ); 
+}) 
+.always(function() {
+	console.log( "complete" ); 
+}); </script><tw-tag name="faculty" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Start" tags="faculty" position="718,263.6666666666667" size="100,100">&lt;!-- 
 Page Description: Greets user, establishes setting of story 
 --&gt; 
 
@@ -54,11 +66,16 @@ To do:
 
 [[Continue-&gt;CavDaily Bushes]]</tw-passagedata><tw-passagedata pid="5" name="CavDaily Bushes" tags="faculty" position="723,578.6666666666666" size="100,100">When the machine started heating up, they wandered over to the front door and fished their copy of the Cavalier Daily out of the bushes:
 
-INSERT CAV DAILY HEADLINES
+&lt;!--
+&lt;script&gt;
+&lt;/script&gt;
+--&gt; 
 
 God, they thought. You couldn’t pay me to be an undergrad right now. What a nightmare. $username1 knew, too, that however bad the paper made it sound, the reality was about a hundred times worse. Of course, even what was on the page was pretty grim:
 
+&lt;!-- 
 INSERT CAV DAILY DATA
+--&gt; 
 
 If this keeps up any longer, $username1 thought, nobody’s going to want to come back to UVa. Not that things were any better with Charlottesville schools: their son’s daycare had been shut down since mid-March, which left $username1 with no choice but to spend most of their free time (and quite a bit of their work time, too) wrangling him. Their daughter’s middle school was all online, and she was struggling with the lack of socialization: indeed, when $username1 came back into the kitchen, their daughter—who was now awake, and digging into her bowl—hit them with the question she’d been asking nonstop for the past several weeks. “Could we maybe try doing a bubble with Aisha and Emma?” she asked. “Aisha’s mom finally said yes.”
 
