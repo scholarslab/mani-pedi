@@ -15,7 +15,8 @@ body.home {
     background-size: cover;
    }
 body.manifesto {
-    background-color: #d4d4d2;
+    background-color: #f6f2e0;
+    color: #546300;
 }
 
 @font-face {
