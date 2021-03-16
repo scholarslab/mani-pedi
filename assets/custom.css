@@ -1,12 +1,6 @@
 .site-header {
     background-color:#ffae89;
     }
-body.about .site-header {
-    background-color:#ffae89;
-}
-body.manifesto .site-header {
-    background-color:#ffae89;
-}
 body.home {
     background-image: url(home_temporary.jpeg);
     background-color: #cccccc;
