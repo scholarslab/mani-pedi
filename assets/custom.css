@@ -36,5 +36,5 @@ body.manifesto {
 tw-story {
     background-color:#f6f2e0;
     color:#546300;
-    min-height: 10px;   
+    overflow: scroll;
 }
