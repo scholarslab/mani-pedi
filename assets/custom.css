@@ -18,7 +18,18 @@ body.manifesto {
     background-color: #f6f2e0;
     color: #546300;
 }
-
+body.about {
+    background-color: #f6f2e0;
+    color: #546300
+}
+body.data {
+    background-color: #f6f2e0;
+    color: #546300
+}
+body.resources{
+    background-color: #f6f2e0;
+    color: #546300 
+}
 @font-face {
     font-family: 'Emma'; /*a name to be used later*/
     src: url('../assets/emma-font.ttf'); /*URL to font*/
