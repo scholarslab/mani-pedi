@@ -1,6 +1,7 @@
-.site-header {
-    background-color:#ffae89;
-    }
+body.site-header {
+    background-color: #ffae89;
+}
+
 body.home {
     background-image: url(home_temporary.jpeg);
     background-color: #cccccc;
