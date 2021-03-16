@@ -23,6 +23,14 @@ body.manifesto {
     src: url('../assets/emma-font.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'Crystal'; /*a name to be used later*/
+    src: url('../assets/crystal-font.ttf'); /*URL to font*/
+}
+
+.Crystal {font-family: 'Crystal';}
+.Emma {font-family: 'Emma';}
+
 .site-title, .site-title:visited {
     color: #000;
     font-family: "Emma";
@@ -37,4 +45,12 @@ tw-story {
     background-color:#f6f2e0;
     color:#546300;
     overflow: scroll;
+}
+
+.inset {
+    float: right;
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    transform: rotate(25deg);
 }

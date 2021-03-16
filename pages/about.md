@@ -5,6 +5,8 @@ permalink: /about
 ---
 # About
 
+<img src="assets/dormroom.png" alt="student dorm room" class="inset" />
+
 {{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](URL), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](URL) it urges a whole-person approach to teaching, learning, and labor. 
 
 ## Project History
@@ -17,12 +19,12 @@ This year’s Praxis team members know one another as faces on computer screens,
 
 Our project website makes ample use of the handwriting and illustrations of praxis fellows: 
 
-This is Grace’s handwriting.
-<span style="font-family:Emma; src:url('../assets/emma-font.ttf');">This is Emma’s handwriting.</span>
-This is Elise’s handwriting.
-<pan style="font-family:Crystal; src:url'../assets/crystal-font.ttf');">This is Crystal’s handwriting</span>
-This is Savanna’s handwriting. 
-And this is Aaron’s handwriting.
+<p>This is Grace’s handwriting.</p>
+<p class='Emma'>This is Emma’s handwriting.</p>
+<p>This is Elise’s handwriting.</p>
+<p class='Crystal'>This is Crystal’s handwriting</p>
+<p>This is Savanna’s handwriting.</p>
+<p>And this is Aaron’s handwriting.</p>
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
