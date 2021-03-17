@@ -37,6 +37,9 @@ body.resources{
     background-color: #f6f2e0;
     color: #546300; 
 }
+.post-content h2 {
+    font-weight: bold;
+}
 @font-face {
     font-family: 'Emma'; /*a name to be used later*/
     src: url('../assets/emma-font.ttf'); /*URL to font*/
