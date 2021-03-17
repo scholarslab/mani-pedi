@@ -21,7 +21,9 @@ body.home {
 body.manifesto {
     background-color: #f6f2e0;
     color: #546300;
+    font-weight: 700
 }
+
 body.about {
     background-color: #f6f2e0;
     color: #546300;
@@ -56,6 +58,7 @@ body.resources{
 .site-nav .page-link {
     color: #576dc7;
     line-height: 1.5;
+    font-weight: 500
 }
 
 tw-story {
