@@ -74,6 +74,12 @@ tw-story {
     overflow: scroll;
 }
 
+tw-story[tags~="kitchen"] {
+    background-image: url(kitchen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .inset {
     float: right;
     max-width: 200px;
