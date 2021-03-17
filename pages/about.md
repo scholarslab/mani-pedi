@@ -5,7 +5,7 @@ permalink: /about
 ---
 # About
 
-<img src="assets/dormroom.png" alt="student dorm room" class="inset" />
+<img src="assets/plantsticker.png" alt="plant in a small pot" class="inset" />
 
 {{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](URL), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](URL) it urges a whole-person approach to teaching, learning, and labor. 
 
