@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about
 ---
-# About
+## About
 
 <img src="assets/plantsticker.png" alt="plant in a small pot" class="inset" />
 
