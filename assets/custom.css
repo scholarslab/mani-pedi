@@ -1,5 +1,9 @@
 .site-header {
     background-color:#ffae89;
+    border-top: 5px solid #576dc7;
+    border-bottom: 5px solid #576dc7;
+    min-height: 55.95px;
+    position: relative;
 }
 body.about .site-header {
     background-color:#ffae89;
@@ -21,6 +25,7 @@ body.manifesto {
 body.about {
     background-color: #f6f2e0;
     color: #546300;
+    font-weight: 700
 }
 body.data {
     background-color: #f6f2e0;
