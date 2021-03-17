@@ -73,7 +73,7 @@ Laura Miller and the aptly named Suitable Team, for sharing insights on budgets 
 
 Alison Booth, for sharing your knowledge of DH methods and disciplines with us.
 
-### {{ site.title }} also benefited greatly from the input of:
+## {{ site.title }} also benefited greatly from the input of:
 
 [Mackenzie Brooks](https://library.wlu.edu/about/library-directory/mackenzie-brooks). Thank you for sharing your experience in developing the Digital Humanities at Washington and Lee University.
 
