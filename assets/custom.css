@@ -49,9 +49,13 @@ body.resources{
     font-family: 'Crystal'; /*a name to be used later*/
     src: url('../assets/crystal-font.ttf'); /*URL to font*/
 }
-
+@font-face {
+    font-family: 'Elise'; /*a name to be used later*/
+    src: url('../assets/elise-font.ttf'); /*URL to font*/
+}
 .Crystal {font-family: 'Crystal';}
 .Emma {font-family: 'Emma';}
+.Elise {font-family: 'Elise';}
 
 .site-title, .site-title:visited {
     color: #576dc7;
@@ -68,6 +72,12 @@ tw-story {
     background-color:#f6f2e0;
     color:#546300;
     overflow: scroll;
+}
+
+tw-story[tags~="kitchen"] {
+    background-image: url(kitchen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .inset {
