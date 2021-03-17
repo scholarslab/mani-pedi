@@ -21,7 +21,7 @@ Our project website makes ample use of the handwriting and illustrations of prax
 
 <p>This is Grace’s handwriting.</p>
 <p class='Emma'>This is Emma’s handwriting.</p>
-<p>This is Elise’s handwriting.</p>
+<p class='Elise'>This is Elise’s handwriting.</p>
 <p class='Crystal'>This is Crystal’s handwriting</p>
 <p>This is Savanna’s handwriting.</p>
 <p>And this is Aaron’s handwriting.</p>
