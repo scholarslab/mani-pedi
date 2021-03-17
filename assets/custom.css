@@ -1,12 +1,17 @@
 .site-header {
-    background-color:#d4d4d2;
-    }
+    background-color:#ffae89;
+    border-top: 5px solid #576dc7;
+    border-bottom: 5px solid #576dc7;
+    min-height: 55.95px;
+    position: relative;
+}
 body.about .site-header {
-    background-color:#d4d4d2;
+    background-color:#ffae89;
 }
 body.manifesto .site-header {
     background-color:#ffae89;
 }
+
 body.home {
     background-image: url(home_temporary.jpeg);
     background-color: #cccccc;
@@ -14,26 +19,58 @@ body.home {
     background-size: cover;
    }
 body.manifesto {
-    background-color: #d4d4d2;
+    background-color: #f6f2e0;
+    color: #546300;
+    font-weight: 700
 }
 
+body.about {
+    background-color: #f6f2e0;
+    color: #546300;
+    font-weight: 700
+}
+body.data {
+    background-color: #f6f2e0;
+    color: #546300;
+}
+body.resources{
+    background-color: #f6f2e0;
+    color: #546300; 
+}
 @font-face {
     font-family: 'Emma'; /*a name to be used later*/
     src: url('../assets/emma-font.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'Crystal'; /*a name to be used later*/
+    src: url('../assets/crystal-font.ttf'); /*URL to font*/
+}
+
+.Crystal {font-family: 'Crystal';}
+.Emma {font-family: 'Emma';}
+
 .site-title, .site-title:visited {
-    color: #000;
+    color: #576dc7;
     font-family: "Emma";
 }
 
 .site-nav .page-link {
-    color: #000;
+    color: #576dc7;
     line-height: 1.5;
+    font-weight: 500
 }
 
 tw-story {
     background-color:#f6f2e0;
     color:#546300;
-    min-height: 10px;   
+    overflow: scroll;
+}
+
+.inset {
+    float: right;
+    max-width: 200px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    transform: rotate(18deg);
 }

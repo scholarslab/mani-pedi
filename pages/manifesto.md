@@ -3,6 +3,6 @@ layout: page
 title: Manifesto
 permalink: /manifesto
 ---
-# Manifesto
+## Manifesto
 
 This is our manifesto. 

@@ -3,30 +3,28 @@ layout: page
 title: About
 permalink: /about
 ---
-# About
+## About
 
-What does equitable, empathy-driven digital education look like? 
+<img src="assets/plantsticker.png" alt="plant in a small pot" class="inset" />
 
-This is the question at the center of {{ site.title }}. 
-
-{{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](URL), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](URL), It urges a whole-person approach to teaching, learning, and labor. 
+{{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](URL), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](URL) it urges a whole-person approach to teaching, learning, and labor. 
 
 ## Project History
 
 {{ site.title }} was created by the tenth cohort of [Praxis Fellows](http://praxis.scholarslab.org/) during the 2020-2021 academic year. 
 
-This year’s Praxis team members know one another as faces on computer screens, kind WhatsApp messages, and pings on Slack. We know one another’s pets and we’ve seen inside one another’s homes, but we haven’t met one another in person. This is because, like many UVA students and faculty, we have met remotely on Zoom during the 2020-2021 academic year. For this reason, we’ve been intentional about building community among ourselves and outlining how we want to work together. Our [charter](https://amthomps1.github.io/twinecharter.html) is a reflection of our commitments to integrity, community, equity, and play. {{ site.title }}, similarly, grew out of these commitments, as well as our ever-present concern for the broader university community. We are anxious for each other and ourselves, and beyond this, there is grief everywhere we turn, even if we have not yet been able to acknowledge it fully. So we respond with kindness and intentionality. We respond with this project. We respond with action.
+This year’s Praxis team members know one another as faces on computer screens, kind WhatsApp messages, and pings on Slack. We know one another’s pets and we’ve seen inside one another’s homes, but we haven’t met one another in person. This is because, like many UVA students, staff, and faculty, we have met remotely on Zoom during the 2020-2021 academic year. For this reason, we’ve been intentional about building community among ourselves and outlining how we want to work together. Our [charter](https://amthomps1.github.io/twinecharter.html) is a reflection of our commitments to integrity, community, equity, and play. {{ site.title }}, similarly, grew out of these commitments, as well as our ever-present concern for the broader university community. We are anxious for each other and ourselves, and beyond this, there is grief everywhere we turn, even if we have not yet been able to acknowledge it fully. So we respond with kindness and intentionality. We respond with this project. We respond with action.
 
 {{ site.title }} is inspired by the digital teaching and learning practices that became necessary after the University of Virginia [announced](https://news.virginia.edu/content/latest-updates-uvas-response-coronavirus#march-11) that it would be moving all classes online on March 11, 2020. This pandemic pivots on individual days, on the painful disruption of knowing that, just 24 hours before, our lives were different. We bring this knowledge of a day’s impact to this project and ask that you, too, consider the magnitude of a single day.
 
 Our project website makes ample use of the handwriting and illustrations of praxis fellows: 
 
-This is Grace’s handwriting.
-This is Emma’s handwriting.
-This is Elise’s handwriting.
-This is Crystal’s handwriting.
-This is Savanna’s handwriting. 
-And this is Aaron’s handwriting.
+<p>This is Grace’s handwriting.</p>
+<p class='Emma'>This is Emma’s handwriting.</p>
+<p>This is Elise’s handwriting.</p>
+<p class='Crystal'>This is Crystal’s handwriting</p>
+<p>This is Savanna’s handwriting.</p>
+<p>And this is Aaron’s handwriting.</p>
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
@@ -41,7 +39,7 @@ The goals of {{ site.title }} are to:
 
 The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal Luo, Savanna Morrison, and Aaron Thompson. 
 
-**Grace Alvino** helped write and edit [Project Title’s] story and drew many of the illustrations you see on this site. She is a Ph.D. student in the English department.
+**Grace Alvino** helped write and edit {{ site.title }}'s story and drew many of the illustrations you see on this site. She is a Ph.D. student in the English department.
 
 **Emma Dove** helped develop the website and worked on making the project’s story in [Twine](https://twinery.org/). She is a Ph.D. student in the joint program in Art & Architectural History. 
 
@@ -49,7 +47,7 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 **Crystal Luo** penned the manifesto and drew many of the illustrations you see on this site. She is a Ph.D. student in the History department. 
 
-**Savanna Morrison** helped write and edit [Project Title’s] story, helped ensure the project’s accessibility, and pushed us all to center unknowing and contemplative pedagogy. She is a Ph.D. in the music department. 
+**Savanna Morrison** helped write and edit {{ site.title }}'s story, helped ensure the project’s accessibility, and pushed us all to center unknowing and contemplative pedagogy. She is a Ph.D. in the music department. 
 
 **Aaron Thompson** gathered the data that underpins this project and led the way on making the project’s story in [Twine](https://twinery.org/). His cat, Lev, also helped. He is a Ph.D. student in the Slavic Languages and Literatures department. 
 
@@ -75,7 +73,7 @@ Laura Miller and the aptly named Suitable Team, for sharing insights on budgets 
 
 Alison Booth, for sharing your knowledge of DH methods and disciplines with us.
 
-### {{ site.title }} also benefited greatly from the input of:
+## {{ site.title }} also benefited greatly from the input of:
 
 [Mackenzie Brooks](https://library.wlu.edu/about/library-directory/mackenzie-brooks). Thank you for sharing your experience in developing the Digital Humanities at Washington and Lee University.
 
