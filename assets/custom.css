@@ -37,6 +37,9 @@ body.resources{
     background-color: #f6f2e0;
     color: #546300; 
 }
+.post-content h2 {
+    font-weight: bold;
+}
 @font-face {
     font-family: 'Emma'; /*a name to be used later*/
     src: url('../assets/emma-font.ttf'); /*URL to font*/
@@ -70,7 +73,7 @@ tw-story {
 .inset {
     float: right;
     max-width: 200px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    transform: rotate(18deg);
+    margin-bottom: 12px;
+    margin-left: 12px;
+    transform: rotate(18deg);    
 }
