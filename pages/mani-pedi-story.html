@@ -9,16 +9,31 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play mani-pedi-story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.13" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.narrative  {
-  text-decoration: underline red;
+<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.12" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">span.narrative  {
+  
 }
 
 span.thought {
-  text-decoration: line-through;
+  
 }
 
 span.dialogue {
-  text-decoration: dashed underline overline blue;
+  
+}
+
+div.email {
+}
+
+div.cavdaily {
+}
+
+div.dailyprog {
+}
+
+div.tweet {
+}
+
+div.reddit {
 }
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">// CavDaily JSON File
 var jqxhr = $.getJSON( "CavDaily.json", function() {
@@ -32,24 +47,25 @@ var jqxhr = $.getJSON( "CavDaily.json", function() {
 }) 
 .always(function() {
 	console.log( "complete" ); 
-}); </script><tw-tag name="faculty" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Start" tags="faculty" position="718,263" size="100,100">&lt;!-- 
+}); </script><tw-tag name="faculty" color="blue"></tw-tag>,<tw-tag name="grad" color="orange"></tw-tag>,<tw-tag name="stud1" color="yellow"></tw-tag><tw-passagedata pid="1" name="Faculty Morning" tags="faculty" position="350,500" size="100,100">&lt;!-- 
 Page Description: Greets user, establishes setting of story 
 --&gt; 
 
-$username1 heard their 6:45 alarm go off and reached over to the nightstand to pick up their phone. Their partner, who had stayed up late last night working, was fast asleep beside them. $username1 knew that they should get up and take care of the kids, and let their partner sleep in, but they were also exhausted. 
+$username1 heard their 6:45 alarm go off, and reached over to the nightstand to pick up their phone. Their partner, who had stayed up late last night working, was fast asleep beside them. $username1 knew that they should get up and take care of the kids, and let their partner sleep in, but they were also exhausted. 
 
 Does $username1:
 
 A. Hit [[Snooze]]? 
-B. Get up with their [[Alarm]]? </tw-passagedata><tw-passagedata pid="2" name="getName" tags="" position="1184,60" size="100,100">&lt;!-- 
+B. Get up with their [[Coffee]]? </tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="150,175" size="200,200">&lt;!-- 
 Page Description: Prompts user for var username for rest of story 
 To do: 
-0. Make transition after name submission
+- Add advisory text
+- Make transition after name submission
 --&gt; 
 
 (set: $username1 to (prompt: &quot;What would you like the faculty member’s name to be?&quot;, &quot;FacultyName&quot;, &quot;Skip&quot;, &quot;Confirm&quot;))
 
-[[Faculty Start]]</tw-passagedata><tw-passagedata pid="3" name="Snooze" tags="faculty" position="656,423" size="100,100">{
+[[Faculty Morning]]</tw-passagedata><tw-passagedata pid="3" name="Snooze" tags="faculty" position="275,650" size="100,100">{
 &lt;span class=&quot;thought&quot;&gt;Worth it,&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$username1 thought as they drifted off.&lt;/span&gt; 
 &lt;span class=&quot;thought&quot;&gt;I know I’m gonna pay, but man, does this feel good.&lt;/span&gt; 
@@ -62,9 +78,9 @@ To do:
 &lt;span class=&quot;dialogue&quot;&gt;“Come on! I’m hungry!”&lt;/span&gt;
 }
 
-[[Continue-&gt;CavDaily Bushes]]</tw-passagedata><tw-passagedata pid="4" name="Alarm" tags="faculty kitchen" position="803,422" size="100,100">Groggily, $username1 stumbled down the stairs and went into the kitchen to take care of breakfast. They poured three bowls of cereal—how did they run out of Apple Jacks so quickly?—and started a pot of coffee. 
+[[Continue-&gt;CavDaily Bushes]]</tw-passagedata><tw-passagedata pid="4" name="Coffee" tags="faculty" position="425,650" size="100,100">Groggily, $username1 stumbled down the stairs and went into the kitchen to take care of breakfast. They poured three bowls of cereal—how did they run out of Apple Jacks so quickly?—and started a pot of coffee. 
 
-[[Continue-&gt;CavDaily Bushes]]</tw-passagedata><tw-passagedata pid="5" name="CavDaily Bushes" tags="faculty" position="723,578" size="100,100">When the machine started heating up, they wandered over to the front door and fished their copy of the Cavalier Daily out of the bushes:
+[[Continue-&gt;CavDaily Bushes]]</tw-passagedata><tw-passagedata pid="5" name="CavDaily Bushes" tags="faculty" position="350,800" size="100,100">When the machine started heating up, they wandered over to the front door and fished their copy of the Cavalier Daily out of the bushes:
 
 &lt;!--
 &lt;script&gt;
@@ -83,15 +99,15 @@ $username1 sighed. They had been thrilled when their daughter had made friends w
 
 Does $username1:
 	Tell her daughter she can [[do the bubble?-&gt;Bubble]] 
-	Let her daughter know the bubble still [[isn’t an option-&gt;No Bubble]]? </tw-passagedata><tw-passagedata pid="6" name="Bubble" tags="faculty" position="648,728" size="100,100">$username1 hadn’t seen their daughter so happy since quarantine began. “You’re the best!” she shouted, and skipped off—presumably to tell Aisha and Emma.
+	Let her daughter know the bubble still [[isn’t an option-&gt;No Bubble]]? </tw-passagedata><tw-passagedata pid="6" name="Bubble" tags="faculty" position="275,950" size="100,100">$username1 hadn’t seen their daughter so happy since quarantine began. “You’re the best!” she shouted, and skipped off—presumably to tell Aisha and Emma.
 
-[[Continue-&gt;Faculty Meeting]]</tw-passagedata><tw-passagedata pid="7" name="No Bubble" tags="faculty" position="798,728" size="100,100">“You’re the worst!” $username1’s daughter shouted. “Nobody else’s parents are like this!”
+[[Continue-&gt;Faculty Meeting]]</tw-passagedata><tw-passagedata pid="7" name="No Bubble" tags="faculty" position="425,950" size="100,100">“You’re the worst!” $username1’s daughter shouted. “Nobody else’s parents are like this!”
 
 “I’m just trying to be safe—” $username1 started.
 
 “No, you’re just scared!” $username1’s daughter got up from the table and ran away—presumably to her room, where she would call up Aisha and Emma and pout.
 
-[[Continue-&gt;Faculty Meeting]]</tw-passagedata><tw-passagedata pid="8" name="Faculty Meeting" tags="" position="716,883" size="100,100">$username1 had no time to reflect on whether they’d made the right decision: they heard their cat yowl, and knew their son was chasing him around the living room. By the time they’d gotten him to settle down, then washed their face and changed into something resembling a professional shirt (sweatpants on the bottom, of course), it was time for their faculty meeting. They turned on their laptop just as the department chair started speaking. 
+[[Continue-&gt;Faculty Meeting]]</tw-passagedata><tw-passagedata pid="8" name="Faculty Meeting" tags="faculty" position="350,1100" size="100,100">$username1 had no time to reflect on whether they’d made the right decision: they heard their cat yowl, and knew their son was chasing him around the living room. By the time they’d gotten him to settle down, then washed their face and changed into something resembling a professional shirt (sweatpants on the bottom, of course), it was time for their faculty meeting. They turned on their laptop just as the department chair started speaking. 
 
 “Good morning,” said the chair. “I’d like to welcome you—well, virtually welcome you—to a new year. We know this summer’s been a difficult one, and I wanted to start off with a reminder: that we’re well aware how stressed and tired everyone is. We know these aren’t normal times, and that’s okay. The most important thing is that you take care of yourself—and remember, we’re all just figuring things out as we go along.”
 
@@ -103,15 +119,134 @@ $username1 felt the blood drain from their face, even as they tried not to let t
 Does $username1:
 [[Say something]]?
 [[Stay quiet]]?
-</tw-passagedata><tw-passagedata pid="9" name="Say something" tags="" position="641,1033" size="100,100">Okay, $username1 thought. Here goes. “Excuse me,” they said, unmuting their mic. “I’m sorry to interrupt, but I don’t think any of the junior faculty members—myself included—are going to be able to make tenure if the clock isn’t extended. We’ve all been trying our hardest, but the pandemic has tanked everyone’s mental health—not to mention made working impossible. My kids’ school and daycare have been shut down, and so I have to stay home and watch them, which means I don’t get any research or writing done. Is there any way we can do something else—appeal one more time to the administration? Or try to collectively bargain, or something? 
+</tw-passagedata><tw-passagedata pid="9" name="Say something" tags="faculty" position="275,1250" size="100,100">Okay, $username1 thought. Here goes. “Excuse me,” they said, unmuting their mic. “I’m sorry to interrupt, but I don’t think any of the junior faculty members—myself included—are going to be able to make tenure if the clock isn’t extended. We’ve all been trying our hardest, but the pandemic has tanked everyone’s mental health—not to mention made working impossible. My kids’ school and daycare have been shut down, and so I have to stay home and watch them, which means I don’t get any research or writing done. Is there any way we can do something else—appeal one more time to the administration? Or try to collectively bargain, or something? 
 
-[[Continue-&gt;Zoom Out]]</tw-passagedata><tw-passagedata pid="10" name="Stay quiet" tags="" position="791,1033" size="100,100">No, $username1 thought. I can’t. It was too big of a risk. They would just have to figure out some way to…well, get twice as much work done in the next couple of years. Even as it crossed their mind, they knew how ridiculous the thought sounded. There was no way that it was actually feasible. If they were denied tenure, though, the consequences would be life-altering: they would have to find another job, which would be next to impossible with the stigma of not securing tenure, plus the abysmal job market. Even if they did find another teaching position, it would almost certainly not be in Charlottesville, meaning they’d have to uproot their entire family.
+[[Continue-&gt;Zoom Out]]</tw-passagedata><tw-passagedata pid="10" name="Stay quiet" tags="faculty" position="425,1250" size="100,100">No, $username1 thought. I can’t. It was too big of a risk. They would just have to figure out some way to…well, get twice as much work done in the next couple of years. Even as it crossed their mind, they knew how ridiculous the thought sounded. There was no way that it was actually feasible. If they were denied tenure, though, the consequences would be life-altering: they would have to find another job, which would be next to impossible with the stigma of not securing tenure, plus the abysmal job market. Even if they did find another teaching position, it would almost certainly not be in Charlottesville, meaning they’d have to uproot their entire family.
 
-[[Continue-&gt;Zoom Out]]</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="" position="716,1189" size="100,100">Still reeling, $username1 zoned out for the rest of the meeting, only coming to when it was time to wave the obligatory Zoom goodbye. All they wanted to do was close their eyes on the couch—even for just a few minutes—but they still had to finalize the syllabus for one of their classes. They’d cut-and-pasted in the policy they’d had for the last few years—no extensions, under any circumstances—but, looking at it now, they wondered if they should make a change. Students would be dealing with a ton this semester: family illness, mental health crises, not to mention potentially getting COVID themselves. But $username1 still couldn’t shake what their teaching mentors back in grad school had told them: that if they allowed extensions, students would take advantage of the policy. 
+[[Continue-&gt;Zoom Out]]</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty" position="350,1425" size="100,100">Still reeling, $username1 zoned out for the rest of the meeting, only coming to when it was time to wave the obligatory Zoom goodbye. All they wanted to do was close their eyes on the couch—even for just a few minutes—but they still had to finalize the syllabus for one of their classes. They’d cut-and-pasted in the policy they’d had for the last few years—no extensions, under any circumstances—but, looking at it now, they wondered if they should make a change. Students would be dealing with a ton this semester: family illness, mental health crises, not to mention potentially getting COVID themselves. But $username1 still couldn’t shake what their teaching mentors back in grad school had told them: that if they allowed extensions, students would take advantage of the policy. 
 
 Should $username1:
 Change the syllabus and give extensions-&gt;]]? (7)
-Keep their no-extensions policy-&gt;]]?</tw-passagedata></tw-storydata>
+Keep their no-extensions policy-&gt;]]?</tw-passagedata><tw-passagedata pid="12" name="Energy Drinks" tags="grad" position="875,225" size="100,100">$username2 took the last sip of their energy drink, then stood to get another out of the fridge. Regular coffee just wasn’t doing it for them anymore—which was a shame, because energy drinks were expensive, and they were a month behind on their rent. They’d lost their part-time bartending job at the start of the pandemic, and it had made a huge difference in their bank account. Right now, their stipend and teaching wages were the only way they were getting paid, and that was barely keeping them afloat. The good news was that the chair of their department had just written them offering a research assistant position:
+
+Dear $username2,
+
+Happy first week of the semester! I’m writing to let you know that Professor Banerjee, who I believe you took a class with in your second year, has asked me if I know any graduate students who might want to want to help him with research for his book project. I recommended you, since I have such confidence in your abilities. It would be a paid position, of course: $10 an hour, and an expected 10 hours of work a week. Let me know if this is something you’d be interested in.
+
+Best!
+Ayla
+
+$username2 had been thrilled when they’d first gotten the email. An extra $100 a week would be a huge help—but then, of course, they’d remembered that, while they really needed the money, they were already incredibly swamped with work. They were TAing four sections, plus working on their dissertation. If they took the RA position, they would effectively be consigning themselves to making almost no progress on their dissertation this semester. That would mean further delaying going on the academic job market, or interviewing for alt-ac jobs—which, in turn, meant they’d be stuck in grad school, making almost nothing, for at least another year. 
+
+Does $username2:
+[[Take the research assistant position-&gt;Accept Position]]?
+Thank their department chair for the offer, but let her know that unfortunately, [[they can’t accept-&gt;Decline Position]]?</tw-passagedata><tw-passagedata pid="13" name="Accept Position" tags="grad" position="800,375" size="100,100">(9) Thanks so much for thinking of me, $username2 wrote. Please let Professor Banerjee know that I’d love to take the position. Typing it felt like a lie—and that’s because it is, they thought—but they tried to focus on the extra money to cheer themselves up. $100 will buy you a lot of energy drinks, they told themselves, which is good, because you’re gonna need them. 
+[[Check email-&gt;Another Survey]]</tw-passagedata><tw-passagedata pid="14" name="Decline Position" tags="grad" position="950,375" size="100,100">Thanks so much for thinking of me, $username2 wrote. Please let Professor Banerjee know that, while I’d love to help him with his project, I think I have too much on my plate this semester to accept. They pressed SEND and sat back from the computer, relieved. While they knew they’d regret it when their bills came due, it would be a huge weight off their shoulders not to have to do any more work, and to be able to focus what little time they had on their dissertation.
+[[Check email-&gt;Another Survey]]</tw-passagedata><tw-passagedata pid="15" name="Another Survey" tags="grad" position="850,525" size="100,100">They clicked on the next email in their inbox, which was also from the department chair—but instead of being sent just to them, it had been emailed out to all the grad students in the department. Oh man, $username2 thought. It’s another one of those surveys. They’d filled out about a million of these since the start of the pandemic—tracking their progress on their dissertation, the interruptions in their research, their mental health—and it was never exactly clear who’d be reading the information and what it was going to be used for. $username2 was always torn about whether to tell the truth—since it might actually be taken into account, and used to change administrative policy for the better—or whether doing so would be held against them. The survey read: 
+Has your ability to achieve your goals been delayed by the effects of the pandemic?
+If so, how? (Please mark all that apply.)
+□ Human Subjects/IRB restrictions
+□ On-Grounds laboratory closure
+□ Off-Grounds research site closure
+□ Personal circumstances/caregiving
+□ Travel restrictions
+□ University Library closure
+□ Other ________________________________________________
+-----
+
+Is your ability to achieve your future goals at risk due to the effects of the pandemic?
+If so, how? (Please mark all that apply.)
+□ Human Subjects/IRB restrictions
+□ On-Grounds laboratory closure
+□ Off-Grounds research site closure
+□ Personal circumstances/caregiving
+□ Travel restrictions
+□ University Library closure
+□ Other ________________________________________________
+
+If necessary, can you continue your academic work using University resources that can be accessed remotely (e.g., electronic library holdings, Rivanna Computing Cluster, University-owned data sources)?
+
+If not, are there resources not presently available through the University that could be acquired in order to advance your academic goals?
+
+Do your academic goals entail access to sites or resources outside of the University that are vulnerable to disruption due to the pandemic? If so, how will you continue to advance your work if those disruptions continue or resurface?
+
+□ Focus on completion of other degree requirements
+□ Utilize alternative research methods or sources
+□ Adjust dissertation scope
+□ Adjust dissertation topic
+□ Other ________________________________________________
+Please describe these alternative plans in detail.
+
+What other planning or resources would be helpful for you at this time?
+
+$username2 smiled reading the last question. They would’ve liked to write that the only thing that would help would be for the university to pay them more money, and to give them the rest of the semester off. And not just them, either: all of the professors, as well as the UVa staff. Tell students that school was cancelled until the new year, and just allow everyone time to rest. They could write that, they thought—what would the harm be? The survey was supposedly anonymous…but then again, they weren’t sure if that was actually true.
+
+[[Fill out the survey-&gt;Fill Out Survey]]</tw-passagedata><tw-passagedata pid="16" name="Fill Out Survey" tags="grad" position="675,575" size="100,100">In the box below, type what you would write if you were $username2 filling out the survey’s last question:
+USER TEXT BOX
+
+[[Next Email-&gt;Extension]]</tw-passagedata><tw-passagedata pid="17" name="Extension" tags="grad" position="1000,700" size="100,100">&lt;!-- 
+If 7 -&gt; Changed Policy
+If 8 -&gt; Permission Denied
+--&gt; 
+
+With that, $username2 hit SEND on the email and sat back in their chair. By the time they’d taken another sip of their energy drink, they had another new message: this one from a student. The subject line was URGENT:
+
+Dear $username2,
+
+I hate to do this, but I think I’m going to have to ask for an extension on the first assignment. I know the semester just started, and I’m so, so sorry, but things have been super stressful on my end. My mom is really sick (she’s waiting on a COVID test) and I’m trying to decide if I should go back to northern VA to help her. I’m not sure what I’m going to end up doing, but either way, I don’t think I can do the assignment while I’m under all of this stress. I don’t need much more time: in fact, it would be great if I could turn in the assignment next Monday, instead of this Friday. I would really appreciate it—thank you so much for even considering. 
+
+[[Changed Policy]]
+[[Permission Denied]]</tw-passagedata><tw-passagedata pid="18" name="Changed Policy" tags="grad" position="700,750" size="100,100">Oh my God, $username2 thought. That’s awful. Thank God $username1 changed their extension policy—they had originally said no extensions, but they’d sent out an email this morning letting their TAs know about the change. $username2 wished they could do more to help the student, but they knew that even a few more days to complete the assignment would be a huge weight off their shoulders. I’m so sorry to hear about your mom, they wrote. Extension granted—and please let me know if you need anything else.
+
+[[Continue-&gt;Thinking About Mom]]</tw-passagedata><tw-passagedata pid="19" name="Permission Denied" tags="grad" position="875,800" size="100,100">$username2 felt their stomach drop. Oh no, they thought. Of course they wanted to give the student an extension—if they were teaching the class themselves, they would do so in a heartbeat. But $username1’s policy couldn’t be clearer: NO EXTENSIONS, UNDER ANY CIRCUMSTANCES was written in bold on the syllabus. Even so, they thought, it wasn’t like they had to tell $username1 about every decision they made with their sections. Maybe they could give the student an extension, and just not say anything to $username1… though of course, if they found out, they would be in huge trouble. But how could they honestly justify not giving a student a few more days to finish a paper, when their mother had a potentially life-threatening illness?
+
+Does $username2:
+[[Give the student the extension, and not tell the professor-&gt;Thinking About Mom]]?
+[[Decide not to give the student the extension-&gt;Go Home?]]?
+</tw-passagedata><tw-passagedata pid="20" name="Thinking About Mom" tags="stud1" position="725,975" size="100,100">$username3 stared at their laptop. They couldn’t believe it. They had been so nervous to write their TA, $username2, asking for an extension—they’d never done so before, in any class—but $username2 had just emailed them back saying that yes, the extension was granted. Thank God, they thought. Being able to put the assignment on the back-burner for a couple days would give them so much more time and energy to think about their mom. I’m fine, their mom had texted earlier, but $username3 knew that a 100-degree temperature, shortness of breath, and fatigue couldn’t mean anything good. Since her mom didn’t have a positive test yet, her dad’s job was still requiring him to come in, and $username3 was worried he was exposing his coworkers to the virus. Every instinct $username3 had was telling them to come home, but if they did, they might expose themselves, too. 
+
+Does $username3 text their mom that they want to come home tomorrow?
+[[Yes-&gt;Easy Focus]]
+[[No-&gt;Sinking Feeling]]
+</tw-passagedata><tw-passagedata pid="21" name="Go Home?" tags="stud1" position="950,950" size="100,100">$username3 stared at their laptop. Their stomach dropped. They knew the syllabus said absolutely no extensions would be granted, but they were hoping that their professor or TA would understand that this wasn’t a normal semester, and that they were in a really worrying situation. But nope—their TA, $username2, had denied their extension. They had no idea what they were going to do: this assignment was 20% of their final grade for the course, but they could hardly focus given what was going on with their mom. I’m fine, she had texted earlier, but $username3 knew that a 100-degree temperature, shortness of breath, and fatigue couldn’t mean anything good. Since her mom didn’t have a positive test yet, her dad’s job was still requiring him to come in, and $username3 was worried he was exposing his coworkers to the virus. Every instinct $username3 had was telling them to come home, but if they did, they might expose themselves too. Since their extension hadn’t been granted, they’d also have to start and finish the assignment tonight if they wanted to be able to head back to northern VA for the next few days and devote all their attention to their mom. But really, did any of that matter? Their mom was sick—she could be really, really sick—and what if things got worse? 
+
+Does $username3 text their mom that they want to come home tomorrow?
+[[Yes-&gt;Take the Chance]] 
+[[No-&gt;Sinking Feeling]]</tw-passagedata><tw-passagedata pid="22" name="Take the Chance" tags="stud1" position="675,1100" size="100,100">Are you sure? their mom texted back. I really don’t want you to get sick. $username3 assured her that it was fine: they would take that chance, as long as they got to see her.
+[[Fifteen Minutes Late]]</tw-passagedata><tw-passagedata pid="23" name="Easy Focus" tags="stud1" position="1025,1100" size="100,100">They clicked out of their email and pulled up Zoom: they had Calc I starting in a few minutes. Slowly, the professor and the rest of the students came on screen, smiling out from their tiny Zoom boxes. While $username3 still struggled to pay as much attention on Zoom as they would’ve in an in-person class, knowing that they didn’t have to cram to write their paper now, and that they could go home and see their mom, made focusing much easier. When the class ended and they opened up their textbook to take a look at the homework, they were thrilled to realize that they actually knew how to do a few of the problems. They would start on them after they went to the library for a few hours of their work-study shift. 
+
+[[Library Job]]</tw-passagedata><tw-passagedata pid="24" name="Fifteen Minutes Late" tags="stud1" position="725,1250" size="100,100">They clicked out of their email and opened up a Word document: there were still a few minutes before their Calc I lecture, and they could at least get started on the assignment. They started typing—nothing great, honestly, but at least it was filling the page—and before they knew it, they were on a roll. Then they glanced over at the time. Crap! It was already fifteen minutes into the lecture, and their professor was a stickler on time: he was using software that tracked when every student logged into the Zoom call. $username3 signed in hurriedly, but it was too late. “It looks like we have someone just joining us,” the professor said. 
+
+I’m so sorry! $username3 wrote in the chat box. My last class ran over! An obvious lie, but they hoped the professor would buy it. They really couldn’t afford those points off their grade. Evidently, they couldn’t afford missing the start of the lecture either, because what the professor was now saying made absolutely zero sense. When class was finished and they opened up their textbook to take a look at the homework, they realized they had no idea where to start solving any of the problems. You’ll figure them out, they tried to assure themselves, before heading to the library to start their work-study shift. 
+
+[[Library Job]]</tw-passagedata><tw-passagedata pid="25" name="Library Job" tags="stud1" position="950,1275" size="100,100">$username3 actually really liked their library job: Not only did it make them money, but it was also one of the only chances they had to get out of their dorm. But there were always the few students who didn’t wear their masks, and that made things difficult. The university made it the student workers’ responsibility to enforce mask-wearing, and [$username3] hated being put in that position. The students they had to ask to pull up or put on masks were often older or much bigger, and sometimes got really angry. [$username3] didn’t think the person sitting with a few friends by the computers—just a few feet away from where [$username3] was sorting books—looked like they would get mad, but you could never be sure. Last week, they had a guy get in their face and start screaming, and they really, really didn’t want to go through that again. Still, people not wearing masks was the reason people like their mom were sick right now—and that, $username3 thought, made speaking up worth it. Right?
+
+Does $username3 tell the student to put on a mask?
+[[Yes-&gt;Would You Mind?]]
+[[No-&gt;Whose Responsibility?]]</tw-passagedata><tw-passagedata pid="26" name="Sinking Feeling" tags="stud1" position="850,1100" size="100,100">Good, their mom texted back. I don’t want to put you in danger. With a sinking feeling, $username3 opened up Zoom for their Calc I lecture. It was hard to focus over Zoom even on the best of days, but knowing that their mom was sick and that they weren’t going to see her made it almost impossible. When class was finished and they opened up their textbook to take a look at the homework, they realized they had no idea where to start solving any of the problems.  You’ll figure them out, they tried to assure themselves, before heading to the library to start their work-study shift.
+[[Library Job]] </tw-passagedata><tw-passagedata pid="27" name="Would You Mind?" tags="stud1" position="800,1375" size="100,100">“Excuse me,” $username3 said, walking up to the student and their friends. They cleared their throat awkwardly, and the student looked up. 
+
+“Hi,” the student said. “Can I help you with something?”
+
+It’s okay, $username3 thought. Just say it. “I’m sorry to bother you,” they managed to get out, “but would you, uh, mind putting on a mask?”
+
+Instantly, the student turned red. “Oh my God,” they said. “I didn’t realize—oh, man. I must’ve forgotten to grab mine when I left my dorm. I’m so sorry. I would never—I didn’t do it on purpose.”
+
+“It’s fine,”[$username3 said, trying to smile. It seemed like it was genuinely an accident, but they still had a sudden urge to mention their mom.
+
+Does $username3 mention their mom?
+[[Yes-&gt;Mom Is Sick]]
+[[No-&gt;Won&#39;t Happen Again]]</tw-passagedata><tw-passagedata pid="28" name="Whose Responsibility?" tags="stud1" position="1150,1500" size="200,100">Still, $username3 thought, it should really be the school’s responsibility to enforce mask-wearing, not theirs. They were already so shaken up about their mom that the last thing they needed was to have another anti-masker scream in their face. Still, as they watched the student chatter away happily with their friends, they wondered how many people the student would infect if they actually had COVID. Tens? Hundreds? Most of them other teens and twenty-somethings, sure, but also professors and staff—and members of the Charlottesville community, too. They squeezed the wire of their mask extra tight around their nose and pulled out their phone to text their mom. I miss you, they wrote. Everything’s going to be okay.</tw-passagedata><tw-passagedata pid="29" name="Mom Is Sick" tags="stud1" position="675,1500" size="100,100">“My mom is actually really sick,” $username3 heard themselves say. “And she might have COVID. So, you know. You really have to wear a mask.”
+
+“Jeez,” said one of the student’s friends. “We’re so sorry.”
+
+“Yeah,” the student said, looking even more humiliated. “I can’t even imagine— Wow. Wow. I’m so sorry. Is there anything we can do, or—?”
+
+“It’s fine,” $username3 said. “Just put on a mask, okay?” 
+
+The student nodded, and their friend pulled out a mask from their backpack. “Here,” the friend said. “It’s an extra.” The student fastened it around their face. </tw-passagedata><tw-passagedata pid="30" name="Won&#39;t Happen Again" tags="stud1" position="950,1500" size="100,100">That’s too much, $username3 told themselves. Seriously. Instead, they said. “It’s just important to be careful. You know how fast this thing spreads.” 
+
+“Totally,” the student said. Their friend pulled an extra mask out of their bag, and the student put it on. “I promise,” the student told $username3. “It won’t happen again.” </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
