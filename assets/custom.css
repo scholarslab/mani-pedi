@@ -71,7 +71,7 @@ body.resources{
 tw-story {
     background-color:#f6f2e0;
     color:#546300;
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
 
 tw-story[tags~="kitchen"] {
