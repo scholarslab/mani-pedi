@@ -51,37 +51,45 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 **Aaron Thompson** gathered the data that underpins this project and led the way on making the project’s story in [Twine](https://twinery.org/). His cat, Lev, also helped. He is a Ph.D. student in the Slavic Languages and Literatures department. 
 
-{{ site.title }} was made possible by the tireless efforts and unyielding support of the Scholars’ Lab Staff and the broader UVA Library. Special thanks to:
+{{ site.title }} was made possible by the tireless efforts and unyielding support of the Scholars’ Lab faculty and staff, and the faculty and staff of the broader UVA Library. Special thanks in particular to:
 
-Brandon Walsh, for your constant encouragement and mentorship, for leading the Praxis Program in healthy directions, and for caring so deeply about pedagogy.. 
+[Brandon Walsh](https://scholarslab.lib.virginia.edu/people/brandon-walsh/), for your constant encouragement and mentorship, for leading the Praxis Program in healthy directions, and for caring so deeply about pedagogy.
 
-Shane Lin, for sharing your boundless knowledge of DH history and praxis, for your sense of humor, for helping us host movie nights on Discord, and for sharing many excellent pictures of Hazel. 
+[Shane Lin](https://scholarslab.lib.virginia.edu/people/shane-lin/), for sharing your boundless knowledge of DH history and praxis, for your sense of humor, for helping us host movie nights on Discord, and for sharing many excellent pictures of Hazel. 
 
-Jeremy Boggs, for centering accessibility and care for others in your design thinking and teaching, and for being an excellent Dungeons and Dragons Master.
+[Jeremy Boggs](https://scholarslab.lib.virginia.edu/people/jeremy-boggs/), for centering accessibility and care for others in your design thinking and teaching, and for being an excellent Dungeons and Dragons Master.
 
-Amanda Visconti, for generously sharing Maple with us on Zoom meetings, for modeling healthy and equitable leadership, and for sharing knowledge and events with us generously.
+[Amanda Visconti](https://scholarslab.lib.virginia.edu/people/amanda-visconti/), for generously sharing Maple with us on Zoom meetings, for modeling healthy and equitable leadership, and for sharing knowledge and events with us generously.
 
-Ronda Grizzle, for leading conversations that helped us form bonds as a group, for helping us ground our charter in our shared values, and for sharing your vast knowledge of project management. 
+[Ronda Grizzle](https://scholarslab.lib.virginia.edu/people/ronda-grizzle/), for leading conversations that helped us form bonds as a group, for helping us ground our charter in our shared values, and for sharing your vast knowledge of project management. 
 
-Arin Bennett, for sharing your expertise on augmented and virtual reality with us, and for helping us understand what was possible.
+[Arin Bennett](https://scholarslab.lib.virginia.edu/people/arin-bennett/), for sharing your expertise on augmented and virtual reality with us, and for helping us understand what was possible (and what wasn't – yet!)
 
-Ammon Shepherd, for teaching us about all of the great work that [Makerspace](https://scholarslab.lib.virginia.edu/makerspace/) does.
+[Ammon Shepherd](https://scholarslab.lib.virginia.edu/people/ammon-shepherd/), for teaching us about all of the great work that [Makerspace](https://scholarslab.lib.virginia.edu/makerspace/) does. 
 
-Drew MacQueen, for sharing your vast knowledge of mapping with us, and for writing a beautiful [blog post](https://scholarslab.lib.virginia.edu/blog/I-need-to-write-a-blog-post/) that led the way for us to start blogging, too.
+[Drew MacQueen](https://scholarslab.lib.virginia.edu/people/drew-macqueen/), for sharing your vast knowledge of mapping with us, and for writing a beautiful [blog post](https://scholarslab.lib.virginia.edu/blog/I-need-to-write-a-blog-post/) that led the way for us to start blogging, too.
 
-Laura Miller and the aptly named Suitable Team, for sharing insights on budgets and management with us.
+[Will Rourk](https://scholarslab.lib.virginia.edu/people/will-rourk/), for sharing your expertise in 3D data and virtual objects with us. We hope to put the knowledge you shared to good use in the next iteration of {{ site.title }}.
 
-Alison Booth, for sharing your knowledge of DH methods and disciplines with us.
+[Laura Miller](https://scholarslab.lib.virginia.edu/people/laura-miller/), for sharing insights on budgets and management with us.
+
+[Alison Booth](https://scholarslab.lib.virginia.edu/people/alison-booth/), for generously sharing your knowledge of textual DH methods and disciplines with us.
+
+[Brandon Butler](https://www.library.virginia.edu/staff/bcb4y/), for teaching us about intellectual property, copyright, licensing, and user privacy – and making it fun! 
+
+[Lauren Work](https://www.library.virginia.edu/staff/lw2cd/), for teaching us about project sustainability (and how to enable closed captioning while presenting using Google Slides)!
 
 ## {{ site.title }} also benefited greatly from the input of:
+
+[Jason Bennett](https://as.virginia.edu/listing/jason-bennett). Thank you for sharing your knowledge of Twine and interactive fiction with us.
 
 [Mackenzie Brooks](https://library.wlu.edu/about/library-directory/mackenzie-brooks). Thank you for sharing your experience in developing the Digital Humanities at Washington and Lee University.
 
 [Katina Rogers](http://katinarogers.com/) and [Cihan Tekay](https://futuresinitiative.org/cihan-tekay/). Thank you for giving us hope for the future of the academy, and for reminding us that we all have [levers we can pull](https://www.google.com/url?q=https://lareviewofbooks.org/article/we-all-have-levers-we-can-pull-reforming-graduate-education&sa=D&source=editors&ust=1615224923678000&usg=AOvVaw1oK8-seSzzKBiWcfS279W2).
 
-[Lauren Work](https://www.library.virginia.edu/staff/lw2cd/). Thank you for teaching us about project sustainability (and how to enable closed captioning while presenting using Google Slides)!
+[Catherine DeRose](https://web.library.yale.edu/sd/staff/13068) for generously sharing your time and insights about the Yale DH Fellowship curriculum with us. 
 
-[Jason Bennett](https://as.virginia.edu/listing/jason-bennett). Thank you for sharing your knowledge of Twine and interactive fiction with us.
+Trina Hyun, Denise Lim, Gavi Levy Haskell, Emily Yankowitz, Helen Yang, and Micah Siegel, Yale Digital Humanities Teaching Fellows, for so kindly sharing your experiences in integrating DH methods in classroom settings. 
 
 ## The Scholars’ Lab 
 
@@ -90,3 +98,5 @@ Alison Booth, for sharing your knowledge of DH methods and disciplines with us.
 ## The Praxis Program 
 
 Each year, the Scholars’ Lab funds a cohort of doctoral students from across the Graduate School of Arts & Sciences to serve as Praxis Fellows for the academic year. During the fall semester, fellows receive training in [digital methods and tools](https://github.com/scholarslab/CodeLab) and collaborative project management. During the spring semester, fellows conceive, develop, publish, and promote a digital project. This year, the Scholars’ Lab charged the Praxis Fellows with creating a project focused on digital pedagogy.
+
+The Praxis Program operates in a spirit of open-source development. We have therefore made all of our [files and source code](https://github.com/scholarslab/mani-pedi) available on GitHub. {{ site.title }} is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), so feel free to share and adapt materials from {{ site.title }} with attribution.
