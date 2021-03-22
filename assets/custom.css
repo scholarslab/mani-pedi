@@ -71,7 +71,19 @@ body.resources{
 tw-story {
     background-color:#f6f2e0;
     color:#546300;
-    /*overflow: scroll;*/
+    /*overflow: scroll;*/ 
+}
+
+tw-story .thought {
+    font-style: italic;
+}
+
+tw-story .dialogue {
+
+}
+
+tw-story .narrative {
+
 }
 
 tw-story[tags~="kitchen"] {
@@ -80,10 +92,18 @@ tw-story[tags~="kitchen"] {
     background-size: cover;
 }
 
-.inset {
+.med-sticker-right {
     float: right;
     max-width: 200px;
     margin-bottom: 12px;
     margin-left: 12px;
-    transform: rotate(18deg);    
+    transform: rotate(15deg);    
+}
+
+.med-sticker-left {
+    float: left;
+    max-width: 200px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    transform: rotate(-15deg);    
 }

@@ -5,11 +5,11 @@ permalink: /about
 ---
 ## About
 
-<img src="assets/plantsticker.png" alt="plant in a small pot" class="inset" />
+<img src="assets/plantsticker.png" alt="plant in a small pot" class="med-sticker-right" />
 
-{{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](URL), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](URL) it urges a whole-person approach to teaching, learning, and labor. 
+{{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](http://connection.scholarslab.org/story), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](http://connection.scholarslab.org/manifesto) it urges a whole-person approach to teaching, learning, and labor. 
 
-## Project History
+<h2 class='Crystal'>Project History</h2>
 
 {{ site.title }} was created by the tenth cohort of [Praxis Fellows](http://praxis.scholarslab.org/) during the 2020-2021 academic year. 
 
@@ -28,6 +28,8 @@ Our project website makes ample use of the handwriting and illustrations of prax
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
+<img src="assets/postersticker.png" alt="Nina Simone poster" class="med-sticker-right" />
+
 ## Project Goals
 
 The goals of {{ site.title }} are to:
@@ -35,21 +37,25 @@ The goals of {{ site.title }} are to:
 * Compel action and decision-making 
 * Remind each visitor to this site of our interconnectedness
 
-## Contributors
+<h2 class='Emma'>Contributors</h2>
 
 The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal Luo, Savanna Morrison, and Aaron Thompson. 
 
 **Grace Alvino** helped write and edit {{ site.title }}'s story and drew many of the illustrations you see on this site. She is a Ph.D. student in the English department.
 
-**Emma Dove** helped develop the website and worked on making the project’s story in [Twine](https://twinery.org/). She is a Ph.D. student in the joint program in Art & Architectural History. 
+**Emma Dove** helped develop the website, worked on making the project’s story in [Twine](https://twinery.org/), and made stickers from other talented folks' illustrations. She is a Ph.D. student in the joint program in Art & Architectural History.
 
 **Elise Foote** helped develop the website, worked on making the project’s story in [Twine](https://twinery.org/), and often kept beautiful notes during group meetings. She is a Ph.D. student in the English department. 
 
-**Crystal Luo** penned the manifesto and drew many of the illustrations you see on this site. She is a Ph.D. student in the History department. 
+**Crystal Luo** penned the manifesto, drew many of the illustrations you see on this site (including the animation on its [home page](connection.scholarslab.org)), and pushed us all to think more deeply about equity and labor. She is a Ph.D. student in the History department. 
 
-**Savanna Morrison** helped write and edit {{ site.title }}'s story, helped ensure the project’s accessibility, and pushed us all to center unknowing and contemplative pedagogy. She is a Ph.D. in the music department. 
+**Savanna Morrison** helped write and edit {{ site.title }}'s story, drew many of the illustrations you see on this site, helped ensure the project’s accessibility, and pushed us all to center unknowing and contemplative pedagogy. She is a Ph.D. student in the Music department. 
 
 **Aaron Thompson** gathered the data that underpins this project and led the way on making the project’s story in [Twine](https://twinery.org/). His cat, Lev, also helped. He is a Ph.D. student in the Slavic Languages and Literatures department. 
+
+<img src="assets/cerealsticker.png" alt="cereal bowl with spoon and coffee mug" class="med-sticker-right" />
+
+<h2 class='Crystal'>Gratitude</h2>
 
 {{ site.title }} was made possible by the tireless efforts and unyielding support of the Scholars’ Lab faculty and staff, and the faculty and staff of the broader UVA Library. Special thanks in particular to:
 
@@ -79,7 +85,7 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 [Lauren Work](https://www.library.virginia.edu/staff/lw2cd/), for teaching us about project sustainability (and how to enable closed captioning while presenting using Google Slides)!
 
-## {{ site.title }} also benefited greatly from the input of:
+{{ site.title }} also benefited greatly from the input of:
 
 [Jason Bennett](https://as.virginia.edu/listing/jason-bennett). Thank you for sharing your knowledge of Twine and interactive fiction with us.
 
@@ -87,9 +93,9 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 [Katina Rogers](http://katinarogers.com/) and [Cihan Tekay](https://futuresinitiative.org/cihan-tekay/). Thank you for giving us hope for the future of the academy, and for reminding us that we all have [levers we can pull](https://www.google.com/url?q=https://lareviewofbooks.org/article/we-all-have-levers-we-can-pull-reforming-graduate-education&sa=D&source=editors&ust=1615224923678000&usg=AOvVaw1oK8-seSzzKBiWcfS279W2).
 
-[Catherine DeRose](https://web.library.yale.edu/sd/staff/13068) for generously sharing your time and insights about the Yale DH Fellowship curriculum with us. 
+[Catherine DeRose](https://web.library.yale.edu/sd/staff/13068). Thank you for generously sharing your time and insights about the Yale Digital Humanities Teaching Fellowship curriculum with us. 
 
-Trina Hyun, Denise Lim, Gavi Levy Haskell, Emily Yankowitz, Helen Yang, and Micah Siegel, Yale Digital Humanities Teaching Fellows, for so kindly sharing your experiences in integrating DH methods in classroom settings. 
+Trina Hyun, Denise Lim, Gavi Levy Haskell, Emily Yankowitz, Helen Yang, and Micah Siegel, Yale Digital Humanities Teaching Fellows. Thank you for so kindly sharing your experiences in integrating DH methods in classroom settings. 
 
 ## The Scholars’ Lab 
 
