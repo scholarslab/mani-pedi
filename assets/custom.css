@@ -13,10 +13,11 @@ body.manifesto .site-header {
 }
 
 body.home {
-    background-image: url(home_temporary.jpeg);
+    background-image: url(laptop.gif);
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
+    
    }
 body.manifesto {
     background-color: #f6f2e0;
@@ -50,14 +51,12 @@ body.resources{
     src: url('../assets/crystal-font.ttf'); /*URL to font*/
 }
 @font-face {
-    font-family: 'Elise'; 
-    src: url('../assets/elise-font.ttf');
+    font-family: 'Elise'; /*a name to be used later*/
+    src: url('../assets/elise-font.ttf'); /*URL to font*/
 }
-
 .Crystal {font-family: 'Crystal';}
 .Emma {font-family: 'Emma';}
 .Elise {font-family: 'Elise';}
-
 
 .site-title, .site-title:visited {
     color: #576dc7;
