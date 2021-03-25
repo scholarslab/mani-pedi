@@ -2,4 +2,3 @@
 _site/
 .jekyll-cache/
 .DS_Store
-_plugins/twine_chomp.rb
