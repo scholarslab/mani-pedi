@@ -1,13 +1,45 @@
-.site-header {
+/*
+ *
+ * {Mani-Pedi} CSS Styles
+ * Sections are labeled *** 
+ * Descriptions are labeled **
+ * 
+ */
+ 
+/*
+ * Site-Wide Styles
+ */ 
+
+/* Site Header */
+ .site-header {
     background-color:#ffae89;
     border-top: 5px solid #576dc7;
     border-bottom: 5px solid #576dc7;
     min-height: 55.95px;
     position: relative;
 }
+
+/* Site Title */ 
+.site-title, .site-title:visited {
+    color: #576dc7;
+    font-family: "Emma";
+}
+
+/* Site Navigation Bar */ 
+.site-nav .page-link {
+    color: #576dc7;
+    line-height: 1.5;
+    font-weight: 500
+}
+
+/* 
+ * Body Styles by Page 
+ */ 
+
 body.about .site-header {
     background-color:#ffae89;
 }
+
 body.manifesto .site-header {
     background-color:#ffae89;
 }
@@ -17,8 +49,8 @@ body.home {
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
-    
-   }
+}
+
 body.manifesto {
     background-color: #f6f2e0;
     color: #546300;
@@ -30,68 +62,24 @@ body.about {
     color: #546300;
     font-weight: 700
 }
+
 body.data {
     background-color: #f6f2e0;
     color: #546300;
 }
+
 body.resources{
     background-color: #f6f2e0;
     color: #546300; 
 }
+
 .post-content h2 {
     font-weight: bold;
 }
-@font-face {
-    font-family: 'Emma'; /*a name to be used later*/
-    src: url('../assets/emma-font.ttf'); /*URL to font*/
-}
 
-@font-face {
-    font-family: 'Crystal'; /*a name to be used later*/
-    src: url('../assets/crystal-font.ttf'); /*URL to font*/
-}
-@font-face {
-    font-family: 'Elise'; /*a name to be used later*/
-    src: url('../assets/elise-font.ttf'); /*URL to font*/
-}
-.Crystal {font-family: 'Crystal';}
-.Emma {font-family: 'Emma';}
-.Elise {font-family: 'Elise';}
-
-.site-title, .site-title:visited {
-    color: #576dc7;
-    font-family: "Emma";
-}
-
-.site-nav .page-link {
-    color: #576dc7;
-    line-height: 1.5;
-    font-weight: 500
-}
-
-tw-story {
-    background-color:#f6f2e0;
-    color:#546300;
-    /*overflow: scroll;*/ 
-}
-
-tw-story .thought {
-    font-style: italic;
-}
-
-tw-story .dialogue {
-
-}
-
-tw-story .narrative {
-
-}
-
-tw-story[tags~="kitchen"] {
-    background-image: url(kitchen.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* 
+ * Images 
+ */ 
 
 .med-sticker-right {
     float: right;
@@ -107,4 +95,99 @@ tw-story[tags~="kitchen"] {
     margin-bottom: 12px;
     margin-right: 12px;
     transform: rotate(-15deg);    
+}
+
+/*
+ * FONTS :) 
+ */
+
+ /* Font Definitions */
+@font-face {
+    font-family: 'Emma'; /*a name to be used later*/
+    src: url('../assets/emma-font.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Crystal'; /*a name to be used later*/
+    src: url('../assets/crystal-font.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Elise'; /*a name to be used later*/
+    src: url('../assets/elise-font.ttf'); /*URL to font*/
+}
+
+/* Class Styles */
+.Crystal {font-family: 'Crystal';}
+.Emma {font-family: 'Emma';}
+.Elise {font-family: 'Elise';}
+
+
+/*
+ *  TWINE STORY STYLES
+ */
+
+/* Story-Wide Styles */ 
+tw-story {
+    background-color:#f6f2e0;
+    color:#546300;
+    /*overflow: scroll;*/ 
+}
+
+/* 
+ * Content Types Div Styles 
+ */ 
+
+/* Story Choice Options */ 
+tw-passagedata div.choices {
+    box-shadow: 3px 3px pink 2px 2px black;
+    outline: thick double white;
+} 
+
+/* Emails */
+
+
+/* Text Messages */ 
+
+
+/* Cavalier Daily Articles */ 
+
+
+/* Daily Progess Articles */ 
+
+
+/* Reddit Posts */ 
+
+
+/* Tweets */ 
+
+
+/* 
+ * Passage Text Styles (<p>, <span>)
+ */ 
+
+tw-passagedata p { 
+    padding: 5%;
+}
+
+tw-passagedata span.thought {
+    font-style: italic;
+}
+
+tw-passagedata span.dialogue {
+    font: caption;
+}
+
+tw-passagedata span.narrative {
+    font-variant: small-caps;
+}
+
+/*
+ * Passage Body Styles
+ */ 
+
+tw-passagedata[tags~="kitchen"] {
+    background-image: url(kitchen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
