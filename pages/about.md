@@ -5,7 +5,7 @@ permalink: /about
 ---
 ## About
 
-<img src="assets/plantsticker.png" alt="plant in a small pot" class="med-sticker-right" />
+<img src="assets/img/plantsticker.png" alt="plant in a small pot" class="med-sticker-right" />
 
 {{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](http://connection.scholarslab.org/story), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](http://connection.scholarslab.org/manifesto) it urges a whole-person approach to teaching, learning, and labor. 
 
@@ -20,15 +20,15 @@ This year’s Praxis team members know one another as faces on computer screens,
 Our project website makes ample use of the handwriting and illustrations of praxis fellows: 
 
 <p>This is Grace’s handwriting.</p>
-<p class='Emma'>This is Emma’s handwriting.</p>
-<p class='Elise'>This is Elise’s handwriting.</p>
-<p class='Crystal'>This is Crystal’s handwriting</p>
+<p class='emma'>This is Emma’s handwriting.</p>
+<p class='elise'>This is Elise’s handwriting.</p>
+<p class='crystal'>This is Crystal’s handwriting</p>
 <p>This is Savanna’s handwriting.</p>
 <p>And this is Aaron’s handwriting.</p>
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
-<img src="assets/postersticker.png" alt="Nina Simone poster" class="med-sticker-right" />
+<img src="assets/img/postersticker.png" alt="Nina Simone poster" class="med-sticker-right" />
 
 ## Project Goals
 
@@ -53,7 +53,7 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 **Aaron Thompson** gathered the data that underpins this project and led the way on making the project’s story in [Twine](https://twinery.org/). His cat, Lev, also helped. He is a Ph.D. student in the Slavic Languages and Literatures department. 
 
-<img src="assets/cerealsticker.png" alt="cereal bowl with spoon and coffee mug" class="med-sticker-right" />
+<img src="assets/img/cerealsticker.png" alt="cereal bowl with spoon and coffee mug" class="med-sticker-right" />
 
 <h2 class='Crystal'>Gratitude</h2>
 

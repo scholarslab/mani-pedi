@@ -101,27 +101,49 @@ body.resources{
  * FONTS :) 
  */
 
- /* Font Definitions */
+ /* Handwriting Font Definitions */
 @font-face {
-    font-family: 'Emma'; /*a name to be used later*/
-    src: url('../assets/emma-font.ttf'); /*URL to font*/
+    font-family: 'emma'; /* font name to be used later*/
+    src: url('../assets/fonts/emma-font.ttf'); /*URL to font*/
 }
 
 @font-face {
-    font-family: 'Crystal'; /*a name to be used later*/
-    src: url('../assets/crystal-font.ttf'); /*URL to font*/
+    font-family: 'crystal'; 
+    src: url('../assets/fonts/crystal-font.ttf'); 
 }
 
 @font-face {
-    font-family: 'Elise'; /*a name to be used later*/
-    src: url('../assets/elise-font.ttf'); /*URL to font*/
+    font-family: 'elise'; 
+    src: url('../assets/fonts/elise-font.ttf'); 
 }
 
-/* Class Styles */
-.Crystal {font-family: 'Crystal';}
-.Emma {font-family: 'Emma';}
-.Elise {font-family: 'Elise';}
+@font-face {
+    font-family: 'aaron'; 
+    src: url('../assets/fonts/aaron-font.ttf');
+}
 
+@font-face {
+    font-family: 'grace'; 
+    src: url('../assets/fonts/grace-font.ttf');
+}
+
+@font-face {
+    font-family: 'savanna'; 
+    src: url('../assets/fonts/savanna-font.ttf');
+}
+
+/* Class Styles to Match Handwriting Fonts */
+.crystal {font-family: 'crystal';} 
+
+.emma {font-family: 'emma';} 
+
+.elise {font-family: 'elise';} 
+
+.aaron {font-family: 'aaron';} 
+
+.grace {font-family: 'grace';} 
+
+.savanna {font-family: 'savanna';}
 
 /*
  *  TWINE STORY STYLES
@@ -145,22 +167,34 @@ tw-passagedata div.choices {
 } 
 
 /* Emails */
+tw-passagedata div.email {
 
+}
 
 /* Text Messages */ 
+tw-passagedata div.sms {
 
+}
 
 /* Cavalier Daily Articles */ 
+tw-passagedata div.cavdaily {
 
+}
 
 /* Daily Progess Articles */ 
+tw-passagedata div.dailyprog {
 
+}
 
 /* Reddit Posts */ 
+tw-passagedata div.reddit { 
 
+}
 
 /* Tweets */ 
+tw-passagedata div.tweet {
 
+}
 
 /* 
  * Passage Text Styles (<p>, <span>)
