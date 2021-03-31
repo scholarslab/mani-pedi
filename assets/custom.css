@@ -168,7 +168,9 @@ tw-passagedata div.choices {
 
 /* Emails */
 tw-passagedata div.email {
-
+    min-width: auto;
+    min-height: auto;
+    background: white border-box; 
 }
 
 /* Text Messages */ 
