@@ -179,23 +179,24 @@ tw-passagedata div.sms {
 }
 
 /* Cavalier Daily Articles */ 
-tw-passagedata div.cavdaily {
-
+#cavdailyheadline {
+    text-align: center;
+    font-weight: bolder;
 }
 
 /* Daily Progess Articles */ 
 tw-passagedata div.dailyprog {
-
+    background: white;
 }
 
 /* Reddit Posts */ 
 tw-passagedata div.reddit { 
-
+    background: white;
 }
 
 /* Tweets */ 
 tw-passagedata div.tweet {
-
+background: white;
 }
 
 /* 

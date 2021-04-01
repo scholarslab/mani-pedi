@@ -42,43 +42,34 @@ document.getElementById("assessment").innerHTML = xhttp.responseText;
 // CavDaily JSON File
 
 var CavDailyData = $.getJSON("/assets/data/CavDaily.json", function () {
-    console.log("success");
+    console.log("CavDaily success");
 })
     .done(function () {
-        console.log("second success");
+        console.log("CavDaily second success");
     })
     .fail(function () {
-        console.log("error");
+        console.log("CavDaily error");
     })
     .always(function () {
-        console.log("complete");
+        console.log("CavDaily complete");
     });
 
 
 // DailyProgData 
 
 var DailyProgData = $.getJSON("/assets/data/DailyProg.json", function () {
-    console.log("success");
+    console.log("DailyProg success");
+    //console.log(DailyProgData);
 })
     .done(function () {
-        console.log("second success");
+        console.log("DailyProg second success");
     })
     .fail(function () {
-        console.log("error");
+        console.log("DailyProg error");
     })
     .always(function () {
-        console.log("complete");
+        console.log("DailyProg complete");
     });
 
-/*
-// etc... 
-
-// Set another completion function for the request above
-
-CavDailyData.always(function () {
-    console.log("second complete");
-});
-*/
-
-sessionStorage.setItem('CavDailyData', JSON.stringify(CavDailyData));
-sessionStorage.setItem('CavDailyData', JSON.stringify(CavDailyData));
+sessionStorage.setItem('CavDailyData', JSON.parse(CavDailyData));
+sessionStorage.setItem('DailyProgData', JSON.parse(DailyProgData));
