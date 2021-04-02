@@ -7,7 +7,7 @@ permalink: /about
 
 <img src="assets/img/plantsticker.png" alt="plant in a small pot" class="med-sticker-right" />
 
-{{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](http://connection.scholarslab.org/story), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](http://connection.scholarslab.org/manifesto) it urges a whole-person approach to teaching, learning, and labor. 
+{{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](story), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](manifesto) it urges a whole-person approach to teaching, learning, and labor. 
 
 <h2 class='Crystal'>Project History</h2>
 
