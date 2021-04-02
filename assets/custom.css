@@ -45,10 +45,11 @@ body.manifesto .site-header {
 }
 
 body.home {
-    background-image: url(laptop.gif);
+    background-image: url(img/laptop-1x.gif);
     background-color: #cccccc;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
+    /*animation-iteration-count: 1;*/
 }
 
 body.manifesto {
