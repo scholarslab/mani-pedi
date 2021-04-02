@@ -12,7 +12,7 @@
 
 loadDoc("/assets/manifesto.html", getAssessment);
 
-// loadDoc("url-2", get);
+// loadDoc("", get);
 
 function loadDoc(url, cFunction) {
   var xhttp = new XMLHttpRequest(); // creates new variable of an XMLHttpRequest

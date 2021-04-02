@@ -47,9 +47,8 @@ body.manifesto .site-header {
 body.home {
     background-image: url(img/laptop-1x.gif);
     background-color: #cccccc;
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     background-size: cover;
-    /*animation-iteration-count: 1;*/
 }
 
 body.manifesto {
@@ -180,7 +179,7 @@ tw-passagedata div.sms {
 }
 
 /* Cavalier Daily Articles */ 
-#cavdailyheadline {
+tw-passagedata div#cavdailyheadline {
     text-align: center;
     font-weight: bolder;
 }
@@ -208,15 +207,15 @@ tw-passagedata p {
     padding: 5%;
 }
 
-tw-passagedata span.thought {
+span.thought {
     font-style: italic;
 }
 
-tw-passagedata span.dialogue {
+span.dialogue {
     font: caption;
 }
 
-tw-passagedata span.narrative {
+span.narrative {
     font-variant: small-caps;
 }
 
