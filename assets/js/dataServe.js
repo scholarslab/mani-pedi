@@ -9,10 +9,8 @@
  */
 
 // Call Manifesto XMLHttpRequest Object 
-
-loadDoc("/assets/manifesto.html", getAssessment);
-
-// loadDoc("", get);
+/*
+loadDoc("/pages/manifesto.html", getAssessment);
 
 function loadDoc(url, cFunction) {
   var xhttp = new XMLHttpRequest(); // creates new variable of an XMLHttpRequest
@@ -24,13 +22,10 @@ function loadDoc(url, cFunction) {
   xhttp.open("GET", url, true);
   xhttp.send();
 }
-
+*/
 // getAssessment(xhttp) 
 
-function getAssessment(xhttp) {
-document.getElementById("assessment").innerHTML = xhttp.responseText;
-
-}
+$('getAssessment').load('manifesto.html #assessment');
 
 // get
 
