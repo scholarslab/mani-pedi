@@ -37,7 +37,7 @@ To our fellow students, we ask the following:
 When in doubt, reach out. We hope you can think of learning as a communal enterprise rather than an individual one, built on relationships and empathy. We know as well as you do that some faculty are less inclined to accommodate the needs of their students, but many instructors are here to help as long as they know help is needed. 
 
 ### ASSESSMENT
-<div class="modal" id="assessment">
+<div id="assessment">
 The culture of perfectionism and high achievement is pervasive throughout the United States’ higher ed system, but is perhaps especially pronounced at UVa. Having both worked as instructors and learned as students here, we recognize the incredible strain undergraduates are placed under to do well in what can often be a highly competitive academic environment. 
 Competition, however, is not conducive to a deep and generative pedagogical relationship between students and their peers, or between students and instructors. It turns instructors into gatekeepers and students into grade seekers. 
 Furthermore, the pursuit of grades produces labor-intensive but, ultimately, low-value work for faculty and their student assistants. Much of the “bullshitification” of academic labor, to borrow anthropologist David Graeber’s phrase, stems from giving and recording letter grades.

@@ -76,7 +76,7 @@ document.getElementById(&quot;cavdailytext&quot;).innerHTML = CavDailyData.respo
 [[Continue-&gt;Zoom Out]]</tw-passagedata><tw-passagedata pid="10" name="Stay quiet" tags="faculty zoom" position="143,2325" size="100,100">&lt;p&gt;{&lt;span class=&quot;thought&quot;&gt;No, I can’t.&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$facultyName thought. It was too big of a risk. They would just have to figure out some way to…well, get twice as much work done in the next couple of years. Even as it crossed their mind, they knew how ridiculous the thought sounded. There was no way that it was actually feasible. If they were denied tenure, though, the consequences would be life-altering: they would have to find another job, which would be next to impossible with the stigma of not securing tenure, plus the abysmal job market. Even if they did find another teaching position, it would almost certainly not be in Charlottesville, meaning they’d have to uproot their entire family.&lt;/span&gt;}&lt;/p&gt;
 
-[[Continue-&gt;Zoom Out]]</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty kitchen" position="274.6666666666667,2702.6666666666665" size="100,100">&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;Still reeling, $facultyName zoned out for the rest of the meeting, only coming to when it was time to wave the obligatory Zoom goodbye. All they wanted to do was close their eyes on the couch—even for just a few minutes—but they still had to finalize the syllabus for one of their classes. They’d cut-and-pasted in the policy they’d had for the last few years—no extensions, under any circumstances—but, looking at it now, they wondered if they should make a change. Students would be dealing with a ton this semester: family illness, mental health crises, not to mention potentially getting COVID themselves. But $facultyName still couldn’t shake what their teaching mentors back in grad school had told them: that if they allowed extensions, students would take advantage of the policy.&lt;/span&gt;}&lt;/p&gt;
+[[Continue-&gt;Zoom Out]]</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty kitchen" position="259,2702" size="100,100">&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;Still reeling, $facultyName zoned out for the rest of the meeting, only coming to when it was time to wave the obligatory Zoom goodbye. All they wanted to do was close their eyes on the couch—even for just a few minutes—but they still had to finalize the syllabus for one of their classes. They’d cut-and-pasted in the policy they’d had for the last few years—no extensions, under any circumstances—but, looking at it now, they wondered if they should make a change. Students would be dealing with a ton this semester: family illness, mental health crises, not to mention potentially getting COVID themselves. But $facultyName still couldn’t shake what their teaching mentors back in grad school had told them: that if they allowed extensions, students would take advantage of the policy.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;div class=&quot;choices&quot;&gt;
 Should $facultyName:&lt;br&gt;
@@ -84,17 +84,33 @@ Should $facultyName:&lt;br&gt;
 |choice8&gt;[Keep their no-extensions policy?]
 
 (click: ?choice7)[(set: $choice7 to true)(hide: ?choice8)(show: ?assessment)(show: ?continue)]
-(click: ?choice8)[(set: $choice8 to true)(hide: ?choice7)(show: ?assessment)(show: ?continue)]
+(click: ?choice8)[(set: $choice8 to true)(hide: ?choice7)(show: ?getAssessment)(show: ?continue)]
 &lt;/div&gt;
-|assessment-modal)[
-$
-]
 |assessment)[
 &lt;script&gt;
-$(&#39;#getAssessment&#39;).load(&#39;manifesto.html #assessment&#39;);
+var $dialogue = $(&quot;#assessment&quot;).load(&#39;manifesto.html #assessment&#39;).dialog({
+                   autoOpen: false,
+                   modal: true,
+                   height: 625,
+                   width: 500,
+                   title: &quot;Some title&quot;
+               });
+$dialog.dialog(&#39;open&#39;);
 &lt;/script&gt;
-]&lt;br&gt;
-&lt;div id=&quot;getAssessment&quot;&gt;&lt;/div&gt;
+]
+|getAssessment)[
+&lt;div id=&quot;myModal&quot; class=&quot;modal&quot;&gt;
+  &lt;div class=&quot;modalContent&quot;&gt;
+    &lt;span class=&quot;close&quot;&gt;
+	{((link-repeat: &quot;&amp;times&quot;)[(replace: ?modal)[] ]}&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;.modalContent&quot;).load(&#39;manifesto.html #assessment&#39;);
+&lt;/script&gt;
+]
+(link-repeat: &quot;Open Modal&quot;)[(show:?modal)]
+&lt;br&gt;
 |continue)[(link-goto: &quot;Continue&quot;, &quot;Energy Drinks&quot;)]
 &lt;!-- [[Energy Drinks]] --&gt;</tw-passagedata><tw-passagedata pid="12" name="Energy Drinks" tags="grad" position="303,3018" size="100,100">&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$gradName took the last sip of their energy drink, then stood to get another out of the fridge. Regular coffee just wasn’t doing it for them anymore—which was a shame, because energy drinks were expensive, and they were a month behind on their rent. They’d lost their part-time bartending job at the start of the pandemic, and it had made a huge difference in their bank account. Right now, their stipend and teaching wages were the only way they were getting paid, and that was barely keeping them afloat. The good news was that the chair of their department had just written them offering a research assistant position:&lt;/span&gt;}&lt;/p&gt;
 
@@ -752,7 +768,7 @@ Does $facultyName:&lt;br&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName sighed. They had been thrilled when their daughter had made friends with Aisha and Emma last year—they were great girls—but they also knew Aisha’s family took care of her grandmother, who was an elderly cancer survivor. $facultyName had said no to the bubble thus far because they knew it would be putting her at risk. But if Aisha’s mom had agreed, then they could say yes too, right?&lt;/span&gt;}&lt;/p&gt;
 &lt;div class=&quot;choices&quot;&gt;
 Does $facultyName:&lt;br&gt;
-Tell her daughter she can [[do the bubble?-&gt;Bubble]]&lt;br&gt;
+Tell her daughter she can [[do the bubble-&gt;Bubble]]?&lt;br&gt;
 Let her daughter know the bubble still [[isn’t an option-&gt;No Bubble]]? 
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="78" name="Smiled and Waved" tags="faculty" position="4431,6590" size="100,100">&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;A few students smiled and waved, and $facultyName’s son waved back.&lt;/span&gt; 
 &lt;span class=&quot;dialogue&quot;&gt;“I wanna go home,”&lt;/span&gt; 

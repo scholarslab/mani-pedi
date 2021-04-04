@@ -161,13 +161,13 @@ tw-story {
  */ 
 
 /* Story Choice Options */ 
-tw-passagedata div.choices {
+.choices {
     box-shadow: 3px 3px pink 2px 2px black;
     outline: thick double white;
 } 
 
 /* Emails */
-tw-passagedata div.email {
+.email {
     min-width: auto;
     min-height: auto;
     background: white border-box; 
@@ -212,12 +212,28 @@ span.thought {
 }
 
 span.dialogue {
-    font: caption;
+    font-variant: small-caps;
 }
 
 span.narrative {
-    font-variant: small-caps;
+    font-weight: 600;
 }
+
+.modal{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0; 
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+ }
+
+.modalContent{
+    margin: 15% auto;
+    border: 1px solid black;
+ }
 
 /*
  * Passage Body Styles

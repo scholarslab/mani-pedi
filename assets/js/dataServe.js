@@ -5,29 +5,9 @@
  */
 
 /*
- * Manifesto XMLHttpRequest & get-{section} Functions
+ * Manifesto
  */
 
-// Call Manifesto XMLHttpRequest Object 
-/*
-loadDoc("/pages/manifesto.html", getAssessment);
-
-function loadDoc(url, cFunction) {
-  var xhttp = new XMLHttpRequest(); // creates new variable of an XMLHttpRequest
-  xhttp.onreadystatechange = function() { // attribute calls function when readyState property changes
-    if (this.readyState == 4 && this.status == 200) { // (0-)4: request finished, response ready
-      cFunction(this);
-    }
- };
-  xhttp.open("GET", url, true);
-  xhttp.send();
-}
-*/
-// getAssessment(xhttp) 
-
-$('getAssessment').load('manifesto.html #assessment');
-
-// get
 
 
 /* 
