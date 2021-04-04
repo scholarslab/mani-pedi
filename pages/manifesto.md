@@ -3,6 +3,7 @@ layout: page
 title: Manifesto
 permalink: /manifesto
 ---
+<!--
 ## Manifesto
 
 ### AT “JEFFERSON’S UNIVERSITY,” WE LOVE A PREAMBLE
@@ -161,3 +162,4 @@ To demonstrate an alternative to the University’s overall approach to hybrid l
 The six of us have spent the past academic year meeting remotely, two to three times a week, to learn entirely new skills with an almost entirely new group of people. We are all fully funded, with finances dealt with in an upfront and transparent way. We had assignments with flexible deadlines and no grades, were encouraged to collaborate, and deliberately fostered an environment of mutual care, respect, and friendship. We established connections over Zoom, WeChat, Slack, and Discord; had movie and game nights and met all of one another’s pets. We became friends.
 We don’t think we’ve succeeded at building a community because we’re special people with special skills (who isn’t?), but because we were given the necessary environment in which to flourish, in spite of the chaos in our lives and in the world. We succeeded because, as Brandon Walsh kept reminding us, “You’re already successes in our eyes.”
 What would the past two semesters at UVA have looked like if every administrator, instructor, and student had approached the pedagogical experience along these lines? If decision-makers had looked at online learning, not as a financial opportunity or a challenge to be forced onto teachers and students, but as a space to find new ways to build community? Would they have felt so pressured to bring students back to put themselves, University employees, and the surrounding community at risk? Would professors have kept up draconian grading and deadline policies? Would students have struggled so much to feel they were learning and building community?
+-->
