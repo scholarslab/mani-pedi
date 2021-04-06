@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Resources
-permalink: /resources/
+permalink: /resources
 ---
 ## Resources
