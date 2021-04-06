@@ -1,0 +1,248 @@
+/*
+ *
+ * {Mani-Pedi} CSS Styles
+ * Sections are labeled *** 
+ * Descriptions are labeled **
+ * 
+ */
+ 
+/*
+ * Site-Wide Styles
+ */ 
+
+/* Site Header */
+ .site-header {
+    background-color:#ffae89;
+    border-top: 5px solid #576dc7;
+    border-bottom: 5px solid #576dc7;
+    min-height: 55.95px;
+    position: relative;
+}
+
+/* Site Title */ 
+.site-title, .site-title:visited {
+    color: #576dc7;
+    font-family: "Emma";
+}
+
+/* Site Navigation Bar */ 
+.site-nav .page-link {
+    color: #576dc7;
+    line-height: 1.5;
+    font-weight: 500
+}
+
+/* 
+ * Body Styles by Page 
+ */ 
+
+body.about .site-header {
+    background-color:#ffae89;
+}
+
+body.manifesto .site-header {
+    background-color:#ffae89;
+}
+
+body.home {
+    background-image: url(img/laptop-1x.gif);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.manifesto {
+    background-color: #f6f2e0;
+    color: #546300;
+    font-weight: 700
+}
+
+body.about {
+    background-color: #f6f2e0;
+    color: #546300;
+    font-weight: 700
+}
+
+body.data {
+    background-color: #f6f2e0;
+    color: #546300;
+}
+
+body.resources{
+    background-color: #f6f2e0;
+    color: #546300; 
+}
+
+.post-content h2 {
+    font-weight: bold;
+}
+
+/* 
+ * Images 
+ */ 
+
+.med-sticker-right {
+    float: right;
+    max-width: 200px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    transform: rotate(15deg);    
+}
+
+.med-sticker-left {
+    float: left;
+    max-width: 200px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    transform: rotate(-15deg);    
+}
+
+/*
+ * FONTS :) 
+ */
+
+ /* Handwriting Font Definitions */
+@font-face {
+    font-family: 'emma'; /* font name to be used later*/
+    src: url('../assets/fonts/emma-font.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'crystal'; 
+    src: url('../assets/fonts/crystal-font.ttf'); 
+}
+
+@font-face {
+    font-family: 'elise'; 
+    src: url('../assets/fonts/elise-font.ttf'); 
+}
+
+@font-face {
+    font-family: 'aaron'; 
+    src: url('../assets/fonts/aaron-font.ttf');
+}
+
+@font-face {
+    font-family: 'grace'; 
+    src: url('../assets/fonts/grace-font.ttf');
+}
+
+@font-face {
+    font-family: 'savanna'; 
+    src: url('../assets/fonts/savanna-font.ttf');
+}
+
+/* Class Styles to Match Handwriting Fonts */
+.crystal {font-family: 'crystal';} 
+
+.emma {font-family: 'emma';} 
+
+.elise {font-family: 'elise';} 
+
+.aaron {font-family: 'aaron';} 
+
+.grace {font-family: 'grace';} 
+
+.savanna {font-family: 'savanna';}
+
+/*
+ *  TWINE STORY STYLES
+ */
+
+/* Story-Wide Styles */ 
+tw-story {
+    background-color:#f6f2e0;
+    color:#546300;
+    overflow: scroll;
+}
+
+/* 
+ * Content Types Div Styles 
+ */ 
+
+/* Story Choice Options */ 
+div.choices {
+    box-shadow: 3px 3px pink 2px 2px black;
+    outline: thick double white;
+} 
+
+/* Emails */
+div.email {
+    min-width: auto;
+    min-height: auto;
+    background: white border-box; 
+}
+
+/* Text Messages */ 
+div.sms {
+    min-width: auto;
+    min-height: auto;
+    background: white border-box; 
+}
+
+/* Cavalier Daily Articles */ 
+div#cavdailyheadline {
+    text-align: center;
+    font-weight: bolder;
+}
+
+/* Daily Progess Articles */ 
+div.dailyprog {
+    background: white;
+}
+
+/* Reddit Posts */ 
+div.reddit { 
+    background: white;
+}
+
+/* Tweets */ 
+div.tweet {
+background: white;
+}
+
+/* 
+ * Passage Text Styles (<p>, <span>)
+ */ 
+
+tw-passagedata p { 
+    padding: 5%;
+}
+
+span.thought {
+    font-style: italic;
+}
+
+span.dialogue {
+    font-variant: small-caps;
+}
+
+span.narrative {
+    font-weight: 600;
+}
+
+.modal{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0; 
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+ }
+
+.modalContent{
+    margin: 15% auto;
+    border: 1px solid black;
+ }
+
+/*
+ * Passage Body Styles
+ */ 
+
+.passage[data-tags~="kitchen"] {
+    background-image: url('img/Kitchen.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
