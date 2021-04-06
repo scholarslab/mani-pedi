@@ -151,9 +151,8 @@ body.resources{
 
 /* Story-Wide Styles */ 
 tw-story {
-    background-color:#f6f2e0;
-    color:#546300;
     overflow: scroll;
+    background-color:#546300;
 }
 
 /* 
@@ -241,8 +240,42 @@ span.narrative {
  * Passage Body Styles
  */ 
 
-.passage[data-tags~="kitchen"] {
-    background-image: url('img/Kitchen.png');
+tw-story[tags~="kitchen"] {
+    background-image: url('img/kitchen.png');
+    opacity: /*this changes the opacity of every element on the page*/
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+tw-story[tags~="dormroom"] {
+    background-image: url('img/dormroom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 
+div.boxed {
+    background-color:rgb(255, 231, 181,0.9);
+}
+ */ 
+
+tw-story[tags~="faculty"] {
+    background-color:#F3722C;
+    color:#000000;
+}
+
+tw-story[tags~="grad"] {
+    background-color:#5F0F40;
+    color:#000000;
+}
+
+tw-story[tags~="stud1"] {
+    background-color:#4D908E;
+    color:#000000;
+}
+
+tw-story[tags~="stud2"] {
+    background-color:#0F4C5C;
+    color:#000000;
+}
+
