@@ -153,11 +153,15 @@ body.resources{
 tw-story {
     overflow: scroll;
     background-color:#546300;
+    color:#000000;
 }
 div.boxed {
     background: rgb(255, 255, 255, 0.8);
-    padding-left: 10px;
-    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    border-radius: 20px;
 }
 
 
