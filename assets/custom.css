@@ -154,15 +154,21 @@ tw-story {
     overflow: scroll;
     background-color:#546300;
 }
+div.boxed {
+    background: rgb(255, 255, 255, 0.8);
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+tw-story .
 
 /* 
  * Content Types Div Styles 
  */ 
 
 /* Story Choice Options */ 
+
 div.choices {
-    box-shadow: 3px 3px pink 2px 2px black;
-    outline: thick double white;
 } 
 
 /* Emails */
@@ -217,7 +223,7 @@ span.dialogue {
 }
 
 span.narrative {
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .modal{
