@@ -156,6 +156,36 @@ tw-story {
     color:#000000;
 }
 
+/* Style of Twine Dialog Boxes (e.g. name prompts) */
+tw-dialog {
+    background-color: #ffae89;
+    color: black;
+}
+
+/* Links in Twine Story Dialog Boxes */
+tw-dialog-links tw-link {
+    background-color: #576dc7;
+    color: black;
+}
+
+/* Overlays between Dialog and Background */
+tw-backdrop {
+    background-color: #4D908E;
+}
+
+/* All Links in Story */
+tw-link {
+    background-color: white;
+    color: black;
+}
+
+/* All Links in Story when Hovering */
+tw-link :hover {
+    font-stretch: expanded;
+}
+
+
+/* Transparent Boxes for Text */
 div.boxed {
     background: rgb(255, 255, 255, 0.8);
     padding-left: 30px;
@@ -233,10 +263,9 @@ span.narrative {
 
 .modal{
     display: block;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0; 
+    z-index: auto;
+    left: auto;
+    top: auto; 
     width: 50%;
     height: 50%;
     overflow: auto;

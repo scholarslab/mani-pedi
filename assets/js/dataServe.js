@@ -5,10 +5,18 @@
  */
 
 /*
- * Manifesto
+ * COVID Stats
  */
 
+var covidSettings = {
+    "url": "https://api.coronatracker.com/v3/stats/worldometer/country?countryCode=US",
+    "method": "GET", 
+    "timeout": 0,
+};
 
+var covidData = $.ajax(covidSettings, function () {
+    console.log("covidData success");
+});
 
 /* 
  * Social Media & Journalism Data
@@ -46,5 +54,5 @@ var DailyProgData = $.getJSON("/assets/data/DailyProg.json", function () {
         console.log("DailyProg complete");
     });
 
-sessionStorage.setItem('CavDailyData', JSON.parse(CavDailyData));
-sessionStorage.setItem('DailyProgData', JSON.parse(DailyProgData));
+sessionStorage.setItem('CavDailyData', JSON.stringify(CavDailyData));
+sessionStorage.setItem('DailyProgData', JSON.stringify(DailyProgData));
