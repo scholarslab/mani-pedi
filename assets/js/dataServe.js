@@ -8,15 +8,18 @@
  * COVID Stats
  */
 
-var covidSettings = {
-    "url": "https://api.coronatracker.com/v3/stats/worldometer/country?countryCode=US",
-    "method": "GET", 
-    "timeout": 0,
-};
+var usdeathsURL = 'https://api.coronatracker.com/v3/stats/worldometer/country?countryCode=US'; 
 
-var covidData = $.ajax(covidSettings, function () {
-    console.log("covidData success");
-});
+let request = new XMLHttpRequest(); 
+
+request.open('GET', usdeathsURL); 
+request.responseType = 'json'; 
+request.send(); 
+
+request.onload = function () {
+    var CovidDataR = request.response; 
+    sessionStorage.setItem('CovidData', JSON.stringify(CovidDataR));
+};
 
 /* 
  * Social Media & Journalism Data
@@ -36,13 +39,12 @@ var CavDailyData = $.getJSON("/assets/data/CavDaily.json", function () {
     .always(function () {
         console.log("CavDaily complete");
     });
-
+    sessionStorage.setItem('CavDailyData', JSON.stringify(CavDailyData));
 
 // DailyProgData 
 
 var DailyProgData = $.getJSON("/assets/data/DailyProg.json", function () {
     console.log("DailyProg success");
-    //console.log(DailyProgData);
 })
     .done(function () {
         console.log("DailyProg second success");
@@ -53,6 +55,4 @@ var DailyProgData = $.getJSON("/assets/data/DailyProg.json", function () {
     .always(function () {
         console.log("DailyProg complete");
     });
-
-sessionStorage.setItem('CavDailyData', JSON.stringify(CavDailyData));
-sessionStorage.setItem('DailyProgData', JSON.stringify(DailyProgData));
+    sessionStorage.setItem('DailyProgData', JSON.stringify(DailyProgData));
