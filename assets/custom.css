@@ -60,7 +60,8 @@ body.manifesto {
 body.about {
     background-color: #f6f2e0;
     color: #546300;
-    font-weight: 700
+    font-weight: 100;
+    font-family: Geneva, sans-serif;
 }
 
 body.data {
