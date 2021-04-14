@@ -105,32 +105,32 @@ body.resources{
  /* Handwriting Font Definitions */
 @font-face {
     font-family: 'emma'; /* font name to be used later*/
-    src: url('../assets/fonts/emma-font.ttf'); /*URL to font*/
+    src: url('fonts/emma-font.ttf'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'crystal'; 
-    src: url('../assets/fonts/crystal-font.ttf'); 
+    src: url('fonts/crystal-font.ttf'); 
 }
 
 @font-face {
     font-family: 'elise'; 
-    src: url('../assets/fonts/elise-font.ttf'); 
+    src: url('fonts/elise-font.ttf'); 
 }
 
 @font-face {
     font-family: 'aaron'; 
-    src: url('../assets/fonts/aaron-font.ttf');
+    src: url('fonts/aaron-font.ttf');
 }
 
 @font-face {
     font-family: 'grace'; 
-    src: url('../assets/fonts/grace-font.ttf');
+    src: url('fonts/grace-font.ttf');
 }
 
 @font-face {
     font-family: 'savanna'; 
-    src: url('../assets/fonts/savanna-font.ttf');
+    src: url('fonts/savanna-font.ttf');
 }
 
 /* Class Styles to Match Handwriting Fonts */
