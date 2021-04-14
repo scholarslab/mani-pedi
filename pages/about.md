@@ -28,7 +28,7 @@ Our project website makes ample use of the handwriting and illustrations of prax
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
-<img src="assets/img/postersticker.png" alt="Nina Simone poster" class="med-sticker-right" />
+<img src="assets/img/postersticker.png" alt="Nina Simone poster" class="med-sticker-left" />
 
 ## Project Goals
 
