@@ -44,11 +44,11 @@ body.manifesto .site-header {
     background-color:#ffae89;
 }
 
-body.home {
+body.home main.page-content {
     background-image: url(img/laptop-1x.gif);
-    background-color: #cccccc;
+    background-color: #ffffff;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 body.manifesto {
@@ -91,7 +91,7 @@ body.resources{
 }
 
 .med-sticker-left {
-    float: left;
+    float: right;
     max-width: 200px;
     margin-bottom: 12px;
     margin-right: 12px;
