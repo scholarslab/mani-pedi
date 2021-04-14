@@ -22,7 +22,9 @@
 /* Site Title */ 
 .site-title, .site-title:visited {
     color: #576dc7;
-    font-family: "Emma";
+    font-family: "crystal";
+    padding-top: 3px;
+    
 }
 
 /* Site Navigation Bar */ 
@@ -159,25 +161,26 @@ tw-story {
 
 /* Style of Twine Dialog Boxes (e.g. name prompts) */
 tw-dialog {
-    background-color: #ffae89;
+    background-color: #ffffff;
     color: black;
+    border-radius: 20px;
 }
 
 /* Links in Twine Story Dialog Boxes */
 tw-dialog-links tw-link {
-    background-color: #576dc7;
+    background-color: #ffffff;
     color: black;
+    border-radius: 20px;
 }
 
 /* Overlays between Dialog and Background */
 tw-backdrop {
-    background-color: #4D908E;
+    background-color: #546300;
 }
 
 /* All Links in Story */
 tw-link {
-    background-color: white;
-    color: black;
+    color: #576dc7;
 }
 
 /* All Links in Story when Hovering */

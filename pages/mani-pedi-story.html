@@ -9,19 +9,37 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play mani-pedi-story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.12" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="faculty" color="purple"></tw-tag>,<tw-tag name="grad" color="orange"></tw-tag>,<tw-tag name="kitchen" color="yellow"></tw-tag>,<tw-tag name="stud1" color="yellow"></tw-tag>,<tw-tag name="stud2" color="green"></tw-tag>,<tw-tag name="zoom" color="blue"></tw-tag>,<tw-tag name="dormroom" color="purple"></tw-tag>,<tw-tag name="library" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Morning" tags="faculty" position="285,909" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName heard their 6:45 alarm go off, and reached over to the nightstand to pick up their phone. Their partner, who had stayed up late last night working, was fast asleep beside them. $facultyName knew that they should get up and take care of the kids, and let their partner sleep in, but they were also exhausted.&lt;/span&gt;}&lt;/p&gt;
+<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.13" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="faculty" color="purple"></tw-tag>,<tw-tag name="grad" color="orange"></tw-tag>,<tw-tag name="kitchen" color="yellow"></tw-tag>,<tw-tag name="stud1" color="yellow"></tw-tag>,<tw-tag name="stud2" color="green"></tw-tag>,<tw-tag name="zoom" color="blue"></tw-tag>,<tw-tag name="dormroom" color="purple"></tw-tag>,<tw-tag name="library" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Morning" tags="faculty" position="285,909" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName heard their 6:45 alarm go off, and reached over to the nightstand to pick up their phone. Their partner, who had stayed up late last night working, was fast asleep beside them. $facultyName knew that they should get up and take care of the kids, and let their partner sleep in, but they were also exhausted.&lt;/span&gt;}&lt;/p&gt;
 &lt;div class=&quot;choices&quot;&gt;
 Does $facultyName:&lt;br&gt;
 Hit [[Snooze]]?&lt;br&gt;
 Get up with their [[Coffee]]? 
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="210,259" size="200,200">&lt;!-- 
+&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="210,262.33333333333337" size="200,200">&lt;!-- 
 // requires jquery
 --&gt; 
 
-&lt;div class=&quot;boxed&quot;&gt;Establishing Connection...
+&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;Establishing Connection|dot1)[.]|dot2)[.]|dot3)[.]&lt;/p&gt;
 
-&lt;p&gt;The following is a playable story that takes place during one day of the COVID-19 pandemic at the University of Virginia. The story unfolds from multiple perspectives and will ask you to make decisions related to labor, pedagogy, and public health. Occasionally, choices will lead you to text from our link to manifesto. The perspective you’ll begin with is that of a [[faculty member-&gt;Names]].&lt;/p&gt;&lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="3" name="Snooze" tags="faculty" position="348,1102" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+&lt;p&gt;
+|introduction)[The following is a playable story that takes place during one day of the COVID-19 pandemic at the University of Virginia. The story unfolds from multiple perspectives and will ask you to make decisions related to labor, pedagogy, and public health. Occasionally, choices will lead you to text from our link to manifesto. The perspective you’ll begin with is that of a [[faculty member-&gt;Names]].]
+&lt;/p&gt;&lt;/div&gt;
+
+{(live: 1s) [
+	(show:?dot1)
+	(stop:)
+]}
+{(live: 2s) [
+	(show:?dot2)
+	(stop:)
+]}
+{(live: 3s) [
+	(show:?dot3)
+	(stop:)
+]}
+{(live: 4s) [
+	(show:?introduction)
+	(stop:)
+]}</tw-passagedata><tw-passagedata pid="3" name="Snooze" tags="faculty" position="348,1102" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;thought&quot;&gt;Worth it,&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$facultyName thought as they drifted off.&lt;/span&gt; 
 &lt;span class=&quot;thought&quot;&gt;I know I’m gonna pay, but man, does this feel good.&lt;/span&gt; 
@@ -353,17 +371,17 @@ I miss you. [[Everything&#39;s going to be okay.-&gt;Raven]]&lt;/div&gt;</tw-pas
 &lt;span class=&quot;dialogue&quot;&gt;Allie said.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$undergradName nodded.&lt;/span&gt; 
-&lt;span class=&quot;dialogue&quot;&gt;“I think so! [[Wait, let me read the email.”-&gt;Raven Email]]&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="32" name="Raven Email" tags="stud2" position="2927,6381" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;They opened the message, which was from Raven’s Vice President.&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;
+&lt;span class=&quot;dialogue&quot;&gt;“I think so! [[Wait, let me read the email.”-&gt;Raven Email]]&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="32" name="Raven Email" tags="stud2" position="2927,6382.666666666667" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;They opened the message, which was from Raven’s Vice President.&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&quot;email&quot;&gt;
-Dear $username4,
+Dear $undergradName,
 
 We would like to congratulate you on having been accepted into the Raven Debating Society at the University of Virginia. We were very impressed with your application, as well as with your interview and with your performance at the mock debate. The Raven is one of the oldest debating societies at the University—with an almost two hundred year history—and we’re thrilled to have you join us and become a part of our long tradition of excellence.
 
 To welcome our new inductees, we’ll be having a get-together tonight at one of the senior members’ houses on Rugby Road. Claire S., who you remember from your interview, will meet you in front of your dorm at 8 pm to walk you over. Please bring a mask and hand sanitizer, and note that, while attendance isn’t mandatory, it’s strongly, strongly encouraged. Remember, you’ve been accepted, but you haven’t been initiated yet! 
 
 Again, congratulations from all of us in Raven. We can’t wait to get to know you better, and to welcome you into the family. [[See you tonight!]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="33" name="See you tonight!" tags="stud2" position="3367,6281" size="100,100">(if: $mentionmom is true)[&lt;p&gt;{&lt;span class=&quot;dialogue&quot;&gt;“They said that thing about their mom,”&lt;/span&gt; 
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="33" name="See you tonight!" tags="stud2" position="3367,6281" size="100,100">&lt;div class=&quot;boxed&quot;&gt;(if: $mentionmom is true)[&lt;p&gt;{&lt;span class=&quot;dialogue&quot;&gt;“They said that thing about their mom,”&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;their other friend pointed out.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;dialogue&quot;&gt;“Right, I don’t want to actually get people sick.”&lt;/span&gt; 
@@ -378,7 +396,7 @@ Again, congratulations from all of us in Raven. We can’t wait to get to know y
 &lt;div class=&quot;choices&quot;&gt;
 Does $undergradName:&lt;br&gt;
 [[Write back thanking the Raven for accepting them, but say they can’t go tonight?-&gt;Sorry I Can&#39;t]]&lt;br&gt;
-|powerJustice&gt;[Tell the Raven that they’re looking forward to the get-together, and that they’ll be there?]
+|powerJustice&gt;[Tell the Raven that they’re looking forward to the get-together, and that they’ll be there?]&lt;/div&gt;
 
 (click: ?powerJustice)[(show: ?pjManifesto)]
 (click: ?page)[(go-to: &quot;I&#39;ll Be There&quot;)]

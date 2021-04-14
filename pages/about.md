@@ -3,13 +3,13 @@ layout: page
 title: About
 permalink: /about
 ---
-## About
+<h2 class='emma'>About</h2>
 
 <img src="assets/img/plantsticker.png" alt="plant in a small pot" class="med-sticker-right" />
 
 {{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](story), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](manifesto) it urges a whole-person approach to teaching, learning, and labor. 
 
-<h2 class='Crystal'>Project History</h2>
+<h2 class='crystal'>Project History</h2>
 
 {{ site.title }} was created by the tenth cohort of [Praxis Fellows](http://praxis.scholarslab.org/) during the 2020-2021 academic year. 
 
@@ -19,25 +19,25 @@ This year’s Praxis team members know one another as faces on computer screens,
 
 Our project website makes ample use of the handwriting and illustrations of praxis fellows: 
 
-<p>This is Grace’s handwriting.</p>
+<p> class='grace'>This is Grace’s handwriting.</p>
 <p class='emma'>This is Emma’s handwriting.</p>
 <p class='elise'>This is Elise’s handwriting.</p>
 <p class='crystal'>This is Crystal’s handwriting</p>
-<p>This is Savanna’s handwriting.</p>
-<p>And this is Aaron’s handwriting.</p>
+<p> class='savanna'>This is Savanna’s handwriting.</p>
+<p> class='aaron'>And this is Aaron’s handwriting.</p>
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
 <img src="assets/img/postersticker.png" alt="Nina Simone poster" class="med-sticker-left" />
 
-## Project Goals
+<h2 class='elise'>Project Goals</h2>
 
 The goals of {{ site.title }} are to:
 * Create empathy-driven community
 * Compel action and decision-making 
 * Remind each visitor to this site of our interconnectedness
 
-<h2 class='Emma'>Contributors</h2>
+<h2 class='aaron'>Contributors</h2>
 
 The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal Luo, Savanna Morrison, and Aaron Thompson. 
 
@@ -55,7 +55,7 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 <img src="assets/img/cerealsticker.png" alt="cereal bowl with spoon and coffee mug" class="med-sticker-right" />
 
-<h2 class='Crystal'>Gratitude</h2>
+<h2 class='savanna'>Gratitude</h2>
 
 {{ site.title }} was made possible by the tireless efforts and unyielding support of the Scholars’ Lab faculty and staff, and the faculty and staff of the broader UVA Library. Special thanks in particular to:
 
@@ -97,11 +97,11 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 Trina Hyun, Denise Lim, Gavi Levy Haskell, Emily Yankowitz, Helen Yang, and Micah Siegel, Yale Digital Humanities Teaching Fellows. Thank you for so kindly sharing your experiences in integrating DH methods in classroom settings. 
 
-## The Scholars’ Lab 
+<h2 class='grace'>The Scholars' Lab</h2>
 
 [The Scholars’ Lab](https://scholarslab.lib.virginia.edu/) was established in 2006 by the [University of Virginia Library](https://www.library.virginia.edu/) as a site for the practice of experimental scholarship in all fields informed by digital humanities, spatial technologies, and cultural heritage thinking. The Scholars' Lab is a place where faculty and students can explore digital resources, find expert help, and collaborate on innovative research projects. The SLab also hosts [events](https://scholarslab.lib.virginia.edu/events/) such as workshops, talks, and roundtables, and sponsors the [Praxis Program](https://scholarslab.lib.virginia.edu/praxis-program-fellowships/) and the [Digital Humanities Fellows Program](https://scholarslab.lib.virginia.edu/digital-humanities-fellows/). 
 
-## The Praxis Program 
+<h2 class='emma'>The Praxis Program</h2>
 
 Each year, the Scholars’ Lab funds a cohort of doctoral students from across the Graduate School of Arts & Sciences to serve as Praxis Fellows for the academic year. During the fall semester, fellows receive training in [digital methods and tools](https://github.com/scholarslab/CodeLab) and collaborative project management. During the spring semester, fellows conceive, develop, publish, and promote a digital project. This year, the Scholars’ Lab charged the Praxis Fellows with creating a project focused on digital pedagogy.
 
