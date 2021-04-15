@@ -154,8 +154,9 @@ body.resources{
 
 /* Story-Wide Styles */ 
 tw-story {
+    font-family: Geneva, sans-serif;    
     overflow: scroll;
-    background-color:#546300;
+    background-color:#576dc7;
     color:#000000;
 }
 
@@ -175,7 +176,7 @@ tw-dialog-links tw-link {
 
 /* Overlays between Dialog and Background */
 tw-backdrop {
-    background-color: #546300;
+    background-color: #576dc7;
 }
 
 /* All Links in Story */
@@ -186,6 +187,11 @@ tw-link {
 /* All Links in Story when Hovering */
 tw-link :hover {
     font-stretch: expanded;
+}
+
+/* Story back and forward arrows */
+tw-icon {
+    color:#ffffff
 }
 
 /* Transparent Boxes for Text */
@@ -219,6 +225,13 @@ div.email {
 
 /* Text Messages */ 
 div.sms {
+    min-width: auto;
+    min-height: auto;
+    background: white border-box; 
+}
+
+/* Zoom Messages */ 
+div.zoommsg {
     min-width: auto;
     min-height: auto;
     background: white border-box; 
@@ -319,13 +332,67 @@ tw-story[tags~="kitchen"] {
     background-image: url('img/Kitchen.png');
     /*opacity: ; this changes the opacity of every element on the page*/
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="newspaper"] {
+    background-image: url('img/newspaper-2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="zoom"] {
+    background-image: url('img/fac_computer.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="apartment"] {
+    background-image: url('img/apartment.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="gradcomputer"] {
+    background-image: url('img/grad_computer.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="dormroom"] {
     background-image: url('img/dormroom.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="library"] {
+    background-image: url('img/library1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="library2"] {
+    background-image: url('img/library2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="office"] {
+    background-image: url('img/office.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="grass"] {
+    background-image: url('img/party_outside.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="party"] {
+    background-image: url('img/party.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 /* 
