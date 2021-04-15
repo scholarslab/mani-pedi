@@ -9,12 +9,12 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play mani-pedi-story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.13" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="faculty" color="purple"></tw-tag>,<tw-tag name="grad" color="orange"></tw-tag>,<tw-tag name="kitchen" color="yellow"></tw-tag>,<tw-tag name="stud1" color="yellow"></tw-tag>,<tw-tag name="stud2" color="green"></tw-tag>,<tw-tag name="zoom" color="blue"></tw-tag>,<tw-tag name="dormroom" color="purple"></tw-tag>,<tw-tag name="library" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Morning" tags="faculty" position="285,909" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName heard their 6:45 alarm go off, and reached over to the nightstand to pick up their phone. Their partner, who had stayed up late last night working, was fast asleep beside them. $facultyName knew that they should get up and take care of the kids, and let their partner sleep in, but they were also exhausted.&lt;/span&gt;}&lt;/p&gt;
+<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.12" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="faculty" color="purple"></tw-tag>,<tw-tag name="grad" color="orange"></tw-tag>,<tw-tag name="kitchen" color="yellow"></tw-tag>,<tw-tag name="stud1" color="yellow"></tw-tag>,<tw-tag name="stud2" color="green"></tw-tag>,<tw-tag name="zoom" color="blue"></tw-tag>,<tw-tag name="dormroom" color="purple"></tw-tag>,<tw-tag name="library" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Morning" tags="faculty" position="285,909" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName heard their 6:45 alarm go off, and reached over to the nightstand to pick up their phone. Their partner, who had stayed up late last night working, was fast asleep beside them. $facultyName knew that they should get up and take care of the kids, and let their partner sleep in, but they were also exhausted.&lt;/span&gt;}&lt;/p&gt;
 &lt;div class=&quot;choices&quot;&gt;
 Does $facultyName:&lt;br&gt;
 Hit [[Snooze]]?&lt;br&gt;
 Get up with their [[Coffee]]? 
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="210,262.33333333333337" size="200,200">&lt;!-- 
+&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="210,262" size="200,200">&lt;!-- 
 // requires jquery
 --&gt; 
 
@@ -110,53 +110,38 @@ document.getElementById(&quot;cavdailytext&quot;).innerHTML = CavDailyData.respo
 &lt;span class=&quot;narrative&quot;&gt;$facultyName thought. It was too big of a risk. They would just have to figure out some way to…well, get twice as much work done in the next couple of years. Even as it crossed their mind, they knew how ridiculous the thought sounded. There was no way that it was actually feasible. If they were denied tenure, though, the consequences would be life-altering: they would have to find another job, which would be next to impossible with the stigma of not securing tenure, plus the abysmal job market. Even if they did find another teaching position, it would almost certainly not be in Charlottesville, meaning they’d have to uproot their entire family.&lt;/span&gt;}&lt;/p&gt;
 
 [[Continue-&gt;Zoom Out]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty kitchen" position="259,2702" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty kitchen" position="260.6666666666667,2703.666666666667" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;Still reeling, $facultyName zoned out for the rest of the meeting, only coming to when it was time to wave the obligatory Zoom goodbye. All they wanted to do was close their eyes on the couch—even for just a few minutes—but they still had to finalize the syllabus for one of their classes. They’d cut-and-pasted in the policy they’d had for the last few years—no extensions, under any circumstances—but, looking at it now, they wondered if they should make a change. Students would be dealing with a ton this semester: family illness, mental health crises, not to mention potentially getting COVID themselves. But $facultyName still couldn’t shake what their teaching mentors back in grad school had told them: that if they allowed extensions, students would take advantage of the policy.&lt;/span&gt;}&lt;/p&gt;
-
+|continue)[(link-goto: &quot;Continue&quot;, &quot;Energy Drinks&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
 Should $facultyName:&lt;br&gt;
 |choice7&gt;[Change the syllabus and give extensions?]&lt;br&gt;
 |choice8&gt;[Keep their no-extensions policy?]
-
 (click: ?choice7)[(set: $choice7 to true)(hide: ?choice8)(show: ?assessment)(show: ?continue)]
-(click: ?choice8)[(set: $choice8 to true)(hide: ?choice7)(show: ?getAssessment)(show: ?continue)]
+(click: ?choice8)[(set: $choice8 to true)(hide: ?choice7)(show: ?assessment)(show: ?continue)]
 &lt;/div&gt;
-|assessment)[
-&lt;script&gt;
-var $dialogue = $(&quot;#assessment&quot;).load(&#39;manifesto.html #assessment&#39;).dialog({
-                   autoOpen: false,
-                   modal: true,
-                   height: 625,
-                   width: 500,
-                   title: &quot;Some title&quot;
-               });
-$dialog.dialog(&#39;open&#39;);
-&lt;/script&gt;
-]
-|getAssessment)[
-&lt;div id=&quot;myModal&quot; class=&quot;modal&quot;&gt;
-  &lt;div class=&quot;modalContent&quot;&gt;
-    &lt;span class=&quot;close&quot;&gt;
-	{((link-repeat: &quot;&amp;times&quot;)[(replace: ?modal)[] ]}&lt;/span&gt;
-  &lt;/div&gt;
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modelContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?assessment)]&lt;/span&gt;
+&lt;div id=&quot;assessment&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
-$(&quot;.modalContent&quot;).load(&#39;manifesto.html #assessment&#39;);
+$(&quot;#assessment&quot;).load(&#39;manifesto.html #assessment&#39;);
 &lt;/script&gt;
-]
-(link-repeat: &quot;Open Modal&quot;)[(show:?modal)]
+](assessment|
 &lt;br&gt;
-|continue)[(link-goto: &quot;Continue&quot;, &quot;Energy Drinks&quot;)]
-&lt;!-- [[Energy Drinks]] --&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="Energy Drinks" tags="grad" position="303,3018" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+&lt;!-- [[Energy Drinks]] --&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="Energy Drinks" tags="grad" position="304.6666666666667,3018" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$gradName took the last sip of their energy drink, then stood to get another out of the fridge. Regular coffee just wasn’t doing it for them anymore—which was a shame, because energy drinks were expensive, and they were a month behind on their rent. They’d lost their part-time bartending job at the start of the pandemic, and it had made a huge difference in their bank account. Right now, their stipend and teaching wages were the only way they were getting paid, and that was barely keeping them afloat. The good news was that the chair of their department had just written them offering a research assistant position:&lt;/span&gt;}&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;div class=&quot;email&quot;&gt;
-Dear $gradName,&lt;/br&gt;
+Dear $gradName,&lt;br&gt;&lt;br&gt;
 
 Happy first week of the semester! I’m writing to let you know that Professor Banerjee, who I believe you took a class with in your second year, has asked me if I know any graduate students who might want to want to help him with research for his book project. I recommended you, since I have such confidence in your abilities. It would be a paid position, of course: $10 an hour, and an expected 10 hours of work a week. Let me know if this is something you’d be interested in.&lt;br&gt;&lt;br&gt;
-Best!&lt;br&gt;
-Ayla
+Best!&lt;br&gt;&lt;br&gt;
+Ayla&lt;br&gt;
 &lt;/div&gt;
 &lt;div class=&quot;boxed&quot;&gt;
 [[Continue-&gt;Extra $100 a week]]
@@ -371,7 +356,7 @@ I miss you. [[Everything&#39;s going to be okay.-&gt;Raven]]&lt;/div&gt;</tw-pas
 &lt;span class=&quot;dialogue&quot;&gt;Allie said.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$undergradName nodded.&lt;/span&gt; 
-&lt;span class=&quot;dialogue&quot;&gt;“I think so! [[Wait, let me read the email.”-&gt;Raven Email]]&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="32" name="Raven Email" tags="stud2" position="2927,6382.666666666667" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;They opened the message, which was from Raven’s Vice President.&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;
+&lt;span class=&quot;dialogue&quot;&gt;“I think so! [[Wait, let me read the email.”-&gt;Raven Email]]&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="32" name="Raven Email" tags="stud2" position="2927,6382" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;They opened the message, which was from Raven’s Vice President.&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&quot;email&quot;&gt;
 Dear $undergradName,
@@ -792,13 +777,12 @@ user gets to Tweet or write a Reddit post as the student</tw-passagedata><tw-pas
 &lt;span class=&quot;narrative&quot;&gt;the chair said.&lt;/span&gt;}&lt;/p&gt;
 
 [[Continue-&gt;Blood Drain]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="75" name="Extra $100 a week" tags="grad" position="326,3506" size="100,100">&lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;$gradName had been thrilled when they’d first gotten the email. An extra $100 a week would be a huge help—but then, of course, they’d remembered that, while they really needed the money, they were already incredibly swamped with work. They were TAing four sections, plus working on their dissertation. If they took the RA position, they would effectively be consigning themselves to making almost no progress on their dissertation this semester. That would mean further delaying going on the academic job market, or interviewing for alt-ac jobs—which, in turn, meant they’d be stuck in grad school, making almost nothing, for at least another year.&lt;/span&gt;}&lt;/p&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="75" name="Extra $100 a week" tags="grad" position="326,3506" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$gradName had been thrilled when they’d first gotten the email. An extra $100 a week would be a huge help—but then, of course, they’d remembered that, while they really needed the money, they were already incredibly swamped with work. They were TAing four sections, plus working on their dissertation. If they took the RA position, they would effectively be consigning themselves to making almost no progress on their dissertation this semester. That would mean further delaying going on the academic job market, or interviewing for alt-ac jobs—which, in turn, meant they’d be stuck in grad school, making almost nothing, for at least another year.&lt;/span&gt;}&lt;/p&gt;
 &lt;div class=&quot;choices&quot;&gt;
 Does $gradName:&lt;br&gt;
 [[Take the research assistant position-&gt;Accept Position]]?&lt;br&gt;
 Thank their department chair for the offer, but let her know that unfortunately, [[they can’t accept-&gt;Decline Position]]?
-&lt;/div&gt;&lt;/div&gt;
-$(&quot;#?&quot;).load(&quot;manifesto.html #?&quot;); </tw-passagedata><tw-passagedata pid="76" name="Blood Drain" tags="faculty zoom" position="277,2030" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="76" name="Blood Drain" tags="faculty zoom" position="277,2030" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName felt the blood drain from their face, even as they tried not to let their expression betray how they felt. Yes, the one year extension had been, and would be, enormously helpful. But there was no denying that they still needed much more time. They’d written fewer than twenty pages of their book since March, and had done virtually no research, while an article they’d gotten a revise-and-resubmit on was sitting around unedited.&lt;/span&gt;}&lt;/p&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;In other words, even factoring in the one-year extension, they were way off their expected tenure timeline, and they’d been counting on the possibility of an even longer grace period. Without it, there was no way that they could make tenure--and, from what they’d heard from the other young faculty, the same was true of everyone else. They had to say something—but if they did, the more established faculty might take it as a sign that they were lazy and unproductive, and a target would be put on their back.&lt;/span&gt;}&lt;/p&gt;
 &lt;div class=&quot;choices&quot;&gt;
