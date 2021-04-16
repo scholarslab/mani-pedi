@@ -154,8 +154,9 @@ body.resources{
 
 /* Story-Wide Styles */ 
 tw-story {
+    font-family: Geneva, sans-serif;    
     overflow: scroll;
-    background-color:#546300;
+    background-color:#576dc7;
     color:#000000;
 }
 
@@ -175,7 +176,7 @@ tw-dialog-links tw-link {
 
 /* Overlays between Dialog and Background */
 tw-backdrop {
-    background-color: #546300;
+    background-color: #576dc7;
 }
 
 /* All Links in Story */
@@ -188,6 +189,10 @@ tw-link :hover {
     font-stretch: expanded;
 }
 
+/* Story back and forward arrows */
+tw-icon {
+    color:#ffffff
+}
 
 /* Transparent Boxes for Text */
 div.boxed {
@@ -211,10 +216,22 @@ div.email {
     min-width: auto;
     min-height: auto;
     background: white border-box; 
+    border-radius: 1%;
+    margin: 5%;
+    padding: 2%;
+    font-family: sans-serif;
+    text-align: justify;
 }
 
 /* Text Messages */ 
 div.sms {
+    min-width: auto;
+    min-height: auto;
+    background: white border-box; 
+}
+
+/* Zoom Messages */ 
+div.zoommsg {
     min-width: auto;
     min-height: auto;
     background: white border-box; 
@@ -226,6 +243,7 @@ div.sms {
 div#cavdailyheadline {
     text-align: center;
     font-weight: bolder;
+    font-family: fantasy;
 }
 
 /* div#cavdailytext {} */
@@ -233,16 +251,19 @@ div#cavdailyheadline {
 /* Daily Progess Articles */ 
 div.dailyprog {
     background: white;
+    color: black; 
 }
 
 /* Reddit Posts */ 
 div.reddit { 
-    background: white;
+    background: white; 
+    color: orangered; 
 }
 
 /* Tweets */ 
 div.tweet {
-background: white;
+    background: white;
+    color: darkcyan; 
 }
 
 /* 
@@ -265,19 +286,42 @@ span.narrative {
     font-weight: 100;
 }
 
-.modal{
-    display: block;
-    z-index: auto;
-    left: auto;
-    top: auto; 
-    width: 50%;
+/* Modal Body for Manifesto Links */
+div.modal{
+    display: block; 
+    position: fixed; 
+    z-index: 1;
+    left: 50%;
+    top: 50%; 
+    width: 75%;
     height: 50%;
     overflow: auto;
+    background-color: lightgray;
+    color: black; 
+    transform: translate(-50%, -50%);
+    border: black thick;
  }
 
-.modalContent{
-    margin: 15% auto;
-    border: 1px solid black;
+/* Modelt Content Div */
+div.modalContent{
+    margin: 15%;
+    border: 1px solid black; 
+    width: 75%; 
+    padding: 5%;
+    border: white thin; 
+ }
+
+ /* Modal Close Button */
+ span.close {
+     float: right; 
+     z-index: 2;
+     font-size: 36px;
+     font-weight: bolder;
+ }
+
+ span.close:hover, span.close:focus {
+     color: black; 
+     cursor: pointer;
  }
 
 /*
@@ -288,13 +332,67 @@ tw-story[tags~="kitchen"] {
     background-image: url('img/Kitchen.png');
     /*opacity: ; this changes the opacity of every element on the page*/
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="newspaper"] {
+    background-image: url('img/newspaper-2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="zoom"] {
+    background-image: url('img/fac_computer.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="apartment"] {
+    background-image: url('img/apartment.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="gradcomputer"] {
+    background-image: url('img/grad_computer.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="dormroom"] {
     background-image: url('img/dormroom.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="library"] {
+    background-image: url('img/library1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="library2"] {
+    background-image: url('img/library2.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="office"] {
+    background-image: url('img/office.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="grass"] {
+    background-image: url('img/party_outside.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="party"] {
+    background-image: url('img/party.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 /* 
@@ -322,4 +420,3 @@ tw-story[tags~="stud2"] {
     background-color:#0F4C5C;
     color:#000000;
 }
-
