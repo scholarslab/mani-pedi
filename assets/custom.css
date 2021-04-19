@@ -278,10 +278,6 @@ span.thought {
     font-style: italic;
 }
 
-span.dialogue {
-    font-variant: small-caps;
-}
-
 span.narrative {
     font-weight: 100;
 }
