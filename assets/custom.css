@@ -199,7 +199,7 @@ tw-icon {
     color:#576dc7;
 }
 
-/* Transparent Boxes for Text */
+/* Transparent Boxes for Twine Story Text */
 div.boxed {
     background: rgb(255, 255, 255, 0.8);
     padding-left: 30px;
@@ -230,6 +230,8 @@ div.email {
 
 /* Text Messages */ 
 div.sms {
+    background-image: url('img/mask.jpg');
+    z-index: 1;
     min-width: auto;
     min-height: auto;
     background: white border-box; 
@@ -259,6 +261,11 @@ div.dailyprog {
     color: black; 
 }
 
+div.cavdaily {
+    background: white;
+    color: black; 
+}
+
 /* Reddit Posts */ 
 div.reddit { 
     background: white; 
@@ -271,9 +278,7 @@ div.tweet {
     color: darkcyan; 
 }
 
-/* 
- * Passage Text Styles (<p>, <span>)
- */ 
+/* Passage Text Styles (<p>, <span>) */ 
 
 tw-passagedata p { 
     padding: 5%;
@@ -281,10 +286,6 @@ tw-passagedata p {
 
 span.thought {
     font-style: italic;
-}
-
-span.narrative {
-    font-weight: 100;
 }
 
 /* Modal Body for Manifesto Links */
@@ -325,13 +326,10 @@ div.modalContent{
      cursor: pointer;
  }
 
-/*
- * Passage Body Styles
- */ 
+/* Passage Body Styles */ 
 
 tw-story[tags~="kitchen"] {
     background-image: url('img/Kitchen.png');
-    /*opacity: ; this changes the opacity of every element on the page*/
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -395,12 +393,6 @@ tw-story[tags~="party"] {
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
-
-/* 
-div.boxed {
-    background-color:rgb(255, 231, 181,0.9);
-}
- */ 
 
 tw-story[tags~="faculty"] {
     background-color:#F3722C;
