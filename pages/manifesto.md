@@ -3,6 +3,7 @@ layout: page
 title: Manifesto
 permalink: /manifesto
 ---
+## Manifesto
 <!-- 
 <p>So far a total of <span id='covidDeaths'></span> people have died from COVID in the United States.</p>
 
@@ -15,5 +16,3 @@ permalink: /manifesto
     deathSpan.replaceWith(totalDeaths); 
 </script> 
 --> 
-
-this is a test.

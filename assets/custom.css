@@ -57,28 +57,34 @@ body.home main.page-content {
 body.manifesto {
     background-color: #f6f2e0;
     color: #546300;
-    font-weight: 700
+    font-weight: 200;
+    font-family: Geneva, sans-serif;
 }
 
 body.about {
     background-color: #f6f2e0;
     color: #546300;
-    font-weight: 100;
+    font-weight: 200;
     font-family: Geneva, sans-serif;
 }
 
 body.data {
     background-color: #f6f2e0;
     color: #546300;
+    font-weight: 200;
+    font-family: Geneva, sans-serif;
 }
 
 body.resources{
     background-color: #f6f2e0;
     color: #546300; 
+    font-weight: 200;
+    font-family: Geneva, sans-serif;
 }
 
 .post-content h2 {
-    font-weight: bold;
+    font-weight: 400;
+    font-family: Geneva, sans-serif;
 }
 
 /* 
@@ -101,6 +107,14 @@ body.resources{
     transform: rotate(-15deg);    
 }
 
+.large-img-center {
+    max-width: 400px;
+    max-height: 500px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
 /*
  * FONTS :) 
  */
@@ -231,10 +245,11 @@ div.email {
 /* Text Messages */ 
 div.sms {
     background-image: url('img/mask.jpg');
+    background-position: center center;
     z-index: 1;
     min-width: auto;
     min-height: auto;
-    background: white border-box; 
+    background-color: white; 
 }
 
 /* Zoom Messages */ 
