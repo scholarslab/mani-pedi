@@ -57,28 +57,34 @@ body.home main.page-content {
 body.manifesto {
     background-color: #f6f2e0;
     color: #546300;
-    font-weight: 100;
+    font-weight: 200;
+    font-family: Geneva, sans-serif;
 }
 
 body.about {
     background-color: #f6f2e0;
     color: #546300;
-    font-weight: 100;
+    font-weight: 200;
     font-family: Geneva, sans-serif;
 }
 
 body.data {
     background-color: #f6f2e0;
     color: #546300;
+    font-weight: 200;
+    font-family: Geneva, sans-serif;
 }
 
 body.resources{
     background-color: #f6f2e0;
     color: #546300; 
+    font-weight: 200;
+    font-family: Geneva, sans-serif;
 }
 
 .post-content h2 {
     font-weight: 400;
+    font-family: Geneva, sans-serif;
 }
 
 /* 
