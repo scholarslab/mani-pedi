@@ -168,6 +168,10 @@ tw-dialog {
     border-radius: 20px;
 }
 
+tw-dialog-input {
+    padding-top: 10px;
+}
+
 /* Links in Twine Story Dialog Boxes */
 tw-dialog-links tw-link {
     background-color: #ffffff;

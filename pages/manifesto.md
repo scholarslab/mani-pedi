@@ -15,3 +15,5 @@ permalink: /manifesto
     deathSpan.replaceWith(totalDeaths); 
 </script> 
 --> 
+
+this is a test.
