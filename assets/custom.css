@@ -357,15 +357,18 @@ div.modalContent{
 
 /* Passage Body Styles */ 
 
+@keyframes fadeIn {
+    from { opacity:0; } to { opacity:1; }
+  }
+
 tw-story[tags~="transition"] div.boxed {
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration: 2s;
 }
 
 tw-story[tags~="kitchen"] {
-    background-image: url('img/Kitchen.png');
+    background-image: url('img/kitchen.png');
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
