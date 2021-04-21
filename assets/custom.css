@@ -226,6 +226,10 @@ div.boxed {
 /* 
  * Content Types Div Styles 
  */ 
+ div.email, div.sms, div.zoommsg, div.cavdaily, div.dailyprog, div.reddit, div.tweet{
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
 
 /* Story Choice Options */ 
 /* div.choices {} */ 
@@ -236,8 +240,6 @@ div.email {
     min-height: auto;
     background: white border-box; 
     border-radius: 1%;
-    margin-top: 40px;
-    margin-bottom: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
