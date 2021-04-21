@@ -236,8 +236,12 @@ div.email {
     min-height: auto;
     background: white border-box; 
     border-radius: 1%;
-    margin: 5%;
-    padding: 2%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: sans-serif;
     text-align: justify;
 }
