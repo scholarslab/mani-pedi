@@ -244,19 +244,27 @@ div.email {
 
 /* Text Messages */ 
 div.sms {
-    background-image: url('img/mask.jpg');
-    background-position: center center;
+    /* background-image: url('img/mask.jpg'); */
+    /* background-position: center center; */
+    background: #03a9fc;
+    font-family: helvetica;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;    
+    text-align: center;
     z-index: 1;
-    min-width: auto;
-    min-height: auto;
-    background-color: white; 
 }
 
 /* Zoom Messages */ 
 div.zoommsg {
-    min-width: auto;
-    min-height: auto;
-    background: white border-box; 
+    background: #242c45;
+    font-family: helvetica;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;    
+    text-align: center;
 }
 
 /* Cavalier Daily Articles */ 
@@ -343,6 +351,13 @@ div.modalContent{
 
 /* Passage Body Styles */ 
 
+tw-story[tags~="transition"] div.boxed {
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+}
+
 tw-story[tags~="kitchen"] {
     background-image: url('img/Kitchen.png');
     background-repeat: no-repeat;
@@ -351,12 +366,14 @@ tw-story[tags~="kitchen"] {
 
 tw-story[tags~="newspaper"] {
     background-image: url('img/newspaper-2.png');
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
 tw-story[tags~="zoom"] {
     background-image: url('img/fac_computer.png');
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -369,6 +386,7 @@ tw-story[tags~="apartment"] {
 
 tw-story[tags~="gradcomputer"] {
     background-image: url('img/grad_computer.png');
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
