@@ -24,7 +24,7 @@
     color: #576dc7;
     font-family: "crystal";
     padding-top: 3px;
-    font-weight: 1000;
+    font-weight: 700;
     
 }
 
@@ -33,6 +33,7 @@
     color: #576dc7;
     line-height: 1.5;
     font-weight: 400;
+    font-family: Geneva, sans-serif;
 }
 
 /* 
@@ -107,13 +108,11 @@ body.resources{
     transform: rotate(-15deg);    
 }
 
-.large-img-center {
-    max-width: 400px;
-    max-height: 500px;
-    margin-bottom: 12px;
-    margin-left: 12px;
-    margin-top: 12px;
-    margin-right: 12px;
+.large-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 /*
  * FONTS :) 
