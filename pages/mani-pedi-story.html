@@ -9,7 +9,13 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play mani-pedi-story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.13" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="dormroom" color="purple"></tw-tag>,<tw-tag name="faculty" color="purple"></tw-tag>,<tw-tag name="grad" color="orange"></tw-tag>,<tw-tag name="kitchen" color="yellow"></tw-tag>,<tw-tag name="library" color="blue"></tw-tag>,<tw-tag name="office" color="red"></tw-tag>,<tw-tag name="stud1" color="yellow"></tw-tag>,<tw-tag name="stud2" color="green"></tw-tag>,<tw-tag name="zoom" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Morning" tags="faculty" position="274,675" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName heard their 6:45 alarm go off, and reached over to the nightstand to pick up their phone. Their partner, who had stayed up late last night working, was fast asleep beside them. $facultyName knew that they should get up and take care of the kids and let their partner sleep in, but they were also exhausted.&lt;/span&gt;}&lt;/p&gt;
+<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.13" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
+window.processInputElements = function () {
+    $('input[data-varname]').on('change', function () {
+        var varName = $(this).attr('data-varname');
+        Harlowe.State.variables[varName] = this.value;
+    });
+};</script><tw-tag name="dormroom" color="purple"></tw-tag>,<tw-tag name="faculty" color="purple"></tw-tag>,<tw-tag name="grad" color="orange"></tw-tag>,<tw-tag name="kitchen" color="yellow"></tw-tag>,<tw-tag name="library" color="blue"></tw-tag>,<tw-tag name="office" color="red"></tw-tag>,<tw-tag name="stud1" color="yellow"></tw-tag>,<tw-tag name="stud2" color="green"></tw-tag>,<tw-tag name="zoom" color="blue"></tw-tag><tw-passagedata pid="1" name="Faculty Morning" tags="faculty" position="274,675" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName heard their 6:45 alarm go off, and reached over to the nightstand to pick up their phone. Their partner, who had stayed up late last night working, was fast asleep beside them. $facultyName knew that they should get up and take care of the kids and let their partner sleep in, but they were also exhausted.&lt;/span&gt;}&lt;/p&gt;
 &lt;div class=&quot;choices&quot;&gt;
 Does $facultyName:&lt;br&gt;
 Hit [[Snooze]]?&lt;br&gt;
@@ -411,17 +417,36 @@ Your son is adorable
 Does $facultyName: &lt;br&gt;
 [[Tell their partner they’ll consider taking a step back-&gt;Maybe Stepping Back]]&lt;br&gt;
 Let their partner know that they’re not stepping back, and that their partner really does need to [[contribute more around the house-&gt;Not Stepping Back]]
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="42" name="Names" tags="" position="262,525" size="100,100">(set: $facultyName to (prompt: &quot;What would you like the faculty member’s name to be?&quot;,
-&quot;Sascha&quot;, &quot;Skip&quot;, &quot;Confirm&quot;))
-(set: $gradName to (prompt: &quot;What would you like the grad student’s name to be?&quot;, 
-&quot;Benny&quot;, &quot;Skip&quot;, &quot;Confirm&quot;))
-(set: $workerName to (prompt: &quot;What would you like the undergrad worker’s name to be?&quot;, 
-&quot;Dot&quot;, &quot;Skip&quot;, &quot;Confirm&quot;))
-(set: $undergradName to (prompt: &quot;What would you like the undergrad student’s name to be?&quot;, 
-&quot;Hazel&quot;, &quot;Skip&quot;, &quot;Confirm&quot;))
+&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="42" name="Names" tags="" position="262,523.3333333333334" size="100,100">&lt;div class=&quot;boxed&quot;&gt;First we need some names for our characters.
+
+&lt;p&gt;What would you like the faculty member’s name to be?&lt;br&gt;
+&lt;input type=&quot;text&quot; data-varname=&quot;facultyName&quot; value=&quot;Sascha&quot;&gt;
+&lt;script&gt;processInputElements();&lt;/script&gt;&lt;/p&gt;
+
+
+&lt;p&gt;What would you like the grad student’s name to be?&lt;br&gt;
+&lt;input type=&quot;text&quot; data-varname=&quot;gradName&quot; value=&quot;Benny&quot;&gt;
+&lt;script&gt;processInputElements();&lt;/script&gt;&lt;/p&gt;
+
+
+&lt;p&gt;What would you like the undergrad worker’s name to be?&lt;br&gt;
+&lt;input type=&quot;text&quot; data-varname=&quot;workerName&quot; value=&quot;Dot&quot;&gt;
+&lt;script&gt;processInputElements();&lt;/script&gt;&lt;/p&gt;
+
+
+&lt;p&gt;What would you like the undergrad student’s name to be?&lt;br&gt;
+&lt;input type=&quot;text&quot; data-varname=&quot;undergradName&quot; value=&quot;Hazel&quot;&gt;
+&lt;script&gt;processInputElements();&lt;/script&gt;&lt;/p&gt;
+
+
 &lt;!-- the below automatically moves the user to the page &quot;Faculty Morning&quot; after 1 second --&gt;
-(live: 1)[(go-to: &quot;Faculty Morning&quot;)]
-&lt;!-- [[Start-&gt;Faculty Morning]] --&gt;</tw-passagedata><tw-passagedata pid="43" name="Not Stepping Back" tags="faculty office" position="7138,5498" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;narrative&quot;&gt;Their partner replied:&lt;/span&gt; 
+
+&lt;p&gt;[[Start-&gt;Faculty Morning]]&lt;/p&gt;
+&lt;/div&gt;
+(if: $facultyName is 0)[(set: $facultyName to &quot;Sascha&quot;)]
+(if: $gradName is 0)[(set: $gradName to &quot;Benny&quot;)]
+(if: $workerName is 0)[(set: $workerName to &quot;Dot&quot;)]
+(if: $undergradName is 0)[(set: $undergradName to &quot;Hazel&quot;)]</tw-passagedata><tw-passagedata pid="43" name="Not Stepping Back" tags="faculty office" position="7138,5498" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;narrative&quot;&gt;Their partner replied:&lt;/span&gt; 
 &lt;span class=&quot;dialogue&quot;&gt;“Like I said, I’ve been doing the best I can. I thought things had been pretty equal. If you really want me to step up at home and with the kids, I’m going to have to be the one taking a step back at work—and that’ll mean a salary cut.”&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName sighed.&lt;/span&gt; 
@@ -864,7 +889,7 @@ Ayla&lt;br&gt;
 &lt;/div&gt;
 &lt;div class=&quot;boxed&quot;&gt;
 [[Continue-&gt;Extra $100 a week]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="91" name="Javascript-Arrows" tags="header" position="445.00000000000006,358.33333333333337" size="100,100">&lt;script&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="91" name="JavaScript-Arrows" tags="header" position="445.00000000000006,358.33333333333337" size="100,100">&lt;script&gt;
 $(&#39;tw-sidebar tw-icon&#39;).empty();
 $(&#39;tw-sidebar tw-icon[title=&quot;Undo&quot;]&#39;).prepend(&#39;&lt;img src=&quot;assets/img/back-arrow.png&quot;&gt;&#39;).attr(&quot;title&quot;, &quot;Undo&quot;);
 $(&#39;tw-sidebar tw-icon[title=&quot;Redo&quot;]&#39;).prepend(&#39;&lt;img src=&quot;assets/img/forward-arrow.png&quot;&gt;&#39;).attr(&quot;title&quot;, &quot;Redo&quot;);
