@@ -19,12 +19,12 @@ This year’s Praxis team members know one another as faces on computer screens,
 
 Our project website makes ample use of the handwriting and illustrations of praxis fellows: 
 
-<p> class='grace'>This is Grace’s handwriting.</p>
+<p class='grace'>This is Grace’s handwriting.</p>
 <p class='emma'>This is Emma’s handwriting.</p>
 <p class='elise'>This is Elise’s handwriting.</p>
 <p class='crystal'>This is Crystal’s handwriting</p>
-<p> class='savanna'>This is Savanna’s handwriting.</p>
-<p> class='aaron'>And this is Aaron’s handwriting.</p>
+<p class='savanna'>This is Savanna’s handwriting.</p>
+<p class='aaron'>And this is Aaron’s handwriting.</p>
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
