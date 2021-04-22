@@ -361,79 +361,79 @@ div.modalContent{
     from { opacity:0; } to { opacity:1; }
   }
 
-tw-story[tags~="transition"] div.boxed {
+/* tw-story[tags~="transition"] div.boxed {
     animation: fadeIn ease-in 1;
     animation-fill-mode:forwards;
     animation-duration: 2s;
-}
+} */
 
 tw-story[tags~="kitchen"] {
     background-image: url('img/kitchen.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="newspaper"] {
     background-image: url('img/newspaper-2.png');
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="zoom"] {
     background-image: url('img/fac_computer.png');
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="apartment"] {
     background-image: url('img/apartment.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="gradcomputer"] {
     background-image: url('img/grad_computer.png');
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="dormroom"] {
     background-image: url('img/dormroom.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="library"] {
     background-image: url('img/library1.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="library2"] {
     background-image: url('img/library2.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="office"] {
     background-image: url('img/office.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="grass"] {
     background-image: url('img/party_outside.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="party"] {
     background-image: url('img/party.png');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 tw-story[tags~="faculty"] {
