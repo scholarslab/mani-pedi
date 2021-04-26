@@ -1,0 +1,6 @@
+---
+title: Test two
+order: 2
+anchor-link: test-link-two
+---
+If you are a faculty worker: as fellow teaching staff at UVA, we share your frustrations about the many ways in which it feels like our agency is circumscribed and we recognize your intermediary position in the University hierarchy. You are neither powerful enough to change policy meaningfully on your own nor powerless enough to totally abdicate your sense of responsibility. As graduate students, the six of us know faculty at UVA who are happy to support ongoing organizing efforts, students who speak out, and progressive politics outside the University. But now we need faculty who will not just support, but lead and initiate critical changes in our community. Leadership begins with implementing crucial reforms in your classrooms. Furthermore, it means confronting obstinate and toxic colleagues, [organizing with non-academic University employees](http://www.ucwva.org), and [rejecting some University administrators' business-oriented approach towards pedagogy](https://docs.google.com/document/d/1r22kROjQ2qyeXc8t_FUbvcSh5eYAslhiVeZkuuBvBpA/edit). <a href='manifesto#test-link'>Test link</a>

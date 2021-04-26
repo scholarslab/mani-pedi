@@ -16,3 +16,16 @@ permalink: /manifesto
     deathSpan.replaceWith(totalDeaths); 
 </script> 
 --> 
+<script>
+$(document).ready(function() {
+$(function () {
+    var $accordionSection = $(window.location.hash);
+    console.log($accordionSection);
+    if ($accordionSection.length > 0) {
+       $(window).scrollTop($(window.location.hash).offset().top);
+       $accordionSection.prop('checked', true);
+    }
+});
+});
+</script>
+{% include accordion.html %}
