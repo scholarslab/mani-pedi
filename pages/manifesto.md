@@ -14,9 +14,6 @@ permalink: /manifesto
     var totalDeaths = CovidData[0].totalDeaths.toLocaleString(); 
     deathSpan.replaceWith(totalDeaths); 
 </script> 
-<<<<<<< HEAD
--->
-=======
 --> 
 <script>
 $(document).ready(function() {
@@ -31,4 +28,3 @@ $(function () {
 });
 </script>
 {% include accordion.html %}
->>>>>>> 374fd6f47c8006ca0b7997866d2c07cfdfd6cacd
