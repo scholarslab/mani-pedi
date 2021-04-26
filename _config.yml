@@ -39,6 +39,10 @@ header_pages:
   - pages/data.md
   - pages/resources.md
 
+
+collections:
+  - manifesto-pieces
+
 # exclude: 
 #   - pages/story-out.html
 #   - assets/story.css
