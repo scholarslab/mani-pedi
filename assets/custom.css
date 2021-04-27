@@ -213,9 +213,9 @@ tw-link :hover {
 }
 
 /* Story back and forward arrows */
-tw-icon {
+tw-icon[alt] {
     color:#576dc7;
-    opacity: 100%;
+    opacity: 1 !important;
 }
 
 /* Transparent Boxes for Twine Story Text */
