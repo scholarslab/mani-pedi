@@ -181,8 +181,13 @@ tw-dialog {
     border-radius: 20px;
 }
 
-tw-dialog-input {
-    padding-top: 10px;
+tw-dialog .input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Geneva, sans-serif;
+    font-size: large;
 }
 
 /* Links in Twine Story Dialog Boxes */
@@ -222,12 +227,18 @@ div.boxed {
     border-radius: 20px;
 }
 
+/* Responsive text box for grad survey */
+div.textbox {
+
+}
+
+
 /* 
  * Content Types Div Styles 
  */ 
  div.email, div.sms, div.zoommsg, div.cavdaily, div.dailyprog, div.reddit, div.tweet{
-     margin-top: 40px;
-     margin-bottom: 40px;
+     margin-top: 20px;
+     margin-bottom: 20px;
  }
 
 /* Story Choice Options */ 
@@ -238,20 +249,20 @@ div.email {
     min-width: auto;
     min-height: auto;
     background: white border-box; 
-    border-radius: 1%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: sans-serif;
     text-align: justify;
 }
 
 /* Text Messages */ 
 div.sms {
-    /* background-image: url('img/mask.jpg'); */
-    /* background-position: center center; */
-    background: #03a9fc;
+    background-image: url('img/receivedtextcolorized.jpg');
+    background-position: center center;
+    /* background: #03a9fc; */
     font-family: helvetica;
     color: #ffffff;
     padding-top: 10px;
