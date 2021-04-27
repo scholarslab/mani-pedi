@@ -218,6 +218,15 @@ tw-icon[alt] {
     opacity: 1 !important;
 }
 
+/* Text areas for user input */
+tw-story .textarea {
+    z-index: -1 !important;
+    background-color: #576dc7 !important;
+    color: white !important;
+    border-radius: 20px !important;
+    padding: 20px !important;
+}
+
 /* Transparent Boxes for Twine Story Text */
 div.boxed {
     background: rgb(255, 255, 255, 0.8);
