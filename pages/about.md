@@ -19,12 +19,10 @@ This year’s Praxis team members know one another as faces on computer screens,
 
 Our project website makes ample use of the handwriting and illustrations of praxis fellows: 
 
-<p class='grace'>This is Grace’s handwriting.</p>
-<p class='emma'>This is Emma’s handwriting.</p>
-<p class='elise'>This is Elise’s handwriting.</p>
-<p class='crystal'>This is Crystal’s handwriting</p>
-<p class='savanna'>This is Savanna’s handwriting.</p>
-<p class='aaron'>And this is Aaron’s handwriting.</p>
+<h3 class='emma'>This is Emma’s handwriting.</h3>
+<h3 class='elise'>This is Elise’s handwriting.</h3>
+<h3 class='crystal'>This is Crystal’s handwriting</h3>
+<h3 class='savanna'>This is Savanna’s handwriting.</h3>
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
@@ -37,7 +35,7 @@ The goals of {{ site.title }} are to:
 * Compel action and decision-making 
 * Remind each visitor to this site of our interconnectedness
 
-<h2 class='aaron'>Contributors</h2>
+<h2 class='crystal'>Contributors</h2>
 
 The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal Luo, Savanna Morrison, and Aaron Thompson. 
 
@@ -97,7 +95,7 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 Trina Hyun, Denise Lim, Gavi Levy Haskell, Emily Yankowitz, Helen Yang, and Micah Siegel, Yale Digital Humanities Teaching Fellows. Thank you for so kindly sharing your experiences in integrating DH methods in classroom settings. 
 
-<h2 class='grace'>The Scholars' Lab</h2>
+<h2 class='elise'>The Scholars' Lab</h2>
 
 [The Scholars’ Lab](https://scholarslab.lib.virginia.edu/) was established in 2006 by the [University of Virginia Library](https://www.library.virginia.edu/) as a site for the practice of experimental scholarship in all fields informed by digital humanities, spatial technologies, and cultural heritage thinking. The Scholars' Lab is a place where faculty and students can explore digital resources, find expert help, and collaborate on innovative research projects. The SLab also hosts [events](https://scholarslab.lib.virginia.edu/events/) such as workshops, talks, and roundtables, and sponsors the [Praxis Program](https://scholarslab.lib.virginia.edu/praxis-program-fellowships/) and the [Digital Humanities Fellows Program](https://scholarslab.lib.virginia.edu/digital-humanities-fellows/). 
 

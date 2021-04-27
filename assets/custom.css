@@ -85,7 +85,7 @@ body.resources{
 
 .post-content h2 {
     font-weight: 400;
-    font-family: Geneva, sans-serif;
+    /* font-family: Geneva, sans-serif; */
 }
 
 /* 
@@ -215,6 +215,7 @@ tw-link :hover {
 /* Story back and forward arrows */
 tw-icon {
     color:#576dc7;
+    opacity: 100%;
 }
 
 /* Transparent Boxes for Twine Story Text */
@@ -237,8 +238,8 @@ div.textbox {
  * Content Types Div Styles 
  */ 
  div.email, div.sms, div.zoommsg, div.cavdaily, div.dailyprog, div.reddit, div.tweet{
-     margin-top: 20px;
-     margin-bottom: 20px;
+     margin-top: 5px;
+     margin-bottom: 5px;
  }
 
 /* Story Choice Options */ 
@@ -260,9 +261,9 @@ div.email {
 
 /* Text Messages */ 
 div.sms {
-    background-image: url('img/receivedtextcolorized.jpg');
+    /* background-image: url('img/receivedtextcolorized.png'); */
     background-position: center center;
-    /* background: #03a9fc; */
+    background: #03a9fc; 
     font-family: helvetica;
     color: #ffffff;
     padding-top: 10px;
@@ -290,6 +291,7 @@ div#cavdailyheadline {
     text-align: center;
     font-weight: bolder;
     font-family: fantasy;
+    text-transform: uppercase;
 }
 
 /* div#cavdailytext {} */
@@ -309,12 +311,22 @@ div.cavdaily {
 div.reddit { 
     background: white; 
     color: orangered; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;  
 }
 
 /* Tweets */ 
 div.tweet {
     background: white;
-    color: darkcyan; 
+    font-family: helvetica;
+    font-size-adjust: smaller;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;  
 }
 
 /* Passage Text Styles (<p>, <span>) */ 
