@@ -219,12 +219,16 @@ tw-icon[alt] {
 }
 
 /* Text areas for user input */
-tw-story .textarea {
-    z-index: -1 !important;
-    background-color: #576dc7 !important;
-    color: white !important;
-    border-radius: 20px !important;
-    padding: 20px !important;
+textarea#survey {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+textarea#tweet {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 /* Transparent Boxes for Twine Story Text */
