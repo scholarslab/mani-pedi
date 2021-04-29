@@ -20,7 +20,7 @@ window.processInputElements = function () {
 Does $facultyName:&lt;br&gt;
 Hit [[Snooze]]?&lt;br&gt;
 Get up with their [[Coffee]]? 
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="210,263.6666666666667" size="200,200">&lt;!-- 
+&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="210,263" size="200,200">&lt;!-- 
 // requires jquery
 --&gt; 
 
@@ -64,7 +64,7 @@ Get up with their [[Coffee]]?
 [[Continue-&gt;CavDaily Bushes]]
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="CavDaily Bushes" tags="faculty kitchen" position="258,1004" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;When the machine started heating up, they wandered over to the front door and [[fished their copy of the Cavalier Daily out of the bushes...-&gt;Cav Daily]]&lt;/span&gt;}&lt;/p&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="Bubble" tags="faculty kitchen" position="134.66666666666666,1699" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="Bubble" tags="faculty kitchen" position="134,1699" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName hadn’t seen their daughter so happy since quarantine began. &lt;/span&gt;
 &lt;span class=&quot;dialogue&quot;&gt;&quot;You’re the best!&quot; &lt;/span&gt;
 &lt;span class=&quot;narrative&quot;&gt;she shouted, and skipped off—presumably to tell Aisha and Emma.&lt;/span&gt;}&lt;/p&gt;
@@ -594,12 +594,13 @@ Does $workerName decide to call their mom tomorrow and ask again to come home?&l
 
 Does $undergradName leave?&lt;br&gt;
 [[Yes-&gt;Leaving]]&lt;br&gt;
-[[No-&gt;Staying]]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="59" name="Sorry I Can&#39;t" tags="stud2 library2" position="3616,6271" size="100,100">(set: $going to false)
-&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&quot;Thank you for the invite,&quot;&lt;/span&gt; &lt;span class=&quot;narrative&quot;&gt;$undergradName wrote,&lt;/span&gt; &lt;span class=&quot;dialogue&quot;&gt;&quot;but I can&#39;t make it tonight. [[I hope it&#39;s a lot of fun.&quot;-&gt;Zoom Class]]&lt;/span&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="60" name="I&#39;ll Be There" tags="stud2 library2" position="3513,6522" size="100,100">(set: $going to true)
-&lt;div class=&quot;email&quot;&gt;
-&quot;I&#39;ll be there!&quot; &lt;br&gt;
--[[$undergradName-&gt;Zoom Class]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="61" name="Check Twitter" tags="stud2 grass" position="6305,867" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{Curious, $undergradName opened the app, wondering if it had something to do with Raven. Bailey knew they’d applied – and, sure enough, the first tweets they saw from the UVa student accounts they followed were about the party:}&lt;/p&gt;
+[[No-&gt;Staying]]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="59" name="Sorry I Can&#39;t" tags="stud2 library2" position="3616,6271" size="100,100">(set: $going to false)&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{$undergradName sighed. They knew they were probably going to regret it, but they just couldn’t stomach going to a party that might become a super-spreader event. They hit REPLY and typed out an email to the Vice President:}&lt;/div&gt;&lt;/p&gt;
+&lt;div class=&quot;email&quot;&gt;&lt;p&gt;Thank you so much for accepting me! I can’t tell you how honored I am to have been admitted to Raven. Unfortunately, I don’t think I’ll be able to make the get-together tonight, though please let me know if there are any alternate events (maybe on Zoom?) that I can attend. Once again, thank you so much—I’m really looking forward to getting to know you and [[everyone else in Raven!-&gt;Zoom Class]]&lt;/p&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="60" name="I&#39;ll Be There" tags="stud2 library2" position="3513,6522" size="100,100">(set: $going to true)
+
+&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{$undergradName sighed. &lt;span class=&quot;thought&quot;&gt;You know what?&lt;/span&gt; they thought. &lt;span class=&quot;thought&quot;&gt;Let’s do it. You know how much you’re going to regret it if you don’t go.&lt;/span&gt; They’d spent so much time wanting to get into Raven, and put so much effort into the application process. They couldn’t throw all that away just because going to a party made them a little nervous. They hit REPLY and typed out an email to the Vice President:}&lt;/p&gt;&lt;/div&gt;
+&lt;div class=&quot;email&quot;&gt;&lt;p&gt;{Thank you so much for accepting me! I can’t tell you how honored I am to have been admitted to Raven. I can’t wait for the event tonight--I’ll definitely be there, and I’m really looking forward to getting to know you and the rest of the Ravens better. Once again, thank you so much, and [[see you soon!-&gt;Zoom Class]]}&lt;/p&gt;&lt;/div&gt;
+</tw-passagedata><tw-passagedata pid="61" name="Check Twitter" tags="stud2 grass" position="6305,867" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{Curious, $undergradName opened the app, wondering if it had something to do with Raven. Bailey knew they’d applied – and, sure enough, the first tweets they saw from the UVa student accounts they followed were about the party:}&lt;/p&gt;
 
 &lt;div class=&quot;tweet&quot;&gt;(text-colour:#52b5ff)[@[UVA ACCOUNT1]] there’s like 75 people at the house next to my building………………………….&lt;/div&gt;
 &lt;div class=&quot;tweet&quot;&gt;(text-colour:#52b5ff)[@[UVA ACCOUNT2]] lmaooooooo no not the raven party&lt;/div&gt;
@@ -759,7 +760,7 @@ Cav Daily headline about CR/NC policy
 statement from University admin about too much student violations of covid restrictions (Dean Groves)
 text from mom: “just got email from university about new restrictions r u ok”
 headline from Daily Progress re: unlicensed daycare 
-user gets to Tweet or write a Reddit post as the student&lt;/div&gt;</tw-passagedata><tw-passagedata pid="74" name="Faculty Meeting - 2" tags="faculty kitchen" position="255,2249.3333333333335" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+user gets to Tweet or write a Reddit post as the student&lt;/div&gt;</tw-passagedata><tw-passagedata pid="74" name="Faculty Meeting - 2" tags="faculty kitchen" position="255,2249" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;thought&quot;&gt;Thank God&lt;/span&gt;
 &lt;span class=&quot;narrative&quot;&gt;, $facultyName thought. They knew that yes, to some extent it was HR-speak, but it was still nice to hear everyone’s stress and exhaustion at least being acknowledged. They’d heard horror stories about the past year from their friends at other schools, and they knew they were really lucky to be in a department, and at a university, that really cared about—&lt;/span&gt;}&lt;/p&gt;
 
@@ -878,8 +879,8 @@ document.getElementById(&quot;cavdailytext&quot;).innerHTML = CavDailyData.respo
 Dear $gradName,&lt;br&gt;&lt;br&gt;
 
 Happy first week of the semester! I’m writing to let you know that Professor Banerjee, who I believe you took a class with in your second year, has asked me if I know any graduate students who might want to want to help him with research for his book project. I recommended you, since I have such confidence in your abilities. It would be a paid position, of course: $10 an hour, and an expected 10 hours of work a week. Let me know if this is something you’d be interested in.&lt;br&gt;&lt;br&gt;
-Best!&lt;br&gt;
-Ayla&lt;br&gt;
+Best wishes!&lt;br&gt;
+M.G.&lt;br&gt;
 &lt;/div&gt;
 &lt;div class=&quot;boxed&quot;&gt;
 [[Continue-&gt;Extra $100 a week]]
@@ -887,7 +888,7 @@ Ayla&lt;br&gt;
 $(&#39;tw-sidebar tw-icon&#39;).empty();
 $(&#39;tw-sidebar tw-icon[title=&quot;Undo&quot;]&#39;).prepend(&#39;&lt;img src=&quot;assets/img/back-arrow.png&quot;&gt;&#39;).attr(&quot;title&quot;, &quot;Undo&quot;);
 $(&#39;tw-sidebar tw-icon[title=&quot;Redo&quot;]&#39;).prepend(&#39;&lt;img src=&quot;assets/img/forward-arrow.png&quot;&gt;&#39;).attr(&quot;title&quot;, &quot;Redo&quot;);
-&lt;/script&gt;</tw-passagedata><tw-passagedata pid="91" name="Moment of silence" tags="faculty kitchen" position="439,2706.3333333333335" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;There was a moment of silence, and then the chair cleared their throat. &quot;Well, I—&quot;&lt;/p&gt;
+&lt;/script&gt;</tw-passagedata><tw-passagedata pid="91" name="Moment of silence" tags="faculty kitchen" position="439,2706" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;There was a moment of silence, and then the chair cleared their throat. &quot;Well, I—&quot;&lt;/p&gt;
 
 &lt;p&gt;&quot;You know what?&quot; another junior faculty member cut in, unmuting their mic. &quot;Honestly, Sascha, I’m so glad you spoke up. I’m facing pretty much the same things at home, and there’s no way I’m going to be able to make tenure without the clock being extended even further, either.&quot;&lt;/p&gt;
 
