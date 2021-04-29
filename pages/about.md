@@ -23,6 +23,8 @@ Our project website makes ample use of the handwriting and illustrations of prax
 <h3 class='elise'>This is Elise’s handwriting.</h3>
 <h3 class='crystal'>This is Crystal’s handwriting</h3>
 <h3 class='savanna'>This is Savanna’s handwriting.</h3>
+<h3 class='grace'>This is Grace’s handwriting.</h3>
+<h3 class='aaron'>And this is Aaron’s handwriting.</h3>
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
