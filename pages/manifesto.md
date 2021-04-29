@@ -5,7 +5,7 @@ permalink: /manifesto
 ---
 ## Manifesto
 
-<div align=“center”>A Manifesto on the Digital Pedagogy of Colleges and Universities
+<div align="center">A Manifesto on the Digital Pedagogy of Colleges and Universities
 Prepared by Grace Alvino, Emma Dove, Elise Foote, Crystal Luo, Savanna Morrison, and Aaron Thompson</div>
 
 <p>This manifesto of Connection Established is a call to action from this year’s Praxis cohort to our fellow members of the UVA community. We took the dedicated space of exploration and learning provided by the Scholars’ Lab to reflect on and then voice our dreams and anxieties about the practice of digital pedagogy here at UVA. Another portion of our project documents the unique and shared experience of digital pedagogy for various UVA community members through <a href="/story">an interactive narrative</a>. The two halves are meant to complement one another, forming two halves of a single conversation about this past year’s educational experience. Each emphasizes different aspects of the interconnectedness of teaching, learning, and living during times of crisis.</p> 
