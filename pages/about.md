@@ -5,7 +5,7 @@ permalink: /about
 ---
 <h2 class='emma'>About</h2>
 
-<img src="assets/img/plantsticker.png" alt="plant in a small pot" class="med-sticker-right" />
+<img src="assets/img/plantsticker.png" alt="" class="med-sticker-right" />
 
 {{ site.title }} examines university teaching, life, and governance during the COVID-19 pandemic. In an interactive digital [story](https://connection.scholarslab.org/story), it asks users to make choices that engage issues of equity, accessibility, and mental health. And in an accompanying [manifesto](https://connection.scholarslab.org/manifesto) it urges a whole-person approach to teaching, learning, and labor. 
 
@@ -26,7 +26,7 @@ Our project website makes ample use of the handwriting and illustrations of prax
 
 We wanted the project to feel handcrafted, because it is – {{ site.title }} is shaped by the hands, intentions, experiences, and biases of its makers. While we remain remote from each other, we extend our hands to each other and to you. 
 
-<img src="assets/img/postersticker.png" alt="Nina Simone poster" class="med-sticker-left" />
+<img src="assets/img/postersticker.png" alt="" class="med-sticker-left" />
 
 <h2 class='elise'>Project Goals</h2>
 
@@ -51,7 +51,7 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 **Aaron Thompson** gathered the data that underpins this project and led the way on making the project’s story in [Twine](https://twinery.org/). His cat, Lev, also helped. He is a Ph.D. student in the Slavic Languages and Literatures department. 
 
-<img src="assets/img/cerealsticker.png" alt="cereal bowl with spoon and coffee mug" class="med-sticker-right" />
+<img src="assets/img/cerealsticker.png" alt="" class="med-sticker-right" />
 
 <h2 class='savanna'>Gratitude</h2>
 
