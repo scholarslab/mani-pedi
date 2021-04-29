@@ -1,5 +1,5 @@
 ---
-title: Test two
+title: <h3>Accessibility</h3>
 order: 2
 anchor-link: test-link-two
 ---
