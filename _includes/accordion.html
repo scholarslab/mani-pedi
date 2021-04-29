@@ -12,7 +12,11 @@ ul.jekyllcodex_accordion li input:checked + label::before {transform: rotate(-45
 <ul class="jekyllcodex_accordion">
 {% assign sorted = site.manifesto-pieces | sort: 'order' %}
 {% for item in sorted %}
-    <li><input id="{{ item.anchor-link }}" type="checkbox" /><label for="{{ item.anchor-link }}">{{ item.title }}</label><div>{{ item.content | markdownify }}</div></li>
+    <li>
+    <input id="{{ item.anchor-link }}" type="checkbox" />
+    <label for="{{ item.anchor-link }}"><h3>{{ item.title }}</h3></label>
+    <div>{{ item.content | markdownify }}</div>
+</li>
 {% endfor %}
 </ul>
     
