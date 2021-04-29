@@ -4,6 +4,7 @@ title: Manifesto
 permalink: /manifesto
 ---
 ## Manifesto
+
 <!-- 
 
 <script>
