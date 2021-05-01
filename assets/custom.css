@@ -176,18 +176,19 @@ tw-story {
 
 /* Style of Twine Dialog Boxes (e.g. name prompts) */
 tw-dialog {
-    background-color: #ffffff;
+    background-color: white;
     color: black;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 tw-dialog .input {
+ 
+    font-family: Geneva, sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: Geneva, sans-serif;
-    font-size: large;
 }
 
 /* Links in Twine Story Dialog Boxes */
