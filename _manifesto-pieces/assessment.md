@@ -56,7 +56,3 @@ anchor-link: assessment
 <p id="fn8"><sup>8</sup> “Letter Urging U.Va. to Adopt Default CR/NC/GC Grading Gains over 1,400 Signatures."</p>
 <p id="fn9"><sup>9</sup> Asao B. Inoue, <i>Antiracist Writing Assessment Ecologies: Teaching and Assessing Writing for a Socially Just Future</i>, Perspectives on Writing (Fort Collins, Colorado : Anderson, South Carolina: The WAC Clearinghouse ; Parlor Press, 2015), 48-49.</p>
 <p id="fn10"><sup>10</sup> Standardized testing is counterproductive to the creation of a diverse and equitable University in many of the same ways grades are. As a predictor of student success in college, studies have found that standardized testing is even worse than students’ high school GPAs. See Aguinis, H., Culpepper, S. A., & Pierce, C. A. (2016), “Differential prediction generalization in college admissions testing,”  Journal of Educational Psychology, 108(7), 1045–1059, https://doi.org/10.1037/edu0000104 and Elaine M. Allensworth and Kallie Clark, “High School GPAs and ACT Scores as Predictors of College Completion: Examining Assumptions About Consistency Across High Schools,” Educational Researcher 49, no. 3 (April 2020): 198–211, https://doi.org/10.3102/0013189X20902110.</p>
-
-
-
-
