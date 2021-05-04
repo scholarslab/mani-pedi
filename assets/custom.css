@@ -375,12 +375,11 @@ div.modal{
     height: 50%;
     overflow: auto;
     background-color: lightgray;
-    color: black; 
     transform: translate(-50%, -50%);
     border: black thick;
  }
 
-/* Modelt Content Div */
+/* Modal Content Div */
 div.modalContent{
     margin: 15%;
     border: 1px solid black; 
