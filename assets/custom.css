@@ -516,5 +516,5 @@ ul.jekyllcodex_accordion li div.footnotes{
 
 ul.jekyllcodex_accordion li div.footnotes li{
   border-top: none;
-  list-style-type: decimal
+  list-style-type: decimal;
 }
