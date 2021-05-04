@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play mani-pedi-story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.13" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
+<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.12" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
 window.processInputElements = function () {
     $('input[data-varname]').on('change', function () {
         var varName = $(this).attr('data-varname');
@@ -96,25 +96,25 @@ Get up with their [[Coffee]]?
 &lt;span class=&quot;narrative&quot;&gt;$facultyName thought. It was too big of a risk. They would just have to figure out some way to…well, get twice as much work done in the next couple of years. Even as it crossed their mind, they knew how ridiculous the thought sounded. There was no way that it was actually feasible. If they were denied tenure, though, the consequences would be life-altering: they would have to find another job, which would be next to impossible with the stigma of not securing tenure, plus the abysmal job market. Even if they did find another teaching position, it would almost certainly not be in Charlottesville, meaning they’d have to uproot their entire family.&lt;/span&gt;}&lt;/p&gt;
 
 [[Continue-&gt;Zoom Out]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty kitchen" position="260,2871" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty kitchen" position="246.66666666666666,2826" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;Still reeling, $facultyName zoned out for the rest of the meeting, only coming to when it was time to wave the obligatory Zoom goodbye. All they wanted to do was close their eyes on the couch—even for just a few minutes—but they still had to finalize the syllabus for one of their classes. They’d cut-and-pasted in the policy they’d had for the last few years—no extensions, under any circumstances—but, looking at it now, they wondered if they should make a change. Students would be dealing with a ton this semester: family illness, mental health crises, not to mention potentially getting COVID themselves. But $facultyName still couldn’t shake what their teaching mentors back in grad school had told them: that if they allowed extensions, students would take advantage of the policy.&lt;/span&gt;}&lt;/p&gt;
 |continue)[(link-goto: &quot;Continue&quot;, &quot;Energy Drinks&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
-Should $facultyName:&lt;br&gt;
+|choice7&gt;[Should $facultyName:&lt;br&gt;]
 |choice7&gt;[Change the syllabus and give extensions?]&lt;br&gt;
 |choice8&gt;[Keep their no-extensions policy?]
-(click: ?choice7)[(set: $choice7 to true)(hide: ?choice8)(show: ?assessment)(show: ?continue)]
-(click: ?choice8)[(set: $choice8 to true)(hide: ?choice7)(show: ?assessment)(show: ?continue)]
+(click: ?choice7)[(go-to: &quot;Energy Drinks&quot;)]
+(click: ?choice8)[(set: $choice8 to true)(hide: ?choice7)(hide: ?choice8)(show: ?assessment)(show: ?continue)]
 &lt;/div&gt;
 [
 &lt;div class=&quot;modal&quot;&gt;
 &lt;div class=&quot;modelContent&quot;&gt;
 &lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?assessment)]&lt;/span&gt;
-&lt;div id=&quot;assessment&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
-$(&quot;#assessment&quot;).load(&#39;manifesto.html #assessment&#39;);
+$(&quot;#puthere&quot;).load(&#39;manifesto.html #assessment&#39;);
 &lt;/script&gt;
 ](assessment|
 &lt;br&gt;
