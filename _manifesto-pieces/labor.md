@@ -49,7 +49,7 @@ Remember that without undergraduate and graduate student labor, UVA would quite 
 
 [^43]: For more on the perverse effects of outsourcing and privatization, see: “Race to the Bottom: How Outsourcing Public Services to Private Companies Rewards Corporations and Punishes the Middle Class” (In the Public Interest, June 2014), [https://www.inthepublicinterest.org/wp-content/uploads/Race-to-the-bottom.pdf](https://www.inthepublicinterest.org/wp-content/uploads/Race-to-the-bottom.pdf). For student reporting on UVA’s relationship with Aramark in particular, see Victoria McKelvey, “End Aramark’s Contract,” The Cavalier Daily, accessed May 3, 2021, [https://www.cavalierdaily.com/article/2020/04/mckelvey-end-aramarks-contract](https://www.cavalierdaily.com/article/2020/04/mckelvey-end-aramarks-contract) and “Aramark Is Still a Problem,” The Cavalier Daily, accessed May 3, 2021, [https://www.cavalierdaily.com/article/2019/03/mckelvey-aramark-is-still-a-problem](https://www.cavalierdaily.com/article/2019/03/mckelvey-aramark-is-still-a-problem). 
 
-[^44]: Christopher Newfield, “Essay Calls for a New Strategy to Protect Faculty Rights | Inside Higher Ed,” July 20, 2015, [https://www.insidehighered.com/views/2015/07/20/essay-calls-new-strategy-protect-faculty-rights](https://www.insidehighered.com/views/2015/07/20/essay-calls-new-strategy-protect-faculty-rights).
+[^44]: Christopher Newfield, “Essay Calls for a New Strategy to Protect Faculty Rights,” ***Inside Higher Ed***, July 20, 2015, [https://www.insidehighered.com/views/2015/07/20/essay-calls-new-strategy-protect-faculty-rights](https://www.insidehighered.com/views/2015/07/20/essay-calls-new-strategy-protect-faculty-rights).
 
 
 
