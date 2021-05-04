@@ -516,3 +516,7 @@ ul.jekyllcodex_accordion li div.footnotes li{
   border-top: none;
   list-style-type: decimal;
 }
+
+ul.jekyllcodex_accordion li input:checked + label + div div {
+  display: block;
+}
