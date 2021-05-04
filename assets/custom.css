@@ -307,26 +307,30 @@ div.zoommsg {
 /* div.cavdaily {} */
 
 p#cavdailyheadline {
+    background: white;
+    color: black;
     text-align: center;
-    font-weight: bolder;
-    font-family: fantasy;
+    font-weight: bold;
+    font-family: Cormorant Garamond;
     text-transform: uppercase;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 p#cavdailytext {
-    
+    background: white;
+    color: black; 
+    font-family: Cormorant Garamond;
+    padding: 20px;
+    border-radius: 20px; 
 } 
 
 /* Daily Progess Articles */ 
 div.dailyprog {
     background: white;
-    color: black; 
+    color: black;
 }
 
-div.cavdaily {
-    background: white;
-    color: black; 
-}
 
 /* Reddit Posts */ 
 div.reddit { 
