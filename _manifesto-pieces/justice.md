@@ -40,7 +40,7 @@ Outside the classroom, antiracism can and must include addressing disparities in
 
 To our fellow students: organizing is critical to fighting back against the racist, patriarchal, and otherwise oppressive incentives which still hold sway at UVA. Yet effective organizing without a strong and genuine sense of community is impossible. As each other’s best advocates, talk to and learn about your fellow students. If you have the capacity and the privilege of spare time, become engaged members of the UVA community who vote in student elections, serve as active members of student organizations, and generally take part in the University’s civic and social life. Listen and collaborate with longtime residents, who know best what they need. We can’t  let our limited time at UVA become an excuse to not get involved. As an institution, the University counts on us not staying engaged. Resist! 
 
-#### Notes
+#### ***Notes***
 
 [^33]: On the University and slavery, see Maurie Dee McInnis and Louis P. Nelson, eds., ***Educated in Tyranny: Slavery at Thomas Jefferson’s University*** (Charlottesville: University of Virginia Press, 2019) and Marcus Martin, Kirt von Daacke, and Megan S. Faulkner, “President’s Commission on Slavery and the University” (Charlottesville: University of Virginia, 2018), [https://vpdiversity.virginia.edu/sites/vpdiversity.virginia.edu/files/PCSU%20Report%20FINAL_July%202018.pdf](https://vpdiversity.virginia.edu/sites/vpdiversity.virginia.edu/files/PCSU%20Report%20FINAL_July%202018.pdf). On the history of the eugenics movement in Virginia, including the role of the University, see Gregory Michael Dorr, ***Segregation’s Science: Eugenics and Society in Virginia*** (Charlottesville: University of Virginia Press, 2008). 
 
