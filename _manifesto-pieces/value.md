@@ -19,7 +19,7 @@ The financial cycle that UVA is currently caught in was not entirely of its own 
 
 Lastly, we’d like to nudge our fellow students to express our future demands around tuition and the cost of college in slightly different terms. We cannot keep capitulating to the idea of education as a consumer product. Rather, we must rediscover the idea of higher education as a [public good](https://www.dissentmagazine.org/article/tressie-mcmillan-cottom-why-free-college-necessary).
 
-#### *Notes*
+#### ***Notes***
  
 [^48]: UVA Board of Visitors, Board of Visitors Board Meeting – February 17, 2021, 2021, [https://www.youtube.com/watch?v=8UvIurO7MqY&ab_channel=UVABoardofVisitors](https://www.youtube.com/watch?v=8UvIurO7MqY&ab_channel=UVABoardofVisitors).
 [^49]: “Sanders, Jayapal and Colleagues Introduce Legislation to Make College Tuition-Free and Debt-Free for Working Families,” accessed May 3, 2021, [https://www.sanders.senate.gov/press-releases/news-sanders-jayapal-and-colleagues-introduce-legislation-to-make-college-tuition-free-and-debt-free-for-working-families/](https://www.sanders.senate.gov/press-releases/news-sanders-jayapal-and-colleagues-introduce-legislation-to-make-college-tuition-free-and-debt-free-for-working-families/).

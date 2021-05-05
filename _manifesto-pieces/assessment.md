@@ -20,7 +20,9 @@ anchor-link: assessment
 
 <p>Lastly, we also wish to highlight the negative effects grades have on instructors. The labor of giving out grades is both time consuming and alienating for many teaching staff, and often serves to satisfy administrative requirements more than pedagogical ones. During the pandemic, while students were asked to keep up with coursework, faculty were asked to keep up with designing, teaching, and grading coursework as well. We argue that instructors’ time and energy was, and is, best spent on developing healthy instructional dynamics with their students. These healthy dynamics are impeded by grades, which reinforce a hierarchical relationship between teachers and students. Meanwhile, the physical labor of grad<i>ing</i> either <a href="https://www.insidehighered.com/blogs/just-visiting/i-have-seen-glories-grading-contract">occupies time better spent working with students directly</a> or is passed on to (frequently underpaid) graduate students.</p>
 
+<div id="assessment">
 <p>For the sake of both student and instructor wellbeing, and a healthier, more holistic approach to pedagogy in general, we call for a serious rethinking of grades and their function at UVA. To instructors, we provide the following resources about alternative methods of assessment which invite greater student participation in the process of grading.</p>  
+</div>
 <ul>
     <li>Labor based contract grading:</li> 
     <ul>
@@ -44,7 +46,7 @@ anchor-link: assessment
     <li>Look for instructors and courses that honor your effort, rather than encourage you to seek shortcuts. Learning is work, and our methods of assessment should reflect the labor you put into your assignments and coursework.</li>
 </ul>
 
-<h4>Notes</h4>
+<h4><i>Notes</i></h4>
 
 <p id="fn1"><sup>1</sup> “Explaining the Rationale for the University’s CR/GC/NC Grading Option | Office of the Executive Vice President and Provost,” accessed May 1, 2021, <a href="https://provost.virginia.edu/grading-rationale-provost-magill">https://provost.virginia.edu/grading-rationale-provost-magill</a>.</p>
 <p id="fn2"><sup>2</sup>  “Letter Urging U.Va. to Adopt Default CR/NC/GC Grading Gains over 1,400 Signatures, Faculty Senate Considers Application-Based Approach to Grading System,” The Cavalier Daily - University of Virginia’s Student Newspaper, accessed May 1, 2021, <a href="https://www.cavalierdaily.com/article/2020/10/letter-urging-u-va-to-adopt-default-crncgc-grading-gains-over-1400-signatures-faculty-senate-considers-application-based-approach-to-grading-system">https://www.cavalierdaily.com/article/2020/10/letter-urging-u-va-to-adopt-default-crncgc-grading-gains-over-1400-signatures-faculty-senate-considers-application-based-approach-to-grading-system</a>.</p>
