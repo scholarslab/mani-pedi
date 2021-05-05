@@ -36,7 +36,7 @@ To our fellow students, we similarly ask that you take advantage of the tremendo
 
 Remember that without undergraduate and graduate student labor, UVA would quite literally cease to function.
 
-#### Notes
+#### ***Notes***
 
 [^38]: Katina Rogers, 22.
 
