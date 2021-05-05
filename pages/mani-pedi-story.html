@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play mani-pedi-story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.12" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
+<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.13" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
 window.processInputElements = function () {
     $('input[data-varname]').on('change', function () {
         var varName = $(this).attr('data-varname');
@@ -96,15 +96,15 @@ Get up with their [[Coffee]]?
 &lt;span class=&quot;narrative&quot;&gt;$facultyName thought. It was too big of a risk. They would just have to figure out some way to…well, get twice as much work done in the next couple of years. Even as it crossed their mind, they knew how ridiculous the thought sounded. There was no way that it was actually feasible. If they were denied tenure, though, the consequences would be life-altering: they would have to find another job, which would be next to impossible with the stigma of not securing tenure, plus the abysmal job market. Even if they did find another teaching position, it would almost certainly not be in Charlottesville, meaning they’d have to uproot their entire family.&lt;/span&gt;}&lt;/p&gt;
 
 [[Continue-&gt;Zoom Out]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty kitchen" position="246.66666666666666,2826" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="Zoom Out" tags="faculty kitchen" position="244.33333333333334,2826" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;Still reeling, $facultyName zoned out for the rest of the meeting, only coming to when it was time to wave the obligatory Zoom goodbye. All they wanted to do was close their eyes on the couch—even for just a few minutes—but they still had to finalize the syllabus for one of their classes. They’d cut-and-pasted in the policy they’d had for the last few years—no extensions, under any circumstances—but, looking at it now, they wondered if they should make a change. Students would be dealing with a ton this semester: family illness, mental health crises, not to mention potentially getting COVID themselves. But $facultyName still couldn’t shake what their teaching mentors back in grad school had told them: that if they allowed extensions, students would take advantage of the policy.&lt;/span&gt;}&lt;/p&gt;
 |continue)[(link-goto: &quot;Continue&quot;, &quot;Energy Drinks&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
-|choice7&gt;[Should $facultyName:&lt;br&gt;]
+|choice&gt;[Should $facultyName:]&lt;br&gt;
 |choice7&gt;[Change the syllabus and give extensions?]&lt;br&gt;
 |choice8&gt;[Keep their no-extensions policy?]
 (click: ?choice7)[(go-to: &quot;Energy Drinks&quot;)]
-(click: ?choice8)[(set: $choice8 to true)(hide: ?choice7)(hide: ?choice8)(show: ?assessment)(show: ?continue)]
+(click: ?choice8)[(set: $choice8 to true)(hide: ?choice)(hide: ?choice7)(hide: ?choice8)(show: ?assessment)(show: ?continue)]
 &lt;/div&gt;
 [
 &lt;div class=&quot;modal&quot;&gt;
@@ -168,17 +168,15 @@ Thanks so much for thinking of me. Please let Professor Banerjee know that, whil
 &lt;p&gt;Please describe these alternative plans in detail.&lt;/p&gt;}
 &lt;br&gt;
 {&lt;p&gt;What other planning or resources would be helpful for you at this time?&lt;/p&gt;} 
-&lt;/div&gt;
+&lt;p&gt;[[Continue-&gt;Fill Out Survey]]&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="Fill Out Survey" tags="grad apartment" position="521,4653" size="100,100">&lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;$gradName smiled reading the last question. They would’ve liked to write that the only thing that would help would be for the university to pay them more money, and to give them the rest of the semester off. And not just them, either: all of the professors, as well as the UVa staff. Tell students that school was cancelled until the new year, and just allow everyone time to rest. They could write that, they thought—what would the harm be? The survey was supposedly anonymous… but then again, they weren’t sure if that was actually true.&lt;/span&gt;}&lt;/p&gt;
 
-&lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;$gradName smiled reading the last question. They would’ve liked to write that the only thing that would help would be for the university to pay them more money, and to give them the rest of the semester off. And not just them, either: all of the professors, as well as the UVa staff. Tell students that school was cancelled until the new year, and just allow everyone time to rest. They could write that, they thought—what would the harm be? The survey was supposedly anonymous…but then again, they weren’t sure if that was actually true.&lt;/span&gt;}
-
-&lt;p&gt;[[Fill out the survey-&gt;Fill Out Survey]]&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="Fill Out Survey" tags="grad apartment" position="521,4653" size="100,100">&lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;instruction&quot;&gt;In the box below, type what you would write if you were $gradName filling out the survey’s last question: &quot;What other planning or resources would be helpful for you at this time?&quot;&lt;/span&gt;}&lt;/p&gt;
+&lt;p&gt;{&lt;span class=&quot;instruction&quot;&gt;In the box below, type what you would write if you were $gradName filling out the survey’s last question: &quot;What other planning or resources would be helpful for you at this time?&quot;&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;&lt;textarea id=&quot;survey&quot;&gt;Click here to type your response.&lt;/textarea&gt;&lt;/p&gt;
 
 &lt;p&gt;(Your response will not be saved, seen, or shared by the makers of Connection Established.)&lt;/p&gt;
 
-[[Next Email-&gt;Extension]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="17" name="Extension" tags="grad apartment" position="330,5033" size="100,100">&lt;!-- 
+[[Next Email-&gt;Extension]]&lt;div&gt;</tw-passagedata><tw-passagedata pid="17" name="Extension" tags="grad apartment" position="330,5033" size="100,100">&lt;!-- 
 If 7 -&gt; Changed Policy
 If 8 -&gt; Permission Denied
 --&gt; 
@@ -189,6 +187,8 @@ If 8 -&gt; Permission Denied
 Dear $gradName,
 
 &lt;p&gt;I hate to do this, but I think I’m going to have to ask for an extension on the first assignment. I know the semester just started, and I’m so, so sorry, but things have been super stressful on my end. My mom is really sick (she’s waiting on a COVID test) and I’m trying to decide if I should go back to northern VA to help her. I’m not sure what I’m going to end up doing, but either way, I don’t think I can do the assignment while I’m under all of this stress. I don’t need much more time: in fact, it would be great if I could turn in the assignment next Monday, instead of this Friday. I would really appreciate it—thank you so much for even considering.&lt;/p&gt;
+Best,&lt;br&gt;
+$workerName
 &lt;/div&gt;
 &lt;div class=&quot;choices&quot;&gt;&lt;div class=&quot;boxed&quot;&gt;
 {|next&gt;[Continue]
@@ -208,19 +208,50 @@ Dear $gradName,
 I’m so sorry to hear about your mom. Extension granted—and please let me know if you need anything else. 
 &lt;p&gt;-$gradName&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class=&quot;boxed&quot;&gt;[[Continue-&gt;Thinking About Mom]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="19" name="Permission Denied" tags="grad apartment" position="478,5376" size="100,100">&lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;$gradName felt their stomach drop. Oh no, they thought. Of course they wanted to give the student an extension. If they were teaching the class themselves, they would do so in a heartbeat. But $facultyName’s policy couldn’t be clearer: &#39;&#39;&quot;No extensions under any circumstances&quot;&#39;&#39; was written in bold on the syllabus. Even so, they thought, it wasn’t like they had to tell $facultyName about every decision they made with their sections. Maybe they could give the student an extension, and just not say anything to $facultyName… though of course, if they found out, they would be in huge trouble. But how could they honestly justify not giving a student a few more days to finish a paper, when their mother had a potentially life-threatening illness?&lt;/span&gt;}&lt;/p&gt;
+&lt;div class=&quot;boxed&quot;&gt;[[Continue-&gt;Thinking About Mom]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="19" name="Permission Denied" tags="grad apartment" position="478,5376" size="100,100">&lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;$gradName felt their stomach drop. &lt;span class=&quot;thought&quot;&gt;Oh no,&lt;/span&gt; they thought. Of course they wanted to give the student an extension. If they were teaching the class themselves, they would do so in a heartbeat. But $facultyName’s policy couldn’t be clearer: &#39;&#39;&quot;No extensions under any circumstances&quot;&#39;&#39; was written in bold on the syllabus. Even so, they thought, it wasn’t like they had to tell $facultyName about every decision they made with their sections. Maybe they could give the student an extension, and just not say anything to $facultyName… though of course, if they found out, they would be in huge trouble. But how could they honestly justify not giving a student a few more days to finish a paper, when their mother had a potentially life-threatening illness?&lt;/span&gt;}&lt;/p&gt;
+|noextension)[(link-goto: &quot;Continue&quot;, &quot;Go Home?&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
-Does $gradName:&lt;br&gt;
-[[Give the student the extension, and not tell the professor-&gt;Thinking About Mom]]?&lt;br&gt;
-[[Decide not to give the student the extension-&gt;Go Home?]]?
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="20" name="Thinking About Mom" tags="stud1 dormroom transition" position="582,5875" size="100,100">&lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;$workerName stared at their laptop. They couldn’t believe it. They had been so nervous to write their TA, $gradName, asking for an extension—they’d never done so before, in any class—but $gradName had just emailed them back saying that yes, the extension was granted.&lt;/span&gt; 
+|choice&gt;[Does $gradName:]&lt;br&gt;
+|choice1&gt;[Give the student the extension, and not tell the professor?]&lt;br&gt;
+|choice2&gt;[Decide not to give the student the extension]
+(click: ?choice1)[(go-to: &quot;Thinking About Mom&quot;)]
+(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?assessment)(show: ?noextension)]
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modalContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?assessment)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;#puthere&quot;).load(&#39;manifesto.html #assessment&#39;);
+&lt;/script&gt;
+](assessment|
+&lt;br&gt;
+&lt;!-- [[Thinking About Mom]] [[Go Home?]] --&gt;</tw-passagedata><tw-passagedata pid="20" name="Thinking About Mom" tags="stud1 dormroom transition" position="582,5876.666666666667" size="100,100">&lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;$workerName stared at their laptop. They couldn’t believe it. They had been so nervous to write their TA, $gradName, asking for an extension—they’d never done so before, in any class—but $gradName had just emailed them back saying that yes, the extension was granted.&lt;/span&gt; 
 &lt;span class=&quot;thought&quot;&gt;Thank God,&lt;/span&gt;
 &lt;span class=&quot;narrative&quot;&gt; they thought. Being able to put the assignment on the back-burner for a couple days would give them so much more time and energy to think about their mom. I’m fine, their mom had texted earlier, but $workerName knew that a 100-degree temperature, shortness of breath, and fatigue couldn’t mean anything good. Since her mom didn’t have a positive test yet, her dad’s job was still requiring him to come in, and $workerName was worried he was exposing his coworkers to the virus. Every instinct $workerName had was telling them to come home, but if they did, they might expose themselves, too.&lt;/span&gt;}&lt;/p&gt;
+|yes)[(link-goto: &quot;Continue&quot;, &quot;Easy Focus&quot;)]
+|no)[(link-goto: &quot;Continue&quot;, &quot;Sinking Feeling&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
-Does $workerName text their mom that they want to come home tomorrow?&lt;br&gt;
-[[Yes-&gt;Easy Focus]]&lt;br&gt;
-[[No-&gt;Sinking Feeling]]&lt;br&gt;
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="21" name="Go Home?" tags="stud1 dormroom transition" position="672,6117" size="100,100">(set: $extensiongranted to false)
+|choice&gt;[Does $workerName text their mom that they want to come home tomorrow?]&lt;br&gt;
+|choice1&gt;[Yes]&lt;br&gt;
+|choice2&gt;[No]
+(click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?classroomification)(show: ?yes)]
+(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?classroomification)(show: ?no)]
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modalContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?classroomification)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;puthere&quot;).load(&#39;manifesto.html #classroomification&#39;);
+&lt;/script&gt;
+&lt;/div&gt;&lt;/div&gt;
+](classroomification|
+&lt;!-- [[Easy Focus]] [[Sinking Feeling]] --&gt;</tw-passagedata><tw-passagedata pid="21" name="Go Home?" tags="stud1 dormroom transition" position="672,6117" size="100,100">(set: $extensiongranted to false)
 &lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;$workerName stared at their laptop. Their stomach dropped. They knew the syllabus said absolutely no extensions would be granted, but they were hoping that their professor or TA would understand that this wasn’t a normal semester, and that they were in a really worrying situation. But nope—their TA, $gradName, had denied their extension. They had no idea what they were going to do: this assignment was 20% of their final grade for the course, but they could hardly focus given what was going on with their mom.&lt;/span&gt;&lt;/div&gt;}&lt;/p&gt;
 &lt;div class=&quot;sms&quot;&gt;
 I’m fine
@@ -247,11 +278,27 @@ I’m so sorry! My last class ran over!
 &lt;span class=&quot;thought&quot;&gt;Still, people not wearing masks was the reason people like their mom were sick right now—and that,&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$workerName thought,&lt;/span&gt; 
 &lt;span class=&quot;thought&quot;&gt;made speaking up worth it. Right?&lt;/span&gt;}&lt;/p&gt;
+|no)[(link-goto: &quot;Continue&quot;, &quot;Whose Responsibility?&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
-Does $workerName tell the student to put on a mask?&lt;br&gt;
-[[Yes-&gt;Would You Mind?]]&lt;br&gt;
-[[No-&gt;Whose Responsibility?]]
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="Sinking Feeling" tags="stud1 dormroom" position="976,6551" size="100,100">(set: $goinghome to false)
+|choice&gt;[Does $workerName tell the student to put on a mask?]&lt;br&gt;
+|choice1&gt;[Yes]&lt;br&gt;
+|choice2&gt;[No]
+(click: ?choice1)[(go-to: &quot;Would You Mind?&quot;)]
+(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?power)(show: ?no)]
+&lt;/div&gt;
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modelContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?power)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;#puthere&quot;).load(&#39;manifesto.html #power&#39;);
+&lt;/script&gt;
+](power|
+&lt;br&gt;
+&lt;!-- [[Would You Mind?]] [[Whose Responsibility?]] --&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="Sinking Feeling" tags="stud1 dormroom" position="976,6551" size="100,100">(set: $goinghome to false)
 &lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;narrative&quot;&gt;Their mom texted back.&lt;/span&gt;&lt;/div&gt;}&lt;/p&gt;
 &lt;div class=&quot;sms&quot;&gt;
 Good, I don’t want to put you in danger. 
@@ -356,15 +403,34 @@ Does $undergradName:&lt;br&gt;
 &lt;span class=&quot;narrative&quot;&gt;their son said.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName could feel themselves panicking. Maybe this would’ve been fine with a discussion class—when they could mute themselves for long periods—but this was a lecture. They had to have their mike on virtually the entire time, and it looked like their son’s tantrum was only going to escalate. They still had thirty-five minutes left of class, and no idea what they were going to do. They could put students in groups and get them to start working on the homework, but they wouldn’t really be able to understand it without getting the entire lesson. They could pull a Hail Mary and ask one of the grad student TAs to lecture, but that would be majorly unfair to them—or they could really do the unthinkable and end class. Or, of course, they could continue on and just hope their son didn’t do anything else disruptive.&lt;/span&gt;}&lt;/p&gt;
+|groups)[(link-goto: &quot;Continue&quot;, &quot;Groups&quot;)]
+|TA)[(link-goto: &quot;Continue&quot;, &quot;TA&quot;)]
+|end)[(link-goto: &quot;Continue&quot;, &quot;End Class&quot;)]
+|continue)[(link-goto: &quot;Continue&quot;, &quot;Continue Lecturing&quot;)]
 
-&lt;!--all options link to manifesto: Classroomification--&gt;
 &lt;div class=&quot;choices&quot;&gt;
-Does $facultyName:&lt;br&gt;
-[[Put the students in groups and ask them to start the homework-&gt;Groups]]&lt;br&gt;
-[[Ask the TA to lecture-&gt;TA]]&lt;br&gt;
-[[End class early-&gt;End Class]]&lt;br&gt;
-[[Continue lecturing and hope things cool down-&gt;Continue Lecturing]]&lt;br&gt;
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="36" name="Groups" tags="faculty office" position="5202,6242" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;narrative&quot;&gt;Putting students in groups, they decided, would be the best option—though, when they asked them to do so, the students looked totally bewildered. They managed to get themselves in breakout rooms but, within a few minutes, they were popping back into the main room with a ton of questions.&lt;/span&gt; 
+|choice&gt;[Does $facultyName:]&lt;br&gt;
+|choice1&gt;[Put the students in groups and ask them to start the homework]&lt;br&gt;
+|choice2&gt;[Ask the TA to lecture]&lt;br&gt;
+|choice3&gt;[End class early]&lt;br&gt;
+|choice4&gt;[Continue lecturing and hope things cool down]
+(click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(hide: ?choice3)(hide: ?choice4)(show: ?classroomification)(show: ?groups)]
+(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(hide: ?choice3)(hide: ?choice4)(show: ?classroomification)(show: ?TA)]
+(click: ?choice3)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(hide: ?choice3)(hide: ?choice4)(show: ?classroomification)(show: ?end)]
+(click: ?choice4)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(hide: ?choice3)(hide: ?choice4)(show: ?classroomification)(show: ?continue)]
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modalContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?classroomification)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;puthere&quot;).load(&#39;manifesto.html #classroomification&#39;);
+&lt;/script&gt;
+&lt;/div&gt;&lt;/div&gt;
+](classroomification|
+&lt;!-- [[Groups]] [[TA]] [[End Class]] [[Continue Lecturing]] --&gt;</tw-passagedata><tw-passagedata pid="36" name="Groups" tags="faculty office" position="5202,6242" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;narrative&quot;&gt;Putting students in groups, they decided, would be the best option—though, when they asked them to do so, the students looked totally bewildered. They managed to get themselves in breakout rooms but, within a few minutes, they were popping back into the main room with a ton of questions.&lt;/span&gt; 
 &lt;span class=&quot;thought&quot;&gt;I was right, they can’t do the homework without having heard the lecture.&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$facultyName thought. They had to unmute themselves to explain things, with their now son wailing even louder in the background. Eventually, they brought the class back as one and told them that they would just be emailing their lecture notes out to them.&lt;/span&gt;}&lt;/p&gt;
 &lt;p&gt;{&lt;span class=&quot;dialogue&quot;&gt;“That should be enough to get you through the homework,”&lt;/span&gt; 
@@ -413,11 +479,27 @@ Your son is adorable
 
 &lt;p&gt;{&lt;span class=&quot;thought&quot;&gt;Maybe I could. If they really weren’t going to make tenure, then maybe that was something they should start thinking about. No use working themselves to death for zero reward.&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$facultyName thought.&lt;/span&gt;}&lt;/p&gt;
+|maybe)[(link-goto: &quot;Continue&quot;, &quot;Maybe Stepping Back&quot;)]
+|notsteppingback)[(link-goto: &quot;Continue&quot;, &quot;Not Stepping Back&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
-Does $facultyName: &lt;br&gt;
-[[Tell their partner they’ll consider taking a step back-&gt;Maybe Stepping Back]]&lt;br&gt;
-[[Let their partner know that they’re not stepping back, and that their partner really does need to contribute more around the house-&gt;Not Stepping Back]]
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="42" name="Names" tags="" position="262,523" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;First, we need some names for our characters:&lt;/p&gt;
+|choice&gt;[Does $facultyName:]&lt;br&gt;
+|choice1&gt;[Tell their partner they’ll consider taking a step back]&lt;br&gt;
+|choice2&gt;[Let their partner know that they’re not stepping back, and that their partner really does need to contribute more around the house]
+(click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?justice)(show: ?maybe)]
+(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?justice)(show: ?notsteppingback)]
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modelContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?justice)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;puthere&quot;).load(&#39;manifesto.html #justice&#39;);
+&lt;/script&gt;
+&lt;/div&gt;&lt;/div&gt;
+](justice|
+&lt;!-- [[Maybe Stepping Back]] [[Not Stepping Back]] --&gt;</tw-passagedata><tw-passagedata pid="42" name="Names" tags="" position="262,523" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;First, we need some names for our characters:&lt;/p&gt;
 
 &lt;p&gt;What would you like the &#39;&#39;faculty member’s&#39;&#39; name to be?&lt;br&gt;
 &lt;input type=&quot;text&quot; data-varname=&quot;facultyName&quot; value=&quot;Sascha&quot;&gt;
@@ -502,9 +584,28 @@ Does $gradName tell $facultyName what they’re thinking?&lt;br&gt;
 &lt;p&gt;{$facultyName cocked their head. “It’s definitely something I’ll think about. Especially having the course just be pass/fail. [[I think that would take a lot of pressure off students.”-&gt;How are you feeling?]]}&lt;/p&gt;&lt;/div&gt;
 </tw-passagedata><tw-passagedata pid="49" name="Keep Quiet" tags="grad office" position="8169,2955" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{$gradName decided that $facultyName opting for extensions was probably the best they were going to get. $facultyName didn’t seem like the type who was open to teaching ideas that were even a little out of the mainstream—which was a shame, because $gradName thought getting rid of deadlines all together, and [[making the course pass/fail only, would do wonders for students’ mental health.-&gt;How are you feeling?]]}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="50" name="Extension Dilemma" tags="grad office" position="7031,3408" size="100,100">&lt;div class=&quot;boxed&quot;&gt;(if: $extensiongranted is true)[Yes, they’d given the one student the extension, but if they could press $facultyName and get them to change their policy, then it could help so many more students.]
 
-(if: $extensiongranted is false)[They felt awful about not being able to give the student who’d asked the extension, and they knew there would be many more students in the future who would need help.] Does $gradName press $facultyName about changing the extension policy? &lt;br&gt;
-[[Yes-&gt;Push for Extension Policy]]&lt;br&gt;
-[[No-&gt;Don&#39;t Push for Extension Policy]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="51" name="Push for Extension Policy" tags="grad office" position="7215,3030" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{I hate to do this,” $gradName said, “but I really, really think you should consider changing the policy. Not for every semester—just this one. There are so many students going through so many awful things right now: they’re losing their loved ones, they’re going through mental health crises. And…I don’t know. Isn’t making sure they’re okay a little more important than getting their paper in by our original deadline?”}&lt;/p&gt;
+(if: $extensiongranted is false)[They felt awful about not being able to give the student who’d asked the extension, and they knew there would be many more students in the future who would need help.]&lt;br&gt;
+|dontpush)[(link-goto: &quot;Continue&quot;, &quot;Don&#39;t Push for Extension Policy&quot;)]
+&lt;div class=&quot;choices&quot;&gt;
+|choice&gt;[Does $gradName press $facultyName about changing the extension policy?]&lt;br&gt;
+|choice1&gt;[Yes]&lt;br&gt;
+|choice2&gt;[No]
+(click: ?choice1)[(go-to: &quot;Push for Extension Policy&quot;)]
+(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?assessment)(show: ?dontpush)]
+&lt;/div&gt;
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modelContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?assessment)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;#puthere&quot;).load(&#39;manifesto.html #assessment&#39;);
+&lt;/script&gt;
+](assessment|
+&lt;br&gt;
+&lt;!-- [[Push for Extension Policy]] [[Don&#39;t Push for Extension Policy]] --&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="51" name="Push for Extension Policy" tags="grad office" position="7215,3030" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{I hate to do this,” $gradName said, “but I really, really think you should consider changing the policy. Not for every semester—just this one. There are so many students going through so many awful things right now: they’re losing their loved ones, they’re going through mental health crises. And…I don’t know. Isn’t making sure they’re okay a little more important than getting their paper in by our original deadline?”}&lt;/p&gt;
 
 &lt;p&gt;{$facultyName paused. For a second, $gradName was sure they were going to say no—and then tell $gradName to get right out of their office. But then $facultyName’s expression changed, and they sighed. “Fine. I’ll change the policy. No extensions—unless they come to me with a very, very good reason. Not just that they’re stressed. Not just that they’re not feeling well. I need a documented health problem—either from them, or from a relative.”}&lt;/p&gt;
 
@@ -578,7 +679,7 @@ Does $workerName decide to call their mom tomorrow and ask again to come home?&l
 
 &lt;p&gt;{They were just about to close their eyes when their phone buzzed. It was their friend Bailey from last year’s Bio class. [[&quot;Check Twitter,&quot; she’d written.-&gt;Check Twitter]]}&lt;/p&gt;]
 
-(if: $going is true)[“Are you sure this is the right place?” $undergradName asked nervously.&lt;br&gt;
+(if: $going is true)[“Are you sure this is the right place?” $undergradName asked nervously.&lt;br&gt;&lt;br&gt;
 
 &lt;p&gt;{“Of course,” Claire said. “Where else would it be?”}&lt;/p&gt;
 
@@ -705,22 +806,39 @@ Maybe the Ravens’ speakers didn’t go any louder, or maybe they’d just opte
 
 “That doesn’t sound too bad,” said [@UVA ACCOUNT3], whose real name was Yasmin. “Not as cool as getting a party shut down or anything, but hey, that’s probably only gonna happen once tonight.”&lt;br&gt;
 
-$undergradName laughed as they turned around and headed back to Grounds. They still couldn’t believe the crowd’s stunt had actually worked. Everyone in Raven was going to be furious, sure--and there was no doubt some of the Ravens had seen them out there. But honestly, $undergradName couldn’t bring themselves to really care. They’d done something really cool tonight, and that was worth more than any internships or connections. It was something to remember, too. The time I helped stop a super-spreader event, they thought. Now that’s a story. [[And probably one I’ll be telling for a long, long time.-&gt;Tweets and Headlines]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="69" name="Hecklers" tags="stud2 party" position="6409,263" size="100,100">&lt;div class=&quot;boxed&quot;&gt;The chants coming from outside the house were louder now. “GET OUT,” the people out there were yelling. “PARTY’S OVER.” Suddenly, the music jumped from loud to absolutely blasting. $undergradName put their fingers in their ears.
+$undergradName laughed as they turned around and headed back to Grounds. They still couldn’t believe the crowd’s stunt had actually worked. Everyone in Raven was going to be furious, sure--and there was no doubt some of the Ravens had seen them out there. But honestly, $undergradName couldn’t bring themselves to really care. They’d done something really cool tonight, and that was worth more than any internships or connections. It was something to remember, too. The time I helped stop a super-spreader event, they thought. Now that’s a story. [[And probably one I’ll be telling for a long, long time.-&gt;Tweets and Headlines]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="69" name="Hecklers" tags="stud2 party" position="6409,263" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{The chants coming from outside the house were louder now. &quot;GET OUT,&quot; the people out there were yelling. &quot;PARTY’S OVER.&quot; Suddenly, the music jumped from loud to absolutely blasting. $undergradName put their fingers in their ears.}&lt;/p&gt;
 
-“You alright?” Michael asked, coming back over. “I’m sorry about that. God, I don’t know what their problem is.”
+&lt;p&gt;{&quot;You alright?&quot; Michael asked, coming back over. &quot;I’m sorry about that. God, I don’t know what their problem is.&quot;}&lt;/p&gt;
 
-“It’s fine.” $undergradName looked around awkwardly. &lt;span class=&quot;thought&quot;&gt;This is wrong,&lt;/span&gt; they thought. &lt;span class=&quot;thought&quot;&gt;And people know it’s wrong. People are like, protesting us. If a whole crowd cared enough to show up at your house party and scream at you to shut it down, then they probably meant business.&lt;/span&gt; “Uh,” they said. “I think I might, um, head out–”
+&lt;p&gt;{&quot;It’s fine.&quot; $undergradName looked around awkwardly. &lt;span class=&quot;thought&quot;&gt;This is wrong,&lt;/span&gt; they thought. &lt;span class=&quot;thought&quot;&gt;And people know it’s wrong. People are like, protesting us. If a whole crowd cared enough to show up at your house party and scream at you to shut it down, then they probably meant business.&lt;/span&gt; &quot;Uh,&quot; they said. &quot;I think I might, um, head out–&quot;}&lt;/p&gt;
 
-“Head out?” Michael frowned. “Why, because of those jerks? Come on. Don’t let them get to you. They’re not gonna do anything, and I know the school’s not gonna care.”
+&lt;p&gt;{&quot;Head out?&quot; Michael frowned. &quot;Why, because of those jerks? Come on. Don’t let them get to you. They’re not gonna do anything, and I know the school’s not gonna care.&quot;}&lt;/p&gt;
 
-“No, it’s not that. I, uh… I just have a ton of homework to do…”
+&lt;p&gt;{&quot;No, it’s not that. I, uh… I just have a ton of homework to do…&quot;}&lt;/p&gt;
 
-“Let me tell you something. There’s never gonna be a time here when you’re not gonna have a ton of homework. You’ve gotta stop letting it run your life. Now, come on. Can I get you a drink?”
+&lt;p&gt;{&quot;Let me tell you something. There’s never gonna be a time here when you’re not gonna have a ton of homework. You’ve gotta stop letting it run your life. Now, come on. Can I get you a drink?&quot;}&lt;/p&gt;
 
-Does $undergradName tell Michael:
-[[Alright, that sounds good.-&gt;Drink]]
-[[Actually, I really do think I’m gonna get going.-&gt;No Drink]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="70" name="Drink" tags="stud2 party" position="6100,115" size="100,100">&lt;div class=&quot;boxed&quot;&gt;Michael smiled. “I knew we made the right call in letting you in.” He guided $undergradName into the kitchen. “You know, there were like, a ridiculous amount of people we accepted who didn’t show up tonight. Can you believe it? 
+|drink)[(link-goto: &quot;Continue&quot;, &quot;Drink&quot;)]
+&lt;div class=&quot;choices&quot;&gt;
+|choice&gt;[Does $undergradName tell Michael:]&lt;br&gt;
+|choice1&gt;[Alright, that sounds good.]&lt;br&gt;
+|choice2&gt;[Actually, I really do think I’m gonna get going.]
+(click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?power)(show: ?drink)]
+(click: ?choice2)[(go-to: &quot;No Drink&quot;)]
+&lt;/div&gt;
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modelContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?power)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;#puthere&quot;).load(&#39;manifesto.html #power&#39;);
+&lt;/script&gt;
+](power|
+&lt;br&gt;
+&lt;!-- [[Drink]] [[No Drink]] --&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="70" name="Drink" tags="stud2 party" position="6100,115" size="100,100">&lt;div class=&quot;boxed&quot;&gt;Michael smiled. “I knew we made the right call in letting you in.” He guided $undergradName into the kitchen. “You know, there were like, a ridiculous amount of people we accepted who didn’t show up tonight. Can you believe it? 
 
 &lt;span class=&quot;thought&quot;&gt;Yeah,&lt;/span&gt; $undergradName thought. &lt;span class=&quot;thought&quot;&gt;I can.&lt;/span&gt; They took the drink Michael handed to them, and tried not to cringe when the music turned up again. “A little louder, boys!” Michael shouted. Indeed, they could still hear the chants. The volume went up, and the chants continued. “Jesus,” Michael said. “I can’t believe them. Pong?”
 
@@ -754,13 +872,15 @@ There was a pause, and then all at once, the Ravens started scrambling en masse 
 
 “Keep your head up,” one of the Ravens behind $undergradName whispered. “I know this sucks, but you’re still gonna get to be one of us.” 
 
-“Yeah,” $undergradName said. They looked out at the crowd again. “You’re right,” they said. [[“At least there’s that.”-&gt;Tweets and Headlines]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="73" name="Tweets and Headlines" tags="stud2 grass" position="4176,433" size="100,100">&lt;div class=&quot;boxed&quot;&gt;scrolling Tweets / newspaper headlines
-student tweets they’ve tested positive and were at the party playing beer pong
-Cav Daily headline about CR/NC policy 
-statement from University admin about too much student violations of covid restrictions (Dean Groves)
-text from mom: “just got email from university about new restrictions r u ok”
-headline from Daily Progress re: unlicensed daycare 
-user gets to Tweet or write a Reddit post as the student&lt;/div&gt;</tw-passagedata><tw-passagedata pid="74" name="Faculty Meeting - 2" tags="faculty kitchen" position="255,2249" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+“Yeah,” $undergradName said. They looked out at the crowd again. “You’re right,” they said. [[“At least there’s that.”-&gt;Tweets and Headlines]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="73" name="Tweets and Headlines" tags="stud2 grass" position="4176,433" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+&lt;p&gt;scrolling Tweets / newspaper headlines:&lt;/p&gt;
+&lt;div class=&quot;tweet&quot;&gt;student tweets they’ve tested positive and were at the party playing beer pong&lt;/div&gt;
+&lt;p id=&quot;cavdailyheadline&quot;&gt;Cav Daily headline about CR/NC policy&lt;/p&gt;
+&lt;p&gt;statement from University admin about too many student violations of covid restrictions (Dean Groves)&lt;/p&gt;
+&lt;div class=&quot;sms&quot;&gt;text from mom: “just got email from university about new restrictions r u ok”&lt;/div&gt;
+&lt;p id=&quot;cavdailyheadline&quot;&gt;headline from Daily Progress re: unlicensed daycare&lt;/p&gt;
+user gets to Tweet or write a Reddit post as the student
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="74" name="Faculty Meeting - 2" tags="faculty kitchen" position="255,2249" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;thought&quot;&gt;Thank God&lt;/span&gt;
 &lt;span class=&quot;narrative&quot;&gt;, $facultyName thought. They knew that yes, to some extent it was HR-speak, but it was still nice to hear everyone’s stress and exhaustion at least being acknowledged. They’d heard horror stories about the past year from their friends at other schools, and they knew they were really lucky to be in a department, and at a university, that really cared about—&lt;/span&gt;}&lt;/p&gt;
 
@@ -768,12 +888,28 @@ user gets to Tweet or write a Reddit post as the student&lt;/div&gt;</tw-passage
 &lt;span class=&quot;narrative&quot;&gt;the chair said.&lt;/span&gt;}&lt;/p&gt;
 
 [[Continue-&gt;Blood Drain]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="75" name="Extra $100 a week" tags="grad apartment" position="326,3506" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$gradName had been thrilled when they’d first gotten the email. An extra $100 a week would be a huge help—but then, of course, they’d remembered that, while they really needed the money, they were already incredibly swamped with work. They were TAing four sections, plus working on their dissertation. If they took the RA position, they would effectively be consigning themselves to making almost no progress on their dissertation this semester. That would mean further delaying going on the academic job market or interviewing for alt-ac jobs—which, in turn, meant they’d be stuck in grad school, making almost nothing, for at least another year.&lt;/span&gt;}&lt;/p&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="75" name="Extra $100 a week" tags="grad apartment" position="326,3586" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$gradName had been thrilled when they’d first gotten the email. An extra $100 a week would be a huge help—but then, of course, they’d remembered that, while they really needed the money, they were already incredibly swamped with work. They were TAing four sections, plus working on their dissertation. If they took the RA position, they would effectively be consigning themselves to making almost no progress on their dissertation this semester. That would mean further delaying going on the academic job market or interviewing for alt-ac jobs—which, in turn, meant they’d be stuck in grad school, making almost nothing, for at least another year.&lt;/span&gt;}&lt;/p&gt;
+|accept)[(link-goto: &quot;Continue&quot;, &quot;Accept Position&quot;)]
+|decline)[(link-goto: &quot;Continue&quot;, &quot;Decline Position&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
-Does $gradName:&lt;br&gt;
-[[Take the research assistant position-&gt;Accept Position]]?&lt;br&gt;
-Thank their department chair for the offer, but let her know that unfortunately, [[they can’t accept-&gt;Decline Position]]?
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="76" name="Blood Drain" tags="faculty kitchen" position="265,2391" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
+|choice&gt;[Does $gradName:]&lt;br&gt;
+|choice1&gt;[Take the research assistant position]&lt;br&gt;
+|choice2&gt;[Thank their department chair for the offer, but let her know that unfortunately, they can&#39;t accept]
+(click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?gradlabor)(show: ?accept)]
+(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?gradlabor)(show: ?decline)]
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modalContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?gradlabor)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;puthere&quot;).load(&#39;manifesto.html #gradlabor&#39;);
+&lt;/script&gt;
+&lt;/div&gt;&lt;/div&gt;
+](gradlabor|
+&lt;!-- [[Accept Position]] [[Decline Position]] --&gt;</tw-passagedata><tw-passagedata pid="76" name="Blood Drain" tags="faculty kitchen" position="265,2391" size="100,100">&lt;div class=&quot;boxed&quot;&gt;
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$facultyName felt the blood drain from their face, even as they tried not to let their expression betray how they felt. Yes, the one year extension had been, and would be, enormously helpful. But there was no denying that they still needed much more time. They’d written fewer than twenty pages of their book since March, and had done virtually no research, while an article they’d gotten a revise-and-resubmit on was sitting around unedited.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;In other words, even factoring in the one-year extension, they were way off their expected tenure timeline, and they&#39;d been counting on the possibility of an even longer grace period. Without it, there was no way that they could make tenure—and, from what they&#39;d heard from the other young faculty, the same was true of everyone else. They had to say something—but if they did, the more established faculty might take it as a sign that they were lazy and unproductive, and a target would be put on their back.&lt;/span&gt;}&lt;/p&gt;
@@ -821,15 +957,30 @@ Does $facultyName:&lt;br&gt;
 {&lt;span class=&quot;narrative&quot;&gt;Their partner sighed.&lt;/span&gt;
 &lt;span class=&quot;dialogue&quot;&gt;“I don’t know. It was stupid, anyway.”&lt;/span&gt;}
 
-{&lt;span class=&quot;dialogue&quot;&gt;“No, it’s not stupid. It’s just—”&lt;/span&gt; 
+&lt;p&gt;{&lt;span class=&quot;dialogue&quot;&gt;“No, it’s not stupid. It’s just—”&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$facultyName didn’t finish.&lt;/span&gt; 
-&lt;span class=&quot;thought&quot;&gt;It would be so good—so good—to have somewhere to send their son. Ugh. They couldn’t even think about how much easier teaching would be if they didn’t have to watch him, not to mention how much more research and writing they could get done. And wouldn’t actually having time to do their work give them a chance to make tenure? But, on the other hand, it would be a huge risk to send him to the illegal daycare, or whatever it was. He could bring home an infection and get all of them sick. Not to mention, they could get others sick: they could be part of a super-spreader event that would make the whole city a hotspot! Besides, they weren’t people, like that—people who broke rules and hurt others just for their own benefit. But God… it would take so much weight off their shoulders if they had someone to watch him…&lt;/span&gt;}
+&lt;span class=&quot;thought&quot;&gt;It would be so good—so good—to have somewhere to send their son. Ugh. They couldn’t even think about how much easier teaching would be if they didn’t have to watch him, not to mention how much more research and writing they could get done. And wouldn’t actually having time to do their work give them a chance to make tenure? But, on the other hand, it would be a huge risk to send him to the illegal daycare, or whatever it was. He could bring home an infection and get all of them sick. Not to mention, they could get others sick: they could be part of a super-spreader event that would make the whole city a hotspot! Besides, they weren’t people, like that—people who broke rules and hurt others just for their own benefit. But God… it would take so much weight off their shoulders if they had someone to watch him…&lt;/span&gt;}&lt;/p&gt;
+|nodaycare)[(link-goto: &quot;Continue&quot;, &quot;No to Daycare&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
-Does $facultyName: &lt;br&gt;
-Send their son to the illegal daycare? &lt;br&gt;
-[[Tell their partner they have to figure out another solution?-&gt;No to Daycare]]
-&lt;/div&gt;&lt;/div&gt;
-&lt;!--jump to Manifesto: Labor--&gt;</tw-passagedata><tw-passagedata pid="81" name="Son&#39;s Screaming" tags="grad office" position="7419,4387" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;dialogue&quot;&gt;“Hi,”&lt;/span&gt;
+|choice&gt;[Should $facultyName:]&lt;br&gt;
+|choice1&gt;[Send their son to the illegal daycare?]&lt;br&gt;
+|choice2&gt;[Tell their partner they have to figure out another solution?]
+(click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?labor)(show: ?nodaycare)]
+(click: ?choice2)[(go-to: &quot;No to Daycare&quot;)]
+&lt;/div&gt;
+[
+&lt;div class=&quot;modal&quot;&gt;
+&lt;div class=&quot;modelContent&quot;&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?labor)]&lt;/span&gt;
+&lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+$(&quot;#puthere&quot;).load(&#39;manifesto.html #labor&#39;);
+&lt;/script&gt;
+](labor|
+&lt;br&gt;
+&lt;!-- [[No to Daycare]] --&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="81" name="Son&#39;s Screaming" tags="grad office" position="7419,4387" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;dialogue&quot;&gt;“Hi,”&lt;/span&gt;
 &lt;span class=&quot;narrative&quot;&gt;$gradName said, and the boy waved.&lt;/span&gt;
 &lt;span class=&quot;dialogue&quot;&gt; “He’s really cute.”&lt;/span&gt;}&lt;/p&gt;
 

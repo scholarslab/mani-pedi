@@ -502,7 +502,6 @@ tw-story[tags~="stud2"] {
     color:#000000;
 }
 
-
 /* Accordion styles */
 ul.jekyllcodex_accordion li ul li{
   list-style-type: circle;
@@ -516,4 +515,8 @@ ul.jekyllcodex_accordion li div.footnotes{
 ul.jekyllcodex_accordion li div.footnotes li{
   border-top: none;
   list-style-type: decimal;
+}
+
+ul.jekyllcodex_accordion li input:checked + label + div div {
+  display: block;
 }
