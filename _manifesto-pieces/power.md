@@ -20,6 +20,8 @@ To our fellow instructors: Most of us have learned by now that the classroom is 
 
 To our fellow students: Both during and before the pandemic, we have seen student power wrest significant reforms and resources from the University towards the collective good. During the past year, students have applied our collective power to winning CR/NC grading, getting greater workplace protections for RAs, and fighting for a tuition freeze in the Spring. We hope as our power grows, so do our [aims and ambitions](https://y.dsausa.org/the-activist/why-tuition-strikes-matter/).
 
+#### *Notes*
+
 [^45]: “Report shows racial disparities in Honor sanctioning during past three decades, some improvement in recent years.”
 [^46]: “Is StudCo Useless? No, Not If You Know How to Use It…,” Elect Abel, Ceci, and Ryan!, accessed May 3, 2021, [https://www.uvanewera.com/is-studco-useless](https://www.uvanewera.com/is-studco-useless).
 [^47]: bell hooks, Teaching to Transgress: Education as the Practice of Freedom (New York: Routledge, 1994, 8.
