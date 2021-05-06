@@ -197,7 +197,7 @@ $workerName
     (if: $choice7 is true)[
         (go-to: &quot;Changed Policy&quot;)
         ]
-    (else: $choice8 is true)[
+    (if: $choice8 is true)[
         (go-to: &quot;Permission Denied&quot;)
         ]
 ]}
@@ -891,13 +891,13 @@ user gets to Tweet or write a Reddit post as the student
 [[Continue-&gt;Blood Drain]]
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="75" name="Extra $100 a week" tags="grad apartment" position="326,3586" size="100,100">&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$gradName had been thrilled when they&#39;d first gotten the email. An extra $100 a week would be a huge help—but then, of course, they&#39;d remembered that, while they really needed the money, they were already incredibly swamped with work. They were TAing four sections, plus working on their dissertation. If they took the RA position, they would effectively be consigning themselves to making almost no progress on their dissertation this semester. That would mean further delaying going on the academic job market or interviewing for alt-ac jobs—which, in turn, meant they&#39;d be stuck in grad school, making almost nothing, for at least another year.&lt;/span&gt;}&lt;/p&gt;
 |accept)[(link-goto: &quot;Continue&quot;, &quot;Accept Position&quot;)]
-|)[(link-goto: &quot;Continue&quot;, &quot; Position&quot;)]
+|decline)[(link-goto: &quot;Continue&quot;, &quot;Decline Position&quot;)]
 &lt;div class=&quot;choices&quot;&gt;
 |choice&gt;[Does $gradName:]&lt;br&gt;
 |choice1&gt;[Take the research assistant position]&lt;br&gt;
 |choice2&gt;[Thank their department chair for the offer, but let her know that unfortunately, they can&#39;t accept]
 (click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?gradlabor)(show: ?accept)]
-(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?gradlabor)(show: ?)]
+(click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?gradlabor)(show: ?decline)]
 [
 &lt;div class=&quot;modal&quot;&gt;
 &lt;div class=&quot;modalContent&quot;&gt;
