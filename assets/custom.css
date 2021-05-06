@@ -370,13 +370,13 @@ div.modal{
     position: fixed; 
     z-index: 1;
     left: 50%;
-    top: 50%; 
-    width: 75%;
+    width: 65%;
+    top: 50%;
     height: 50%;
     overflow: auto;
-    background-color: lightgray;
+    background-color: blanchedalmond;
     transform: translate(-50%, -50%);
-    border: black thick;
+    border-style: solid;   
  }
 
 /* Modal Content Div */
