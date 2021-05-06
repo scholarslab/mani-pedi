@@ -1,7 +1,7 @@
 ---
 title: Justice
 order: 5
-anchor-link: justice
+anchor-link: justice-accordion
 ---
 
 Many instructors, ourselves included, consider teaching students about social inequalities and resistance towards them an essential part of what we do in the classroom. This practice is limited, however, by the context of the institutions within which we learn and teach.
@@ -42,7 +42,7 @@ To our fellow students: organizing is critical to fighting back against the raci
 
 #### ***Notes***
 
-[^33]: On the University and slavery, see Maurie Dee McInnis and Louis P. Nelson, eds., ***Educated in Tyranny: Slavery at Thomas Jefferson’s University*** (Charlottesville: University of Virginia Press, 2019) and Marcus Martin, Kirt von Daacke, and Megan S. Faulkner, “President’s Commission on Slavery and the University” (Charlottesville: University of Virginia, 2018), [https://vpdiversity.virginia.edu/sites/vpdiversity.virginia.edu/files/PCSU%20Report%20FINAL_July%202018.pdf](https://vpdiversity.virginia.edu/sites/vpdiversity.virginia.edu/files/PCSU%20Report%20FINAL_July%202018.pdf). On the history of the eugenics movement in Virginia, including the role of the University, see Gregory Michael Dorr, ***Segregation’s Science: Eugenics and Society in Virginia*** (Charlottesville: University of Virginia Press, 2008). 
+[^33]: On the University and slavery, see Maurie Dee McInnis and Louis P. Nelson, eds., ***Educated in Tyranny: Slavery at Thomas Jefferson’s University*** (Charlottesville: University of Virginia Press, 2019) and Marcus Martin, Kirt von Daacke, and Megan S. Faulkner, “President’s Commission on Slavery and the University” (Charlottesville: University of Virginia, 2018), <a href="https://vpdiversity.virginia.edu/sites/vpdiversity.virginia.edu/files/PCSU%20Report%20FINAL_July%202018.pdf" class="dont-break-out">https://vpdiversity.virginia.edu/sites/vpdiversity.virginia.edu/files/PCSU%20Report%20FINAL_July%202018.pdf</a>. On the history of the eugenics movement in Virginia, including the role of the University, see Gregory Michael Dorr, ***Segregation’s Science: Eugenics and Society in Virginia*** (Charlottesville: University of Virginia Press, 2008). 
 
 [^34]: Office of Equal Opportunity Programs, “An Examination of the University’s Minority Classified Staff (The Muddy Floor Report),” (Charlottesville, VA: University of Virginia, June 1996), [https://blackfireuva.files.wordpress.com/2012/02/an-examination-of-the-universitys-minority-classified-staff-the-muddy-floor-report.pdf](https://blackfireuva.files.wordpress.com/2012/02/an-examination-of-the-universitys-minority-classified-staff-the-muddy-floor-report.pdf).
 

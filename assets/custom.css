@@ -370,13 +370,14 @@ div.modal{
     position: fixed; 
     z-index: 1;
     left: 50%;
-    top: 50%; 
     width: 75%;
+    top: 50%;
     height: 50%;
     overflow: auto;
-    background-color: lightgray;
+    background-color: blanchedalmond;
     transform: translate(-50%, -50%);
-    border: black thick;
+    border-style: solid; 
+    border-radius: 20px;   
  }
 
 /* Modal Content Div */
@@ -519,4 +520,22 @@ ul.jekyllcodex_accordion li div.footnotes li{
 
 ul.jekyllcodex_accordion li input:checked + label + div div {
   display: block;
+}
+
+/* Class for breaking up long URLs that run over margins */
+.dont-break-out{
+overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }

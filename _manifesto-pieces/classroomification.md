@@ -1,7 +1,7 @@
 ---
 title: Classroomification
 order: 4
-anchor-link: classroomification
+anchor-link: classroomification-accordion
 ---
 <div id="classroomification">
 <p>Instructors’ desires to replicate the physical conditions of a classroom during the pandemic--what we have termed “classroomification”--have too often ignored the exceptional circumstances our students have found themselves in over the course of this past year. Synchronous remote learning which maintains regular attendance practices, for instance, presumes that students have the same <a href="https://www.cavalierdaily.com/article/2020/09/lack-of-internet-access-continues-to-impact-students-online-learning-experiences">ready access to an internect connection</a>, a quiet environment, or just the mental capacity to participate in a live classroom setting. Even more worryingly, however, "classroomification" has also manifested itself in the urge to surveil and police our students as they go about their remote learning. This includes the use of software such as Proctorio and Turnitin, but also extends to smaller practices such as forcing students to keep their cameras on during Zoom classes.</p>
