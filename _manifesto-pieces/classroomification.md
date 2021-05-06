@@ -1,10 +1,10 @@
 ---
 title: Classroomification
 order: 4
-anchor-link: classroomification
+anchor-link: classroomification-accordion
 ---
 <div id="classroomification">
-<p>Instructors’ desires to replicate the physical conditions of a classroom during the pandemic--what we have termed “classroomification”--has too often manifested itself in the urge to surveil and police our students as they go about their remote learning. This includes the use of software such as Proctorio and Turnitin, but also extends to smaller practices such as forcing students to keep their cameras on during Zoom classes or requiring all students to take exams at the same time, regardless of time zone differences.</p>
+Instructors’ desires to replicate the physical conditions of a classroom during the pandemic--what we have termed “classroomification”--has too often manifested itself in the urge to surveil and police our students as they go about their remote learning. This includes the use of software such as Proctorio and Turnitin, but also extends to smaller practices such as forcing students to keep their cameras on during Zoom classes or requiring all students to take exams at the same time, regardless of time zone differences.
 </div>
 This suspicious and ultimately controlling approach towards students feeds into what Jeffrey Moro defines as "<a href="https://jeffreymoro.com/blog/2020-02-13-against-cop-shit/">cop shit</a>”: “any pedagogical technique or technology that presumes an adversarial relationship between students and teachers.” Educational technology like Proctorio that <a href="https://hybridpedagogy.org/our-bodies-encoded-algorithmic-test-proctoring-in-higher-education/">tracks student movement</a> certainly falls under this category, but so do militant tardy or absence policies, assignments that require copying out honor code statements, and any interface with actual cops, including reporting students’ immigration status to ICE or calling cops on students in classrooms.
 
