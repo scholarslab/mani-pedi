@@ -30,11 +30,11 @@ We demand:
 Whatever UVA does or does not choose to do in the short term, it nevertheless remains a critical part of instructors’ mission at the University to ensure that students have a context through which to understand their social surroundings and the forces which shape them. For instructors who do not consider themselves scholars of race or racism but are looking to these subjects into their classrooms, we share the following resources as one possible place to start.
 
 * Histories of race, white supremacy, and antiracist organizing in UVA and Charlottesville: 
-    * Charlottesville 2017 
-    * “The Charlottesville Syllabus”
-    * Equity Center timeline project
+    * [***Charlottesville 2017: The Legacy of Race and Inequality***, ed. Dr. Claudrena Harold and Dr. Louis P. Nelson](https://www.upress.virginia.edu/title/5326): A collection of essays by faculty members at UVA reflecting on the events of August 11th and 12th, 2017 and their wider context. 
+    * “[The Charlottesville Syllabus](https://medium.com/@UVAGSC/the-charlottesville-syllabus-9e01573419d0)”: "A resource created by the Graduate Student Coalition for Liberation to be used to educate readers about the long history of white supremacy in Charlottesville, Virginia."
+    * "[Voices for Equity](http://voicesforequity.virginiaequitycenter.org/)": A living, interactive timeline of "calls to action made by students, faculty, and community members through protests, petitions, and working groups" for racial equity at UVA.
 
-* A collection of syllabi and digital projects on issues of race and identity: https://digitalpedagogy.hcommons.org/keyword/Race
+* Modern Language Association's "Digital Pedagogy in the Humanities" -- [Keyword "Race," curated by Dr. Viola Lasmana and Dr. Adeline Koh](https://digitalpedagogy.hcommons.org/keyword/Race): A collection of syllabi and digital projects on teaching and learning about issues of race and identity in the classroom. 
 
 Outside the classroom, antiracism can and must include addressing disparities in the enormous workplace that is UVA. In addition to participating in local organizations committed to combating the effects of structural racism, we must also engage in workplace organizing, particularly forms which build commonality between our own positions and those of staff at the University. In conjunction with this, we must also build lasting ties to the Charlottesville community in which most of us live, become engaged citizens who vote in local elections, attend city government meetings, and generally take part in the civic and social life of the city.
 
