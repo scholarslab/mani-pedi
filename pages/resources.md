@@ -4,5 +4,5 @@ title: Resources
 permalink: /resources
 ---
 ## Resources
-<img src="assets/img/mask.jpg" alt="hands holding a mask" class=".med-sticker-left" />
-<img src="assets/img/party_outside.jpg" alt="legs of someone sitting in the grass at night" class="large-img" />
+
+<img src="assets/img/party_outside.jpg" alt="" class="large-img" />

@@ -85,7 +85,7 @@ body.resources{
 
 .post-content h2 {
     font-weight: 400;
-    font-family: Geneva, sans-serif;
+    /* font-family: Geneva, sans-serif; */
 }
 
 /* 
@@ -146,7 +146,7 @@ body.resources{
 
 @font-face {
     font-family: 'savanna'; 
-    src: url('fonts/savanna_font.ttf');
+    src: url('fonts/savanna-font.ttf');
 }
 
 /* Class Styles to Match Handwriting Fonts */
@@ -176,18 +176,29 @@ tw-story {
 
 /* Style of Twine Dialog Boxes (e.g. name prompts) */
 tw-dialog {
-    background-color: #ffffff;
+    background-color: white;
     color: black;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
-tw-dialog-input {
-    padding-top: 10px;
+input {
+ 
+    font-family: Geneva, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: black;
 }
 
 /* Links in Twine Story Dialog Boxes */
 tw-dialog-links tw-link {
-    background-color: #ffffff;
+    background-color: white;
     color: black;
     border-radius: 20px;
 }
@@ -208,8 +219,22 @@ tw-link :hover {
 }
 
 /* Story back and forward arrows */
-tw-icon {
+tw-icon[alt] {
     color:#576dc7;
+    opacity: 1 !important;
+}
+
+/* Text areas for user input */
+textarea#survey {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+textarea#tweet {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 /* Transparent Boxes for Twine Story Text */
@@ -222,12 +247,18 @@ div.boxed {
     border-radius: 20px;
 }
 
+/* Responsive text box for grad survey */
+div.textbox {
+
+}
+
+
 /* 
  * Content Types Div Styles 
  */ 
  div.email, div.sms, div.zoommsg, div.cavdaily, div.dailyprog, div.reddit, div.tweet{
-     margin-top: 40px;
-     margin-bottom: 40px;
+     margin-top: 5px;
+     margin-bottom: 5px;
  }
 
 /* Story Choice Options */ 
@@ -238,20 +269,20 @@ div.email {
     min-width: auto;
     min-height: auto;
     background: white border-box; 
-    border-radius: 1%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: sans-serif;
     text-align: justify;
 }
 
 /* Text Messages */ 
 div.sms {
-    /* background-image: url('img/mask.jpg'); */
-    /* background-position: center center; */
-    background: #03a9fc;
+    /* background-image: url('img/receivedtextcolorized.png'); */
+    background-position: center center;
+    background: #03a9fc; 
     font-family: helvetica;
     color: #ffffff;
     padding-top: 10px;
@@ -275,35 +306,52 @@ div.zoommsg {
 /* Cavalier Daily Articles */ 
 /* div.cavdaily {} */
 
-div#cavdailyheadline {
+p#cavdailyheadline {
+    background: white;
+    color: black;
     text-align: center;
-    font-weight: bolder;
-    font-family: fantasy;
+    font-weight: bold;
+    font-family: Cormorant Garamond;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 20px;
 }
 
-/* div#cavdailytext {} */
+p#cavdailytext {
+    background: white;
+    color: black; 
+    font-family: Cormorant Garamond;
+    padding: 20px;
+    border-radius: 20px; 
+} 
 
 /* Daily Progess Articles */ 
 div.dailyprog {
     background: white;
-    color: black; 
+    color: black;
 }
 
-div.cavdaily {
-    background: white;
-    color: black; 
-}
 
 /* Reddit Posts */ 
 div.reddit { 
     background: white; 
     color: orangered; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;  
 }
 
 /* Tweets */ 
 div.tweet {
     background: white;
-    color: darkcyan; 
+    font-family: helvetica;
+    font-size-adjust: smaller;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;  
 }
 
 /* Passage Text Styles (<p>, <span>) */ 
@@ -322,21 +370,19 @@ div.modal{
     position: fixed; 
     z-index: 1;
     left: 50%;
-    top: 50%; 
     width: 75%;
+    top: 50%;
     height: 50%;
     overflow: auto;
-    background-color: lightgray;
-    color: black; 
+    background-color: blanchedalmond;
     transform: translate(-50%, -50%);
-    border: black thick;
+    border-style: solid; 
+    border-radius: 20px;   
  }
 
-/* Modelt Content Div */
+/* Modal Content Div */
 div.modalContent{
-    margin: 15%;
     border: 1px solid black; 
-    width: 75%; 
     padding: 5%;
     border: white thin; 
  }
@@ -453,4 +499,41 @@ tw-story[tags~="stud1"] {
 tw-story[tags~="stud2"] {
     background-color:#0F4C5C;
     color:#000000;
+}
+
+/* Accordion styles */
+ul.jekyllcodex_accordion li ul li{
+  list-style-type: circle;
+  border-top: none;
+}
+
+ul.jekyllcodex_accordion li div.footnotes{
+  display: block;
+}
+
+ul.jekyllcodex_accordion li div.footnotes li{
+  border-top: none;
+  list-style-type: decimal;
+}
+
+ul.jekyllcodex_accordion li input:checked + label + div div {
+  display: block;
+}
+
+/* Class for breaking up long URLs that run over margins */
+.dont-break-out{
+overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
