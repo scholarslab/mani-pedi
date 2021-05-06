@@ -5,4 +5,4 @@ permalink: /resources
 ---
 ## Resources
 
-<img src="assets/img/party_outside.png" alt="" class="large-img" />
+<img src="assets/img/party_outside.jpg" alt="" class="large-img" />

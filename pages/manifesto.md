@@ -14,16 +14,22 @@ permalink: /manifesto
 
 <p>We have divided the Manifesto into a Preamble, seven themes (presented alphabetically), and a Coda. Some of the ideas and stated demands are repeated across sections. Some sections link to and from one another to gesture towards the interconnectedness of each theme. Thinking about how certain issues are connected can be intimidating for those of us invested in making change. We’re often left confronting the enormity of the work ahead of us, asking ourselves, “Where do I start?” After a year of exploring connectivity and community at UVA, we argue that the answer can be: “Anywhere, which is also everywhere.” For this reason, we invite our readers to not only think of each section as a group of problems to be solved, but as a set of entry points where you can begin to take action.</p>
 
+<!-- javascript for opening and closing the accordion -->
 <script>
 $(document).ready(function() {
 $(function () {
     var $accordionSection = $(window.location.hash);
     console.log($accordionSection);
     if ($accordionSection.length > 0) {
-       $(window).scrollTop($(window.location.hash).offset().top);
+       $(window).scrollTop($(window.location.hash).next().offset().top);
        $accordionSection.prop('checked', true);
     }
 });
+$('a').click(function() {
+  $(window).scrollTop($($(this).attr('href')).next().offset().top);
+  $($(this).attr('href')).prop('checked', true);
 });
+});
+
 </script>
 {% include accordion.html %}
