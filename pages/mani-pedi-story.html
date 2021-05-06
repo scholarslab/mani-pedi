@@ -197,7 +197,7 @@ $workerName
     (if: $choice7 is true)[
         (go-to: &quot;Changed Policy&quot;)
         ]
-    (else: $choice8 is true)[
+    (if: $choice8 is true)[
         (go-to: &quot;Permission Denied&quot;)
         ]
 ]}
