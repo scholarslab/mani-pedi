@@ -410,10 +410,10 @@ Does $undergradName:&lt;br&gt;
 |continue)[(link-goto: &quot;Continue&quot;, &quot;Continue Lecturing&quot;)]
 
 &lt;div class=&quot;choices&quot;&gt;
-|choice&gt;[Does $facultyName:]&lt;br&gt;&lt;br&gt;
-|choice1&gt;[Put the students in groups and ask them to start the homework]&lt;br&gt;&lt;br&gt;
-|choice2&gt;[Ask the TA to lecture]&lt;br&gt;&lt;br&gt;
-|choice3&gt;[End class early]&lt;br&gt;&lt;br&gt;
+|choice&gt;[Does $facultyName:]&lt;br&gt;
+|choice1&gt;[Put the students in groups and ask them to start the homework]&lt;br&gt;
+|choice2&gt;[Ask the TA to lecture]&lt;br&gt;
+|choice3&gt;[End class early]&lt;br&gt;
 |choice4&gt;[Continue lecturing and hope things cool down]
 (click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(hide: ?choice3)(hide: ?choice4)(show: ?classroomification)(show: ?groups)]
 (click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(hide: ?choice3)(hide: ?choice4)(show: ?classroomification)(show: ?TA)]
@@ -952,7 +952,7 @@ Does $facultyName:&lt;br&gt;
 &lt;span class=&quot;narrative&quot;&gt;$facultyName laughed.&lt;/span&gt; 
 &lt;span class=&quot;dialogue&quot;&gt;&quot;No way.&quot;&lt;/span&gt;}&lt;/p&gt;
 
-[[Continue-&gt;Deep Breathing - 3]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="80" name="Deep Breathing - 3" tags="faculty office" position="6714,6014.333333333333" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;dialogue&quot;&gt;&quot;I&#39;m serious. She doesn&#39;t watch that many kids. I know some of my coworkers send theirs there.&quot;&lt;/span&gt;}&lt;/p&gt;
+[[Continue-&gt;Deep Breathing - 3]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="80" name="Deep Breathing - 3" tags="faculty office" position="6715.666666666667,6014.333333333333" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;dialogue&quot;&gt;&quot;I&#39;m serious. She doesn&#39;t watch that many kids. I know some of my coworkers send theirs there.&quot;&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;dialogue&quot;&gt;&quot;Yeah, but what happens if we get caught? She gets in huge trouble, and what—does CPS come investigate us?&quot;&lt;/span&gt;}&lt;/p&gt;
 
@@ -967,7 +967,7 @@ Does $facultyName:&lt;br&gt;
 |choice&gt;[Should $facultyName:]&lt;br&gt;
 |choice1&gt;[Send their son to the illegal daycare?]&lt;br&gt;
 |choice2&gt;[Tell their partner they have to figure out another solution?]
-(click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?labor)(show: ?nodaycare)]
+(click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(show: ?faclabor)(show: ?nodaycare)]
 (click: ?choice2)[(go-to: &quot;No to Daycare&quot;)]
 &lt;/div&gt;
 [
