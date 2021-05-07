@@ -41,7 +41,7 @@ var CavDailyData = $.getJSON("/assets/data/CavDaily.json", function () {
     });
     sessionStorage.setItem('CavDailyData', JSON.stringify(CavDailyData));
 
-// DailyProgData 
+/* DailyProgData 
 
 var DailyProgData = $.getJSON("/assets/data/DailyProg.json", function () {
     console.log("DailyProg success");
@@ -56,3 +56,4 @@ var DailyProgData = $.getJSON("/assets/data/DailyProg.json", function () {
         console.log("DailyProg complete");
     });
     sessionStorage.setItem('DailyProgData', JSON.stringify(DailyProgData));
+*/
