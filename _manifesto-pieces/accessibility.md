@@ -21,7 +21,7 @@ UDL classroom practices are widely documented and, with a little work up front, 
     <li>Flexible deadlines</li>
     <li>Flexible attendance policies</li>
     <li>Assigning an “<a href="https://dh.uoregon.edu/2018/04/02/defining-the-unessay/">Unessay</a>” instead of a traditional paper</li>
-    <li>Utilizing “<a href="https://www.jessestommel.com/ungrading-a-bibliography/">ungrading</a>” practices in our <a href="#assessment-accordion">assessment</a></li>
+    <li>Utilizing “<a href="https://muse.jhu.edu/book/78367">ungrading</a>” practices in our <a href="#assessment-accordion">assessment</a></li>
 </ul>
 
 However, we acknowledge that the classroom is not a vacuum within the institution of the university. The most obvious point of intervention is in funding for accessibility services, but without greater transparency than UVA currently provides, it is impossible to know how much of Student Health’s $20 million budget goes to divisions such as SDAC or Counseling and Psychological Services (CAPS).[^17] Increased funding alone is insufficient, however, without changes in institutional priorities and approaches towards student success. As Dolmage warns in <i>Academic Ableism</i>, universities have begun to use UDL as a signal of progressive pedagogy without attacking the more deeply rooted assumption that higher ed is a mechanism for sorting people into “deserving” and “undeserving” types. 
