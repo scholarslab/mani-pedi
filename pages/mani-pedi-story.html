@@ -396,7 +396,7 @@ Does $undergradName:&lt;br&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="34" name="Zoom Class" tags="faculty office transition" position="4140,6510" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;narrative&quot;&gt;The original plan for the day had been simple: Their partner would watch the kids while they went into the office in the early afternoon—that way, they could have a quiet space to broadcast their Zoom class, and meet with grad students—and they would take care of the kids at night while their partner worked. But of course, everything had gone sideways. About thirty minutes after the faculty meeting, their partner had gotten an email about an emergency work conference call, and had spent the last few hours barricaded in their office. Their daughter would be fine looking after herself—she would just do her Zoom lessons—but there was no way their son could: He had to come with $facultyName to the office. The first few hours with him there had been fine—he&#39;d flung around a few stacks of papers, but mostly he&#39;d sat playing on his tablet—but, almost as soon as $facultyName pulled up Zoom to run their class, they knew things were going to be disastrous. &quot;What&#39;s that?&quot; their son asked loudly, while they were mid-sentence.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;Trying not to laugh, $facultyName said&lt;/span&gt; 
-&lt;span class=&quot;dialogue&quot;&gt;&quot;I&#39;m sorry, everybody, this is my son. Honey, this is me teaching. [[Remember?-&gt;Smiled and Waved]]&quot;&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="35" name="Negotiation" tags="faculty office" position="4783,6591" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;dialogue&quot;&gt;&quot;Honey, I know. But you have the tablet.&quot;&lt;/span&gt; 
+&lt;span class=&quot;dialogue&quot;&gt;&quot;I&#39;m sorry, everybody, this is my son. Honey, this is me teaching. [[Remember?-&gt;Smiled and Waved]]&quot;&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="35" name="Negotiation" tags="faculty office" position="4781.333333333333,6591" size="100,100">&lt;p&gt;&lt;div class=&quot;boxed&quot;&gt;{&lt;span class=&quot;dialogue&quot;&gt;&quot;Honey, I know. But you have the tablet.&quot;&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$facultyName said.&lt;/span&gt; 
 &lt;span class=&quot;dialogue&quot;&gt;&lt;/span&gt;}&lt;/p&gt;
 
@@ -410,10 +410,10 @@ Does $undergradName:&lt;br&gt;
 |continue)[(link-goto: &quot;Continue&quot;, &quot;Continue Lecturing&quot;)]
 
 &lt;div class=&quot;choices&quot;&gt;
-|choice&gt;[Does $facultyName:]&lt;br&gt;
-|choice1&gt;[Put the students in groups and ask them to start the homework]&lt;br&gt;
-|choice2&gt;[Ask the TA to lecture]&lt;br&gt;
-|choice3&gt;[End class early]&lt;br&gt;
+|choice&gt;[Does $facultyName:]&lt;br&gt;&lt;br&gt;
+|choice1&gt;[Put the students in groups and ask them to start the homework]&lt;br&gt;&lt;br&gt;
+|choice2&gt;[Ask the TA to lecture]&lt;br&gt;&lt;br&gt;
+|choice3&gt;[End class early]&lt;br&gt;&lt;br&gt;
 |choice4&gt;[Continue lecturing and hope things cool down]
 (click: ?choice1)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(hide: ?choice3)(hide: ?choice4)(show: ?classroomification)(show: ?groups)]
 (click: ?choice2)[(hide: ?choice)(hide: ?choice1)(hide: ?choice2)(hide: ?choice3)(hide: ?choice4)(show: ?classroomification)(show: ?TA)]
