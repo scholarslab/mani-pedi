@@ -20,7 +20,7 @@ window.processInputElements = function () {
 Does $facultyName:&lt;br&gt;
 Hit [[Snooze]]?&lt;br&gt;
 Get up with their [[Coffee]]? 
-&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="210,261.3333333333333" size="200,200">&lt;!-- 
+&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="Establishing Connection..." tags="" position="210,261" size="200,200">&lt;!-- 
 // requires jquery
 --&gt; 
 
@@ -972,12 +972,12 @@ Does $facultyName:&lt;br&gt;
 [
 &lt;div class=&quot;modal&quot;&gt;
 &lt;div class=&quot;modalContent&quot;&gt;
-&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?labor)]&lt;/span&gt;
+&lt;span class=&quot;close&quot;&gt;(link-repeat: &quot;&amp;times&quot;)[(hide: ?faclabor)]&lt;/span&gt;
 &lt;div id=&quot;puthere&quot;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;script&gt;
-$(&quot;#puthere&quot;).load(&#39;manifesto.html #labor&#39;);
+$(&quot;#puthere&quot;).load(&#39;manifesto.html #faclabor&#39;);
 &lt;/script&gt;
 ](labor|
 &lt;br&gt;
@@ -1004,9 +1004,15 @@ Let her daughter know the bubble still [[isn&#39;t an option-&gt;No Bubble]]?
 &lt;span class=&quot;dialogue&quot;&gt;Allie said.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$undergradName nodded.&lt;/span&gt; 
-&lt;span class=&quot;dialogue&quot;&gt;&quot;I think so! [[Wait, let me read the email.&quot;-&gt;Raven Email]]&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="84" name="Cav Daily" tags="newspaper" position="253,1155" size="100,100">[[Continue-&gt;You couldn&#39;t pay me]]</tw-passagedata><tw-passagedata pid="85" name="You couldn&#39;t pay me" tags="kitchen faculty" position="239,1308" size="100,100">&lt;script&gt;
-document.getElementById(&quot;cavdailyheadline&quot;).innerHTML = CavDailyData.responseJSON.title[2];
-document.getElementById(&quot;cavdailytext&quot;).innerHTML = CavDailyData.responseJSON.text[2];
+&lt;span class=&quot;dialogue&quot;&gt;&quot;I think so! [[Wait, let me read the email.&quot;-&gt;Raven Email]]&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="84" name="Cav Daily" tags="newspaper" position="253,1155" size="100,100">[[Continue-&gt;You couldn&#39;t pay me]]</tw-passagedata><tw-passagedata pid="85" name="You couldn&#39;t pay me" tags="kitchen faculty" position="242,1303" size="100,100">&lt;script&gt;
+const keys = Object.keys(CavDailyData.responseJSON); 
+console.log(keys); 
+const randIndex = Math.floor(Math.random () * keys.length); 
+console.log(randIndex); 
+const randKey = keys[randIndex]; 
+console.log(randKey); 
+document.getElementById(&quot;cavdailyheadline&quot;).innerHTML = CavDailyData.responseJSON[randKey].title;
+document.getElementById(&quot;cavdailytext&quot;).innerHTML = CavDailyData.responseJSON[randKey].text;
 &lt;/script&gt;
 
 &lt;div class=&quot;cavdaily&quot;&gt;
@@ -1014,9 +1020,8 @@ document.getElementById(&quot;cavdailytext&quot;).innerHTML = CavDailyData.respo
 &lt;/div&gt;
 
 &lt;div class=&quot;boxed&quot;&gt;
-&lt;p&gt;{&lt;span class=&quot;thought&quot;&gt;God, &lt;/span&gt;
-&lt;span class=&quot;narrative&quot;&gt;they thought. &lt;/span&gt;
-&lt;span class=&quot;thought&quot;&gt;You couldn&#39;t pay me to be an undergrad right now. What a nightmare. &lt;/span&gt;
+&lt;p&gt;{&lt;span class=&quot;thought&quot;&gt;God, you couldn&#39;t pay me to be an undergrad right now. What a nightmare&lt;/span&gt;
+&lt;span class=&quot;narrative&quot;&gt;, they thought. &lt;/span&gt;
 &lt;span class=&quot;narrative&quot;&gt;$facultyName knew, too, that however bad the paper made it sound, the reality was about a hundred times worse. Of course, even what was on the page was pretty grim:&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;
 
 &lt;div class=&quot;cavdaily&quot;&gt;
