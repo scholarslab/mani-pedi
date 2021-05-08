@@ -5,7 +5,7 @@ permalink: /resources
 ---
 ## Resources
 
-The following resources served as inspiration for our project. Each is a digital humanities archive or game meant to memorialize particular experiences that we found valuable in imagining how to memorialize the experiences of students and teachers throughout the COVID-19 pandemic.
+The following resources served as inspiration for our project. Our inspirations consist of digital humanities archives or games meant to memorialize particular experiences that we found valuable in imagining how to memorialize the experiences of students and teachers throughout the COVID-19 pandemic.  We also showcase in full the illustrations made by Crystal Luo, Savanna Morrison, and Grace Alvino that appear throughout our project.   
 
 # Digital Memorials:
 
@@ -41,6 +41,32 @@ The following resources served as inspiration for our project. Each is a digital
 [I told you this was a bad idea](https://jessicapadkin.itch.io/i-told-you-this-was-a-bad-idea), which makes the viewer have an interactive conversation with a computer. 
 
 [You Are Jeff Bezos](https://direkris.itch.io/you-are-jeff-bezos), which is self explanatory. 
+
+# Illustration Gallery
+
+<img src="assets/img/resized/apartment_1000x800.png" alt="" class="gallery-right"/>
+
+<img src="assets/img/resized/dormroom_1000x800.png" alt="" class="gallery-left"/>
+
+<img src="assets/img/resized/fac_computer_1000x700.png" alt="" class="gallery-right"/>
+
+<img src="assets/img/resized/grad_computer_1000x680.png" alt="" class="gallery-left"/>
+
+<img src="assets/img/resized/kitchen_1000x800.png" alt="" class="gallery-right"/>
+
+<img src="assets/img/resized/library1_1000x811.png" alt="" class="gallery-left"/>
+
+<img src="assets/img/resized/library2_1000x811.png" alt="" class="gallery-right"/>
+
+<img src="assets/img/resized/mask_1000x667.png" alt="" class="gallery-left"/>
+
+<img src="assets/img/resized/mask2_1000x800.png" alt="" class="gallery-right"/>
+
+<img src="assets/img/resized/newspaper-2_1000x776.png" alt="" class="gallery-left"/>
+
+<img src="assets/img/resized/newspaper1_1000x800.png" alt="" class="gallery-right"/>
+
+
 
 
 
