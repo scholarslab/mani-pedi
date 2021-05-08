@@ -5,4 +5,45 @@ permalink: /resources
 ---
 ## Resources
 
-<img src="assets/img/party_outside.jpg" alt="" class="large-img" />
+The following resources served as inspiration for our project. Each is a digital humanities archive or game meant to memorialize particular experiences that we found valuable in imagining how to memorialize the experiences of students and teachers throughout the COVID-19 pandemic.
+
+# Digital Memorials:
+
+[New York City MTA Project](https://www.6sqft.com/mta-unveils-digital-memorial-honoring-over-100-transit-workers-lost-to-covid-19/), which memorializes 100 transit workers who lost their lives to COVID-19.
+
+[Korean War Digital History Project](http://www.kwdhproject.org/), which serves to archive materials and educate students about the Korean War, encouraging educators to bring the stories of veterans into the classroom.
+
+[AIDS Memorial Quilt Digital Experience](https://labs.utdallas.edu/public-interactives/aids-memorial-quilt-digital-experiences-project-2012/), which digitizes the AIDS Memorial Quilt in order to create an augmented reality experience that allows users to explore and interact with this monument to victims of the AIDS pandemic online.
+
+[COVID BLACK](https://covidblack.org/), which initially began as an attempt to get legislators to release data pertaining to race and the COVID-19 pandemic and evolved into a project that advocates for the telling of Black stories through racial disparities in health.
+
+[Our Marathon: The Boston Bombing Digital Archive](https://marathon.library.northeastern.edu/), which compiles crowdsourced digital materials relating to the Boston Marathon Bombing of 2013 and its subsequent aftermath in order to provide a community-based perspective of the experience.
+
+[September 11th Digital Archive](https://911digitalarchive.org/about), which compiles digital materials relating to September 11th, 2001 and its subsequent aftermath in an attempt to preserve these materials.
+
+[Project Empathy](https://www.projectempathyvr.com/#why-vr), which produces films and virtual and augmented reality experiences meant to provide visceral and personal accounts of the individual experiences of marginalized peoples.
+
+[A People’s Archive of Police Violence in Cleveland](https://www.archivingpoliceviolence.org/), which crowdsources materials relating to police violence in order to create a system of accountability for police officers and to serve as a place of healing and social justice for the Cleveland community.
+
+[Visionary Futures Collective](https://visionary-futures-collective.github.io/covid19/), which tracks the response to the COVID-19 pandemic through data collection, testimony, and visualization in order to understand the impact of the pandemic on labor and safety in higher education.
+
+[Hiroshima Archive](https://hiroshima.archiving.jp/index_en.html), which provides personal and moving testimonies, photographs, and other digital materials related to the bombing of Hiroshima in an interactive format.
+
+ 
+# Games and Interactive Stories:
+
+[Spent](http://playspent.org/html/), which simulates the difficulties of living in poverty and homelessness.
+
+[September 7, 2020](https://caitkirby.com/downloads/Fall%202020.html), which encourages the player to contend with the moment-by-moment decisions students face as a result of in-person classes at a university.
+
+[Depression Quest](http://www.depressionquest.com/dqfinal.html#2n.1e), which immerses the player into the life of someone living with depression by having them make decisions throughout their day.
+
+[I told you this was a bad idea](https://jessicapadkin.itch.io/i-told-you-this-was-a-bad-idea), which makes the viewer have an interactive conversation with a computer. 
+
+[You Are Jeff Bezos](https://direkris.itch.io/you-are-jeff-bezos), which is self explanatory. 
+
+
+
+ 
+
+
