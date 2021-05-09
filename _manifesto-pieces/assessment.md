@@ -25,16 +25,13 @@ Lastly, we also wish to highlight the negative effects grades have on instructor
 <div id="assessment">
 For the sake of both student and instructor wellbeing, and a healthier, more holistic approach to pedagogy in general, we call for a serious rethinking of assessment and its function at UVA. To instructors, we provide the following resources about alternative methods of assessment which invite greater student participation in the process of grading while providing greater flexibility for students and teachers alike.  
 
-<ul> 
-<li>Labor based contract grading:</li>
-  <ul>
-  <li> <a href="http://tinyurl.com/uoantiracisthandout">Asao Inoue's method</a></li>
-  <li> <a href="https://www.hastac.org/blogs/cathy-davidson/2015/08/16/getting-started-6-contract-grading-and-peer-review">Cathy Davidson's method</a></li>
-  </ul>
-<li> <a href="https://files.eric.ed.gov/fulltext/EJ815370.pdf">Student self-assessment</a></li>
-<li> <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.567.4718&rep=rep1&type=pdf">Minimal grading</a></li>
-<li> <a href="http://www.jossr.org/wp-content/uploads/2017/10/Rolling-with-the-semester-Final.pdf">Rolling deadlines</a></li>
-</ul>
+- Labor based contract grading:
+  - <a href="http://tinyurl.com/uoantiracisthandout">Asao Inoue's method</a>
+  - <a href="https://www.hastac.org/blogs/cathy-davidson/2015/08/16/getting-started-6-contract-grading-and-peer-review">Cathy Davidson's method</a>
+- <a href="https://files.eric.ed.gov/fulltext/EJ815370.pdf">Student self-assessment</a>
+- <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.567.4718&rep=rep1&type=pdf">Minimal grading</a>
+- <a href="https://muse.jhu.edu/book/78367">Ungrading</a>
+- <a href="http://www.jossr.org/wp-content/uploads/2017/10/Rolling-with-the-semester-Final.pdf">Rolling deadlines</a>
 </div>
 
 While implementing these methods in our classrooms is a necessary first step towards what Jesse Stommel describes as “collectively worrying the edges of grading as a system,” they do not address the institutional requirements and incentives held in place by University policy. We argue that the principles which led UVA to adopt the CR/NC option for the 2020-2021 Academic Year must continue to operate moving forward. In order to create a more equitable, accessible, and ultimately effective community of learning, UVA must move towards abolishing grades. To this end, we demand the following:  
