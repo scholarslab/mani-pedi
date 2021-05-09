@@ -108,11 +108,20 @@ body.resources{
     transform: rotate(-15deg);    
 }
 
-.large-img {
+.gallery-right {
+    float: right;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 50%; 
+}
+
+.gallery-left {
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
 }
 /*
  * FONTS :) 
