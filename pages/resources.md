@@ -3,7 +3,7 @@ layout: page
 title: Resources
 permalink: /resources
 ---
-<h1 class='grace'>Resources</h2>
+<h1 class='grace'>Resources</h1>
 
 The following resources served as inspiration for our project. Our inspirations consist of digital humanities archives or games meant to memorialize particular experiences that we found valuable in imagining how to memorialize the experiences of students and teachers throughout the COVID-19 pandemic.  We also showcase in full the illustrations made by Crystal Luo, Savanna Morrison, and Grace Alvino that appear throughout our project.   
 
