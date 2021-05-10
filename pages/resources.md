@@ -3,11 +3,11 @@ layout: page
 title: Resources
 permalink: /resources
 ---
-## Resources
+<h1 class='grace'>Resources</h1>
 
 The following resources served as inspiration for our project. Our inspirations consist of digital humanities archives or games meant to memorialize particular experiences that we found valuable in imagining how to memorialize the experiences of students and teachers throughout the COVID-19 pandemic.  We also showcase in full the illustrations made by Crystal Luo, Savanna Morrison, and Grace Alvino that appear throughout our project.   
 
-# Digital Memorials:
+<h2 class='savanna'>Digital Memorials</h2>
 
 [New York City MTA Project](https://www.6sqft.com/mta-unveils-digital-memorial-honoring-over-100-transit-workers-lost-to-covid-19/), which memorializes 100 transit workers who lost their lives to COVID-19.
 
@@ -29,8 +29,7 @@ The following resources served as inspiration for our project. Our inspirations 
 
 [Hiroshima Archive](https://hiroshima.archiving.jp/index_en.html), which provides personal and moving testimonies, photographs, and other digital materials related to the bombing of Hiroshima in an interactive format.
 
- 
-# Games and Interactive Stories:
+<h2 class='emma'>Games and Interactive Stories:</h2>
 
 [Spent](http://playspent.org/html/), which simulates the difficulties of living in poverty and homelessness.
 
@@ -42,7 +41,7 @@ The following resources served as inspiration for our project. Our inspirations 
 
 [You Are Jeff Bezos](https://direkris.itch.io/you-are-jeff-bezos), which is self explanatory. 
 
-# Illustration Gallery
+<h2 class='crystal'>Illustration Gallery</h2>
 
 <img src="assets/img/resized/apartment_1000x800.png" alt="" class="gallery-right"/>
 
@@ -79,11 +78,3 @@ The following resources served as inspiration for our project. Our inspirations 
 <img src="assets/img/resized/tweetcolorized_1000x1379.png" alt="" class="gallery-right"/>
 
 <img src="assets/img/resized/tweetconvocolorized_1000x1514.png" alt="" class="gallery-left"/>
-
-
-
-
-
- 
-
-

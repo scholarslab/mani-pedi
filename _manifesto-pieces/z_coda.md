@@ -2,6 +2,7 @@
 title: Coda
 order: 9
 anchor-link: coda-accordion
+handwriting: elise
 ---
 
 The present state of digital pedagogy at UVA seems to many teachers and students to be a grim landscape. The future of digital pedagogy, however, is what we choose to make of it. To demonstrate a possible version of that future, the six of us we offer our own year in the Scholars’ Lab as a counterexample. 

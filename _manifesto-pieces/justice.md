@@ -2,6 +2,7 @@
 title: Justice
 order: 5
 anchor-link: justice-accordion
+handwriting: crystal
 ---
 
 Many instructors, ourselves included, consider teaching students about social inequalities and resistance towards them an essential part of what we do in the classroom. This practice can be limited, however, by the context of the institutions within which we learn and teach. The past year in particular has seen a renewed public reckoning with racial inequality in its many violent forms, a reckoning the University of Virginia itself has sought to engage with and take part in. Part of this process has involved a public accounting for UVA's violent history of upholding white supremacist, eugenicist, and colonial ideologies.[^33] Yet that history is reproduced daily in the labor and social relations of the University, as well as in the University’s larger relationship with the surrounding city of Charlottesville and its permanent residents.[^34] 
