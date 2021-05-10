@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play mani-pedi-story.</tw-noscript></noscript></tw-story>
-<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.13" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
+<tw-storydata name="mani-pedi-story" startnode="2" creator="Twine" creator-version="2.3.12" ifid="4E1F5AD7-E23E-46BD-9D2C-CA00E328491A" zoom="0.6" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript">window.Harlowe = { 'State' : State };
 window.processInputElements = function () {
     $('input[data-varname]').on('change', function () {
         var varName = $(this).attr('data-varname');
@@ -333,7 +333,7 @@ Does $workerName mention their mom?&lt;br&gt;
 &lt;span class=&quot;narrative&quot;&gt;They were already so shaken up about their mom that the last thing they needed was to have another anti-masker scream in their face. Still, as they watched the student chatter away happily with their friends, they wondered how many people the student would infect if they actually had COVID. Tens? Hundreds? Most of them other teens and twenty-somethings, sure, but also professors and staff—and members of the Charlottesville community, too. They squeezed the wire of their mask extra tight around their nose and pulled out their phone to text their mom:&lt;/span&gt;&lt;/div&gt;}&lt;/p&gt; 
 &lt;div class=&quot;sms&quot;&gt;
 I miss you. Everything&#39;s going to be okay.&lt;/div&gt;
-&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;[[Continue-&gt;Raven]]&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="29" name="Mom Is Sick" tags="stud1 library" position="2081.6666666666665,6339" size="100,100">(set: $mentionmom to true)
+&lt;div class=&quot;boxed&quot;&gt;&lt;p&gt;[[Continue-&gt;Raven]]&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="29" name="Mom Is Sick" tags="stud1 library" position="2081,6339" size="100,100">(set: $mentionmom to true)
 &lt;p&gt;{&lt;div class=&quot;boxed&quot;&gt;&lt;span class=&quot;dialogue&quot;&gt;&quot;My mom is actually really sick,&quot;&lt;/span&gt; 
 &lt;span class=&quot;narrative&quot;&gt;$workerName heard themselves say,&lt;/span&gt; 
 &lt;span class=&quot;dialogue&quot;&gt;&quot;And she might have COVID. So, you know. You really have to wear a mask.&quot;&lt;/span&gt;}&lt;/p&gt;
@@ -998,15 +998,18 @@ Let her daughter know the bubble still [[isn&#39;t an option-&gt;No Bubble]]?
 &lt;span class=&quot;dialogue&quot;&gt;Allie said.&lt;/span&gt;}&lt;/p&gt;
 
 &lt;p&gt;{&lt;span class=&quot;narrative&quot;&gt;$undergradName nodded.&lt;/span&gt; 
-&lt;span class=&quot;dialogue&quot;&gt;&quot;I think so! [[Wait, let me read the email.&quot;-&gt;Raven Email]]&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="84" name="Cav Daily" tags="newspaper" position="253,1155" size="100,100">[[Continue-&gt;You couldn&#39;t pay me]]</tw-passagedata><tw-passagedata pid="85" name="You couldn&#39;t pay me" tags="kitchen faculty" position="242,1303" size="100,100">&lt;script&gt;
+&lt;span class=&quot;dialogue&quot;&gt;&quot;I think so! [[Wait, let me read the email.&quot;-&gt;Raven Email]]&lt;/span&gt;}&lt;/p&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="84" name="Cav Daily" tags="newspaper" position="253,1155" size="100,100">[[Continue-&gt;You couldn&#39;t pay me]]</tw-passagedata><tw-passagedata pid="85" name="You couldn&#39;t pay me" tags="kitchen faculty" position="247,1303" size="100,100">&lt;script&gt;
 const keys = Object.keys(CavDailyData.responseJSON); 
 console.log(keys); 
 const randIndex = Math.floor(Math.random () * keys.length); 
 console.log(randIndex); 
 const randKey = keys[randIndex]; 
 console.log(randKey); 
-document.getElementById(&quot;cavdailyheadline&quot;).innerHTML = CavDailyData.responseJSON[randKey].title;
-document.getElementById(&quot;cavdailytext&quot;).innerHTML = CavDailyData.responseJSON[randKey].text;
+var CavDailyTitle = CavDailyData.responseJSON[randKey].title; 
+var CavDailyText = CavDailyData.responseJSON[randKey].text; 
+var CleanCDText = CavDailyText.replace(/\\xa0|&#39;|&quot;/g, &#39;&#39;); 
+document.getElementById(&quot;cavdailyheadline&quot;).innerHTML = CavDailyTitle;
+document.getElementById(&quot;cavdailytext&quot;).innerHTML = CleanCDText;
 &lt;/script&gt;
 
 &lt;div class=&quot;cavdaily&quot;&gt;

@@ -3,6 +3,19 @@ layout: page
 title: Manifesto
 permalink: /manifesto
 ---
+
+<script>
+$(function() {
+    $("[rel=footnote]").inlineFootnote({
+        boxMargin: 20, // px
+	    hideDelay: 200, // ms
+	    //hideFromContent: "[rev=footnote]",
+	    maximumBoxWidth: 500, // px
+	    boxId: "footnote_box"
+	  });
+	});
+</script>
+
 ## Manifesto
 
 <p><i>A Manifesto on the Digital Pedagogy of Colleges and Universities</i></p>
