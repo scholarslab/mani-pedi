@@ -4,7 +4,7 @@ title: Manifesto
 permalink: /manifesto
 ---
 
-## Manifesto
+<h2 class='crystal'>Manifesto</h2>
 
 <p><i>A Manifesto on the Digital Pedagogy of Colleges and Universities</i></p>
 <p><i>Prepared by Grace Alvino, Emma Dove, Elise Foote, Crystal Luo, Savanna Morrison, and Aaron Thompson</i></p>

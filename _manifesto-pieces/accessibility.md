@@ -2,6 +2,7 @@
 title: Accessibility
 order: 2
 anchor-link: accessibility-accordion
+handwriting: savanna
 ---
 Since the beginning of the pandemic, almost everyone has been exposed to greater amounts of mental and physical stress. As with the transmission of the virus itself, however, these effects are not evenly distributed throughout the population. Figures for the United States at large indicate that levels of pandemic-related psychological distress are higher among young people, those with lower income, women, and people with disabilities. Adults aged 18-24 in particular are even more  likely to report heightened mental distress than the general population.[^6]
 

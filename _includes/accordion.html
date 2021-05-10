@@ -14,7 +14,7 @@ ul.jekyllcodex_accordion li input:checked + label::before {transform: rotate(-45
 {% for item in sorted %}
     <li>
     <input id="{{ item.anchor-link }}" type="checkbox" />
-    <label for="{{ item.anchor-link }}"><h3>{{ item.title }}</h3></label>
+    <label for="{{ item.anchor-link }}"><h3 class="{{ item.handwriting}}">{{ item.title }}</h3></label>
     <div>{{ item.content | markdownify }}</div>
 </li>
 {% endfor %}
