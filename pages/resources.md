@@ -66,6 +66,20 @@ The following resources served as inspiration for our project. Our inspirations 
 
 <img src="assets/img/resized/newspaper1_1000x800.png" alt="" class="gallery-right"/>
 
+<img src="assets/img/resized/office_1000x1196.png" alt="" class="gallery-left"/>
+
+<img src="assets/img/resized/party_1000x744.png" alt="" class="gallery-right"/>
+
+<img src="assets/img/resized/party_outside_1000x744.png" alt="" class="gallery-left"/>
+
+<img src="assets/img/resized/ravenphonecolorized_1000x1329.png" alt="" class="gallery-right"/>
+
+<img src="assets/img/resized/textbook_1000x667.png" alt="" class="gallery-left"/>
+
+<img src="assets/img/resized/tweetcolorized_1000x1379.png" alt="" class="gallery-right"/>
+
+<img src="assets/img/resized/tweetconvocolorized_1000x1514.png" alt="" class="gallery-left"/>
+
 
 
 
