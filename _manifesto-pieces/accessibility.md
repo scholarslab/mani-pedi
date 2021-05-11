@@ -39,19 +39,15 @@ UVA’s history of acknowledging and addressing disabled students’ needs demon
 
 We offer the case of the Lawn as illustrative of how certain arbitrary markers of honor, prestige, and accomplishment at UVA assume an equitable meritocracy, but in reality, perpetuate ableist assumptions about what it means to “do well” in higher ed. For this reason, in addition to calling for greater budget transparency and a greater material investment in services for disabled students, we also demand:
 
-<ul>
-    <li>The implementation of a permanent and universal system of Credit/No-Credit grading, and the elimination of the Deans’ List and all grade point averages. (We explore the necessity for less rigid and competitive grading in the <a href="#assessment-accordion">a section dedicated to assessment</a>.)</li>
-    <li>The funding of more tenure-track faculty lines to enable smaller class sizes with instructors who have the time, energy, and professional stability to implement successful accessibility measures. (We explore the additional importance of a tenured faculty workforce in <a href="#labor-accordion">a section dedicated to labor</a>.)
-</ul>
+* The implementation of a permanent and universal system of Credit/No-Credit grading, and the elimination of the Deans’ List and all grade point averages. (We explore the necessity for less rigid and competitive grading in the <a href="#assessment-accordion">a section dedicated to assessment</a>.)
+* The funding of more tenure-track faculty lines to enable smaller class sizes with instructors who have the time, energy, and professional stability to implement successful accessibility measures. (We explore the additional importance of a tenured faculty workforce in <a href="#labor-accordion">a section dedicated to labor</a>.)
 
 Finally, to our fellow students we ask the following. 
 
-<ul>
-    <li><i>When in doubt, reach out.</i> We hope more of us can push past the culture of individual achievement and think of learning as a communal enterprise rather than an individual one, built on relationships and mutual empathy. We know as well as you do that some faculty are less inclined to accommodate the needs of their students, but many instructors are here to help as long as they know help is needed.</li>
-    <li>Embrace existing mechanisms for helping one another succeed, <a href="https://yukon.accessiblelearning.com/s-virginia/ApplicationNotetaker.aspx">such as applying to become a notetaker in your classes</a> and strive to create new mechanisms where none currently exist. For those of us who consider ourselves able-bodied and able-minded, the pandemic may have been our first brush with long-term feelings of social isolation and mental unwellness. We hope these experiences can generate a greater recognition of our collective vulnerability and a greater sense of mutual responsibility.</li>
-</ul>
+* <i>When in doubt, reach out.</i> We hope more of us can push past the culture of individual achievement and think of learning as a communal enterprise rather than an individual one, built on relationships and mutual empathy. We know as well as you do that some faculty are less inclined to accommodate the needs of their students, but many instructors are here to help as long as they know help is needed.
+* Embrace existing mechanisms for helping one another succeed, <a href="https://yukon.accessiblelearning.com/s-virginia/ApplicationNotetaker.aspx">such as applying to become a notetaker in your classes</a> and strive to create new mechanisms where none currently exist. For those of us who consider ourselves able-bodied and able-minded, the pandemic may have been our first brush with long-term feelings of social isolation and mental unwellness. We hope these experiences can generate a greater recognition of our collective vulnerability and a greater sense of mutual responsibility.
 
-<h4><i>Notes</i></h4>
+#### ***Notes***
 
 [^6]: Czeisler MÉ, Lane RI, Petrosky E, Wiley JF, Christensen A, Njai R, Weaver MD, Robbins R, Facer-Childs ER, Barger LK, Czeisler CA, Howard ME, Rajaratnam SMW. Mental Health, Substance Use, and Suicidal Ideation During the COVID-19 Pandemic - United States, June 24-30, 2020. MMWR Morb Mortal Wkly Rep. 2020 Aug 14;69(32):1049-1057. doi: 10.15585/mmwr.mm6932a1. PMID: 32790653; PMCID: PMC7440121.
 [^7]: For a brief treatment of how disability was historically constructed through the US immigration system, see Douglas Bayton, <i>Defectives in the Land: Disability and Immigration in the Age of Eugenics</i>, (Chicago, Ill.: University of Chicago Press, 2016). For an in-depth study on the ways in which disability is constructed in the US legal system, see Claire Liachowitz, <i>Disability as a Social Construct: Legislative Roots</i>, (Philadelphia: University of Pennsylvania Press, 1988), Accessed May 1, 2021, <a href="http://www.jstor.org/stable/j.ctt3fj3f4.Copy">http://www.jstor.org/stable/j.ctt3fj3f4.Copy</a>.
