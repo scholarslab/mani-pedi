@@ -24,7 +24,7 @@ Students will also continue to come into the classroom with a wide range of expe
 Lastly, we also wish to highlight the negative effects grades have on instructors. The labor of giving out grades is both time consuming and alienating for many teaching staff, and often serves to satisfy administrative requirements more than pedagogical ones. During the pandemic, while students were asked to keep up with coursework, faculty were asked to keep up with designing, teaching, and grading coursework as well. We argue that instructors’ time and energy was, and is, best spent on developing healthy instructional dynamics with their students. These healthy dynamics are impeded by grades, which reinforce a hierarchical relationship between teachers and students. Meanwhile, the physical labor of grad<i>ing</i> either <a href="https://www.insidehighered.com/blogs/just-visiting/i-have-seen-glories-grading-contract">occupies time better spent working with students directly</a> or is passed on to (frequently underpaid) graduate students.
 
 <div id="assessment">
-For the sake of both student and instructor well-being, and a healthier, more holistic approach to pedagogy in general, we call for a serious rethinking of assessment and its function at UVA. To instructors, we provide the following resources about alternative methods of assessment which invite greater student participation in the process of grading while providing greater flexibility for students and teachers alike.  
+<p>For the sake of both student and instructor well-being, and a healthier, more holistic approach to pedagogy in general, we call for a serious rethinking of assessment and its function at UVA. To instructors, we provide the following resources about alternative methods of assessment which invite greater student participation in the process of grading while providing greater flexibility for students and teachers alike.</p>
 <ul>
 <li>Labor based contract grading:</li>
   <ul>
@@ -40,10 +40,10 @@ For the sake of both student and instructor well-being, and a healthier, more ho
 
 While implementing these methods in our classrooms is a necessary first step towards what Jesse Stommel describes as “collectively worrying the edges of grading as a system,” they do not address the institutional requirements and incentives held in place by University policy. We argue that the principles that led UVA to adopt the CR/NC option for the 2020-2021 Academic Year must continue to operate moving forward. In order to create a more equitable, accessible, and ultimately effective community of learning, UVA must move towards abolishing grades. To this end, we demand the following:  
 
-- That the University adopt a permanent and universal CR/NC option for all student work, as implemented at <a href="https://www.brown.edu/about/administration/registrar/course-enrollment/grades">Brown University</a>, <a href="https://soundcloud.com/benningtoncollege/what-an-a-cant-tell-you">Bennington College</a>, <a href="https://www.antioch.edu/resources/general-information/consumer-information/">Antioch University</a>, and other institutions of higher ed.
-- That the University eliminate all grade point averages and the Dean’s List.
-- That the University free up the financial resources necessary for schools and departments to hire more full-time, tenure track faculty from more diverse backgrounds to facilitate smaller class sizes and the possibility of more written feedback and more personalized assessment styles.
-- That the University permanently waive the standardized testing requirement for admissions rather than only waiving it for only two years.[^27]
+* That the University adopt a permanent and universal CR/NC option for all student work, as implemented at <a href="https://www.brown.edu/about/administration/registrar/course-enrollment/grades">Brown University</a>, <a href="https://soundcloud.com/benningtoncollege/what-an-a-cant-tell-you">Bennington College</a>, <a href="https://www.antioch.edu/resources/general-information/consumer-information/">Antioch University</a>, and other institutions of higher ed.
+* That the University eliminate all grade point averages and the Dean’s List.
+* That the University free up the financial resources necessary for schools and departments to hire more full-time, tenure track faculty from more diverse backgrounds to facilitate smaller class sizes and the possibility of more written feedback and more personalized assessment styles.
+* That the University permanently waive the standardized testing requirement for admissions rather than only waiving it for only two years.[^27]
 
 Finally, to our fellow students, we ask the following:
 <ul>
