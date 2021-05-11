@@ -436,70 +436,77 @@ div.modalContent{
 tw-story[tags~="kitchen"] {
     background-image: url('img/kitchen.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="newspaper"] {
     background-image: url('img/newspaper-2.jpg');
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="zoom"] {
     background-image: url('img/fac_computer.jpg');
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="apartment"] {
     background-image: url('img/apartment.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="gradcomputer"] {
     background-image: url('img/grad_computer.jpg');
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="dormroom"] {
     background-image: url('img/dormroom.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="library"] {
     background-image: url('img/library1.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="library2"] {
     background-image: url('img/library2.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="office"] {
     background-image: url('img/office.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="grass"] {
     background-image: url('img/party_outside.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="party"] {
     background-image: url('img/party.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
+}
+
+tw-story[tags~="rotunda"] {
+    background-image: url('img/rotunda.png');
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 tw-story[tags~="faculty"] {
