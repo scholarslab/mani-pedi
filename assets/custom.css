@@ -90,6 +90,8 @@ body.resources{
  * Images 
  */ 
 
+ /* Stickers */
+
 .med-sticker-right {
     float: right;
     max-width: 200px;
@@ -104,7 +106,9 @@ body.resources{
     margin-bottom: 12px;
     margin-right: 12px;
     transform: rotate(-15deg);    
-}
+} 
+
+/* Photo Gallery */
 
 .gallery-right {
     float: right;
@@ -137,6 +141,16 @@ body.resources{
     border-radius: 20px;
     width: 50%; 
 }
+
+/* Data Plot Images */ 
+.data-plot-left {
+    max-width: 500px;
+}
+
+.data-plot-right {
+    max-width: 500px;
+}
+
 /*
  * FONTS :) 
  */

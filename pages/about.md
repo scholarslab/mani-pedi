@@ -89,7 +89,9 @@ The 2020-2021 Praxis Fellows are Grace Alvino, Emma Dove, Elise Foote, Crystal L
 
 [Jason Bennett](https://as.virginia.edu/listing/jason-bennett). Thank you for sharing your knowledge of Twine and interactive fiction with us.
 
-[Mackenzie Brooks](https://library.wlu.edu/about/library-directory/mackenzie-brooks). Thank you for sharing your experience in developing the Digital Humanities at Washington and Lee University.
+[Mackenzie Brooks](https://library.wlu.edu/about/library-directory/mackenzie-brooks). Thank you for sharing your experience in developing the Digital Humanities at Washington and Lee University. 
+
+[Jackie Huband](https://www.rc.virginia.edu/about/people/huband/). Thank you for your technical support and helping to facilitate the data processing for the project. 
 
 [Katina Rogers](http://katinarogers.com/) and [Cihan Tekay](https://futuresinitiative.org/cihan-tekay/). Thank you for giving us hope for the future of the academy, and for reminding us that we all have [levers we can pull](https://www.google.com/url?q=https://lareviewofbooks.org/article/we-all-have-levers-we-can-pull-reforming-graduate-education&sa=D&source=editors&ust=1615224923678000&usg=AOvVaw1oK8-seSzzKBiWcfS279W2).
 
