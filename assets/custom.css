@@ -503,7 +503,7 @@ tw-story[tags~="party"] {
 }
 
 tw-story[tags~="rotunda"] {
-    background-image: url('img/rotunda.png');
+    background-image: url('img/rotunda.jpeg');
     background-color:black;
     background-repeat: no-repeat;
     background-size: 100% auto;
