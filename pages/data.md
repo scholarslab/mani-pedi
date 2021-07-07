@@ -67,7 +67,177 @@ permalink: /data
 <div>
     <h5 class='crystal'>Topic Analysis</h5>
     <!-- <img src="" alt="" class="data-plot-left"> -->
-    <p>Coming soon...</p>
+    <h6>CavDaily Title Topics</h6>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic0.png" style="width:100%">
+    <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic1.png" style="width:100%">
+    <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic2.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic3.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic4.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic5.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic6.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic7.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic8.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/title_topic9.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+<span class="dot" onclick="currentSlide(6)"></span>
+<span class="dot" onclick="currentSlide(7)"></span>
+<span class="dot" onclick="currentSlide(8)"></span>
+<span class="dot" onclick="currentSlide(9)"></span>
+<span class="dot" onclick="currentSlide(10)"></span>
+</div> 
+
+<h6>CavDaily Text Topics</h6>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic0.png" style="width:100%">
+    <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic1.png" style="width:100%">
+    <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic2.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic3.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic4.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic5.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic6.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic7.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic8.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="assets/data/results/topic_modeling/cavdaily/text_topic9.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+<span class="dot" onclick="currentSlide(6)"></span>
+<span class="dot" onclick="currentSlide(7)"></span>
+<span class="dot" onclick="currentSlide(8)"></span>
+<span class="dot" onclick="currentSlide(9)"></span>
+<span class="dot" onclick="currentSlide(10)"></span>
+</div> 
+
 </div>
 <h4 class='crystal'>The Daily Progress</h4>
 <div>
@@ -76,7 +246,7 @@ permalink: /data
     <p></p>
 </div>
 <div>
-    <h5 class='crystal'>Artile Vocabulary</h5>
+    <h5 class='crystal'>Article Vocabulary</h5>
     <img src="assets/data/results/DailyProgArticleVocab.png" alt="Daily Progress Article Vocabulary" class="data-plot-right">
     <p></p>
 </div>
@@ -93,11 +263,177 @@ permalink: /data
 <div>
     <h5 class='crystal'>Topic Analysis</h5>
     <!-- <img src="" alt="" class="data-plot-left"> -->
-    <p>Coming soon...</p>
+       <h6>DailyProg Title Topics</h6>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic0.png" style="width:100%">
+    <!-- <div class="text">Caption Text</div> -->
 </div>
-<h4 class='crystal'>r/UVA</h4>
-<p>Coming soon...</p>
-<h4>The Twittersphere</h4>
-<p class='crystal'>Coming soon...</p>
+
+<div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic1.png" style="width:100%">
+    <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic2.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic3.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic4.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic5.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic6.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic7.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic8.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/title_topic9.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+<span class="dot" onclick="currentSlide(6)"></span>
+<span class="dot" onclick="currentSlide(7)"></span>
+<span class="dot" onclick="currentSlide(8)"></span>
+<span class="dot" onclick="currentSlide(9)"></span>
+<span class="dot" onclick="currentSlide(10)"></span>
+</div> 
+
+<h6>CavDaily Text Topics</h6>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+<!-- Full-width images with number and caption text -->
+<div class="mySlides fade">
+    <div class="numbertext">1 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic0.png" style="width:100%">
+    <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">2 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic1.png" style="width:100%">
+    <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic2.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic3.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">5 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic4.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">6 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic5.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">7 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic6.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">8 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic7.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">9 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic8.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">10 / 10</div>
+    <img src="assets/data/results/topic_modeling/dailyprog/text_topic9.png" style="width:100%">
+    <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+<span class="dot" onclick="currentSlide(5)"></span>
+<span class="dot" onclick="currentSlide(6)"></span>
+<span class="dot" onclick="currentSlide(7)"></span>
+<span class="dot" onclick="currentSlide(8)"></span>
+<span class="dot" onclick="currentSlide(9)"></span>
+<span class="dot" onclick="currentSlide(10)"></span>
+</div> 
+</div>
+*/
 <h3 class='savanna'>Contact</h3>
 <p>Please contact <a href="mailto:amt3ad@virginia.edu"><span class='aaron'>Aaron</span></a> for questions about the data presented above. 
