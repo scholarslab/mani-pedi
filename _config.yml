@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -31,7 +31,7 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-
+permalink: pretty
 header_pages:
   - pages/about.md
   - pages/story.md
@@ -43,7 +43,7 @@ header_pages:
 collections:
   - manifesto-pieces
 
-# exclude: 
+# exclude:
 #   - pages/story-out.html
 #   - assets/story.css
 # Exclude from processing.
